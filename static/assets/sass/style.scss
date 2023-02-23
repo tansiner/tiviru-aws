@@ -1,0 +1,332 @@
+
+
+// START SASS
+// sass -w style.scss ../css/style.css
+
+// @import "reset";
+@import "variables.scss";
+@import "generals.scss";
+// @import "colors";
+@import "buttons";
+@import "forms.scss";
+@import "utilities.scss";
+// @import "card";
+// @import "utilities";
+
+
+
+
+
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.main-slider{
+  height: 540px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+/* ---------------- Utilities ---------------- */
+
+.container{
+    width: 100%;
+    max-width: 1260px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+.center{
+    margin: 0 auto;
+}
+
+
+
+
+/* ---------------- Navbar ---------------- */
+
+.navbar{
+        // background-color: #000;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: #0f2d3e;
+    border-bottom: 1px solid #cfcfcf;
+  }
+
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    padding: 0 20px;
+  }
+  
+  .logo h2{
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  .logo span{
+    color: rgb(255, 255, 255);
+  }
+  
+  .right-nav{
+    flex-basis: 330px;
+  } 
+  
+  .right-nav ul{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.right-nav{
+  align-self: center;
+}
+
+.right-nav li{
+  font-size: 1.3em;
+
+}
+
+
+
+/* --------------------------------------- HOME PAGE START ------------------------------------- */
+
+/* ---------------- Intro ---------------- */
+
+
+  .main-slider{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    background-color: red;
+    
+  }
+
+  .main-slide-cells img{
+    min-width: 100%;
+    max-height: calc(100vh - 80px);
+    
+  }
+  
+  .hero-text h2{
+    font-size: 4em;
+    line-height: 1em;
+    max-width: 960px;
+  }
+  
+  .hero-text h5{
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .hero-text p{
+    font-size: 1.3em;
+    font-weight: lighter;
+    
+  }
+
+ 
+
+  .cta-form{
+    max-width: 620px;
+  }
+  
+  
+
+
+/* ------------------ Popular Movies Section ------------------*/
+
+
+
+.popular-movies {
+    margin-top: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+  }
+
+.popular-movies h1{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ---------------------  Styles for Flickity Carousels (Popular Movies)  ----------------------- */
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+
+
+// .popular-movies .carousel-cell {
+//   width: 24.1%;
+//   height: 440px;
+//   margin-right: 10px;
+//   background: #8C8;
+//   border-radius: 5px;
+// //   counter-increment: carousel-cell;
+// }
+
+// .popular-movies .carousel-cell.is-selected {
+//   background: #ED2;
+// }
+
+// /* cell number */
+// .popular-movies .carousel-cell:before {
+//   display: block;
+//   text-align: center;
+// //   content: counter(carousel-cell);
+//   line-height: 200px;
+//   font-size: 80px;
+//   color: white;
+// }
+
+// .popular-movies .carousel-cell img{
+//     width: 100%;
+//     height: 440px;
+// }
+
+
+
+
+// /* --------- SERIES --------------*/ 
+
+
+
+// .series {
+//     margin-top: 50px;
+//     max-width: 1300px;
+//     margin: 0 auto;
+//     margin-bottom: 100px;
+//   }
+
+// .series h1{
+//     margin-left: 10px;
+//     margin-bottom: 10px;
+// }
+
+
+// .series .carousel {
+//     background: #FFF;
+//   }
+  
+//   .series .carousel-cell {
+//     width: 15.8%;
+//     height: 200px;
+//     margin-right: 10px;
+//     background: #8C8;
+//     border-radius: 5px;
+//   }
+  
+//   .series .carousel-cell.is-selected {
+//     background: #ED2;
+//   }
+  
+//   /* cell number */
+//   .series .carousel-cell:before {
+//     display: block;
+//     text-align: center;
+//   //   content: counter(carousel-cell);
+//     line-height: 200px;
+//     font-size: 80px;
+//     color: white;
+//   }
+  
+//   .series .carousel-cell img{
+//       width: 100%;
+//       height: 200px;
+//   }
+
+
+//   /* --------- SERIES --------------*/ 
+
+
+
+// .documentaries {
+//     margin-top: 50px;
+//     max-width: 1300px;
+//     margin: 0 auto;
+//     margin-bottom: 100px;
+//   }
+
+// .documentaries h1{
+//     margin-left: 10px;
+//     margin-bottom: 10px;
+// }
+
+
+// .documentaries .carousel {
+//     background: #FFF;
+//   }
+  
+//   .documentaries .carousel-cell {
+//     width: 15.8%;
+//     height: 200px;
+//     margin-right: 10px;
+//     background: #8C8;
+//     border-radius: 5px;
+//   }
+  
+//   .documentaries .carousel-cell.is-selected {
+//     background: #ED2;
+//   }
+  
+//   /* cell number */
+//   .documentaries .carousel-cell:before {
+//     display: block;
+//     text-align: center;
+//   //   content: counter(carousel-cell);
+//     line-height: 200px;
+//     font-size: 80px;
+//     color: white;
+//   }
+  
+//   .documentaries .carousel-cell img{
+//       width: 100%;
+//       height: 200px;
+//   }
+
+
+
+  /* --------------------------------------- HOME PAGE FINISH ------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* --------------------------------------- ADMIN PAGE START ------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------- ADMIN PAGE FINISH ------------------------------------- */
