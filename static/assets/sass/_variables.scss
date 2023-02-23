@@ -1,0 +1,22 @@
+
+$base_padding : 0.75em;
+$base_margin : 0.75em;
+
+$primary : #C3F8FF;
+$secondary : #FFE14D;
+$success: rgb(100, 218, 89);
+$error : #ee1515;
+$lemon : #ffee00;
+$danger : rgb(62, 43, 143);
+$alabama : #af002a;
+
+$colors: (
+  "aero": #7cb9e8,
+  "amazon": #3b7a57,
+  "alabama": #af002a,
+  "aureolin": #fdee00,
+);
+
+// @debug map-get($colors, "alabama");
+
+
