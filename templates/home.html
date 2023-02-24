@@ -137,6 +137,20 @@ img {
 }
 
 
+
+
+@font-face {
+  font-family: 'FasterOne';
+  src:  url('../static/assets/fonts/FasterOne-Regular.ttf') format('woff2')
+}
+
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src:  url('../static/assets/fonts/Montserrat-Light.otf') format('woff2')
+}
+
+
 </style>
 
 {% endblock %}
@@ -148,10 +162,121 @@ img {
 
 
 
-    <h2 style="color: #fff; text-align: center; margin-top: 100px;">This is Home Page</h2>
+    
 
 
 
+<div class="slideshow-container">
+
+  
+  {% for i in range(0,ms_slides|length) %}
+
+    <div class="my-slides-container">
+      <div class="mySlides fade">
+        <img src='static/assets/img/main-slider/{{ ms_slides[i].img }}.jpg' style="width:100%">
+        <div class="img-mask"></div>
+      </div>
+      <div class="slider-content text-anim">
+        <!-- <h2 class="py-3" style="font-family: '{{ ms_slides[i].header_font }}';">{{ ms_slides[i].title }}</h2> -->
+        <img class="py-3" src="static/assets/img/main-slider-texts/{{ ms_slides[i].img }}.png"  style="width:100%; max-height: 5.5rem;">
+        <p class="py-3" style="font-family: '{{ ms_slides[i].content_font }}'">{{ ms_slides[i].summary }}</p>  
+        <a class="btn btn-primary btn-lg py-2" href="{{ ms_slides[i].source }}" target="_blank" role="button">Watch Now!</a>
+      </div>
+    </div> 
+    {% endfor %} 
+ 
+  
+  </div>
+  
+  <div class="dots" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+
+
+
+
+  <div class="popular-movies py-5">
+
+
+    <h1>SERIES</h1>
+  
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+      {% for i in range(0,series_slides|length) %}
+
+      <div class="carousel-cell"><a href="{{ series_slides[i].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ series_slides[i].img }}.jpg" alt="" width="280px"></a></div>
+
+      {% endfor %}
+
+    </div>
+    
+  </div>
+
+
+
+  <div class="popular-movies py-5">
+
+
+    <h1>DOCUMENTARIES</h1>
+  
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+      {% for i in range(0,documentaries_slides|length) %}
+
+      <div class="carousel-cell"><a href="{{ documentaries_slides[i].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ documentaries_slides[i].img }}.jpg" alt="" width="280px"></a></div>
+
+      {% endfor %}
+
+    </div>
+    
+  </div>
+
+
+
+  <div class="popular-movies py-5">
+
+
+    <h1>MOVIES</h1>
+  
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+      {% for i in range(0,movies_slides|length) %}
+
+      <div class="carousel-cell"><a href="{{ movies_slides[i].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ movies_slides[i].img }}.jpg" alt="" width="280px"></a></div>
+
+      {% endfor %}
+
+    </div>
+    
+  </div>
+
+
+
+  <div class="popular-movies py-5">
+
+
+    <h1>TV SHOWS</h1>
+  
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+      {% for i in range(0,tvshows_slides|length) %}
+
+      <div class="carousel-cell"><a href="{{ tvshows_slides[i].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ tvshows_slides[i].img }}.jpg" alt="" width="280px"></a></div>
+
+      {% endfor %}
+
+    </div>
+    
+  </div>
+  
+  
 
 
 {% endblock %}
