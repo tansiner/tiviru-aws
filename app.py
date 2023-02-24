@@ -16,15 +16,13 @@ db = SQLAlchemy(app)
 @app.route('/')
 @app.route('/home')
 def home():
-    # main_slider = Media
-    # print(main_slider)
+    main_slider = Media
     
-    # main_slider = Media
-    # ms_slides = []
-    # for slide in main_slider.query.filter_by().all():
-    #     ms_slides.append(slide)
+    main_slider = Media
+    ms_slides = []
+    for slide in main_slider.query.filter_by().all():
+        ms_slides.append(slide)
 
-    # print(ms_slides)
 
 
     # users = Users
@@ -32,11 +30,8 @@ def home():
     # for slide in users.query.filter_by().all():
     #     my_users.append(slide)
 
-    # print(my_users)
 
 
-
-    return "privet"
 
 
         # series = Media
@@ -67,11 +62,7 @@ def home():
         #     tvshows_slides.append(slide)
 
     
-        # return render_template("home.html", ms_slides = ms_slides,
-        #                                     series_slides = series_slides,
-        #                                     documentaries_slides = documentaries_slides, 
-        #                                     movies_slides = movies_slides,
-        #                                     tvshows_slides = tvshows_slides)
+    return render_template("home.html", ms_slides = ms_slides)
 
 
 if __name__ == '__main__':
