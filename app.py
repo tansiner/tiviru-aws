@@ -16,13 +16,7 @@ db = SQLAlchemy(app)
 @app.route('/')
 @app.route('/home')
 def home():
-    main_slider = Media
     
-    main_slider = Media
-    ms_slides = []
-    for slide in main_slider.query.filter_by().all():
-        ms_slides.append(slide)
-
 
 
     # users = Users
@@ -62,7 +56,7 @@ def home():
         #     tvshows_slides.append(slide)
 
     
-    return render_template("home.html", ms_slides = ms_slides)
+    return render_template("home.html")
 
 
 if __name__ == '__main__':
