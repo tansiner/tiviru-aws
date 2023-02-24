@@ -2,9 +2,15 @@ from flask import Flask, render_template, escape, json, jsonify, make_response, 
 from flask_sqlalchemy import SQLAlchemy
 
 
-
 app = Flask(__name__)
 app.secret_key = "Secret Key"
+
+#SqlAlchemy Database Configuration With Mysql
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///tiviru.db'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://vrkarqgzzzkmtn:0e32017efa344188261e0ca0fa2fe78a0c7f986a6604ce207a4921ca072f4b4e@ec2-34-246-155-237.eu-west-1.compute.amazonaws.com:5432/de51kvccijsfj2'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
 
 
 @app.route('/')
