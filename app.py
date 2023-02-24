@@ -51,8 +51,8 @@ class Media(db.Model):
 @app.route('/home')
 def home():
     
-    series = Media
-    first_media = series.query.first()
+    # series = Media
+    # first_media = series.query.first()
     
 
     # users = Users
@@ -89,7 +89,7 @@ def home():
     #     tvshows_slides.append(slide)
 
 
-    return render_template("home.html", first_data = first_media.title)
+    return render_template("home.html", first_data = "hello")
 
 
 if __name__ == '__main__':
