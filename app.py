@@ -30,7 +30,7 @@ def home():
 
 
 
-    return "hello"
+    return "privet"
 
 
         # series = Media
