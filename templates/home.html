@@ -186,5 +186,26 @@ src:  url('../static/assets/fonts/Montserrat-Light.otf') format('woff2')
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
+
+
+<div class="popular-movies py-5">
+
+
+  <h1>SERIES</h1>
+
+  <!-- Flickity HTML init -->
+  <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+    {% for i in range(0,series_slides|length) %}
+
+    <div class="carousel-cell"><a href="{{ series_slides[i].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ series_slides[i].img }}.jpg" alt="" width="280px"></a></div>
+
+    {% endfor %}
+
+  </div>
+  
+</div>
+
+
 {% endblock %}
 

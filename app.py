@@ -57,7 +57,7 @@ def home():
     for slide in main_slider.query.filter_by(main_slider="1").all():
         ms_slides.append(slide)
 
-    return render_template("home.html", ms_slides = ms_slides)
+    return render_template("home.html", ms_slides = ms_slides, series_slides = series_slides)
 
 
 if __name__ == '__main__':
