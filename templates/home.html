@@ -165,6 +165,7 @@ src:  url('../static/assets/fonts/Montserrat-Light.otf') format('woff2')
 
   {% for i in range(0,ms_slides|length) %}
 
+    {{ ms_slides[i].img }}
     <div class="my-slides-container">
       <div class="mySlides fade">
         <img src='static/assets/img/main-slider/{{ ms_slides[i].img }}.jpg' style="width:100%">
@@ -179,6 +180,12 @@ src:  url('../static/assets/fonts/Montserrat-Light.otf') format('woff2')
     </div> 
     {% endfor %} 
 
+</div>
+
+<div class="dots" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 {% endblock %}
 
