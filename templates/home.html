@@ -198,7 +198,8 @@ src:  url('../static/assets/fonts/Montserrat-Light.otf') format('woff2')
 
     {% for x in range(0,series_slides|length) %}
 
-    <div class="carousel-cell"><a href="" target="_blank"><img src="" alt="" width="280px"></a></div>
+      {{ series_slides[x].source }}
+      <div class="carousel-cell"><a href="" target="_blank"><img src="" alt="" width="280px"></a></div>
 
     {% endfor %}
 
