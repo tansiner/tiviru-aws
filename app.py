@@ -104,8 +104,5 @@ def home():
 
 if __name__ == '__main__':
 
-    app.config['ENV'] = 'development'
-    app.config['DEBUG'] = True
-    app.config['TESTING'] = False
 
-    app.run(port=5001)
+    app.run()
