@@ -57,6 +57,13 @@ def home():
     for slide in main_slider.query.filter_by(main_slider="1").all():
         ms_slides.append(slide)
 
+    
+    series = Media
+    series_slides = []
+    for slide in series.query.filter_by(category="series", carousel="1").all():
+    
+        series_slides.append(slide)
+
     return render_template("home.html", ms_slides = ms_slides, series_slides = series_slides)
 
 
