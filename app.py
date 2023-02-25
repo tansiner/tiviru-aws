@@ -1,4 +1,4 @@
-from flask import Flask, render_template, escape, redirect, url_for, session, flash, mysqlclient
+from flask import Flask, render_template, escape, redirect, url_for, session, flash, mysqlclient, PyMySQL, SQLAlchemy
 from flask_sqlalchemy import SQLAlchemy
 
 
