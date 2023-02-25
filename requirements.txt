@@ -1,3 +1,4 @@
+beautifulsoup4==4.11.2
 bs4==0.0.1
 certifi==2022.12.7
 charset-normalizer==3.0.1
@@ -10,6 +11,8 @@ idna==3.4
 itsdangerous==2.1.2
 Jinja2==3.1.2
 MarkupSafe==2.1.2
+mysqlclient==2.1.1
+PyMySQL==1.0.2
 requests==2.28.2
 soupsieve==2.4
 SQLAlchemy==2.0.4
