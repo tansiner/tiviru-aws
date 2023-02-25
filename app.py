@@ -99,7 +99,7 @@ def home():
     #                                     movies_slides = movies_slides,
     #                                     tvshows_slides = tvshows_slides)
 
-    return render_template("home.html")
+    return "hello world"
 
 
 if __name__ == '__main__':
