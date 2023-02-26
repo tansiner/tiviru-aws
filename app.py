@@ -62,9 +62,16 @@ def home():
     series_slides = []
     for slide in series.query.filter_by(category="series", carousel="1").all():
         series_slides.append(slide)
+
+
+    documentaries = Media
+    documentaries_slides = []
+    for slide in documentaries.query.filter_by(category="documentary", carousel="1").all():
+    
+        documentaries_slides.append(slide)
     
 
-    return render_template("home.html", ms_slides = ms_slides, series_slides = series_slides)
+    return render_template("home.html", ms_slides = ms_slides, series_slides = series_slides, documentaries_slides = documentaries_slides)
 
 
 if __name__ == '__main__':
