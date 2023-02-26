@@ -72,7 +72,7 @@ def home():
 
     movies = Media
     movies_slides = []
-    for slide in movies.query.filter_by(category="movie", carousel="1").all():
+    for slide in movie.query.filter_by(category="movie", carousel="1").all():
     
         movies_slides.append(slide)
     
