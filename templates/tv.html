@@ -1,0 +1,1256 @@
+{% extends "base.html" %}
+{% block title %}Russian Tv Channels{% endblock %}
+{% block head %}
+  
+   {{ super() }}
+<style>
+    
+ 
+
+.wrapper > h1{
+font-size: 52px;
+text-align: center;
+/* background-color: yellowgreen; */
+margin: 15% auto;
+color: #fff;
+font-family: 'Kaushan Script', cursive;
+}
+
+
+
+.fa-solid{
+opacity:0.5;
+color:#000000;
+}
+
+
+/*********************    LightBox Styles       **********************/
+
+
+* {
+box-sizing: border-box;
+}
+
+.row > .column {
+padding: 0 8px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column {
+float: left;
+width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+position: relative;
+margin-left: auto;
+padding: 0;
+width: 100%;
+max-width: 1290px;
+height: 100vh;
+background: red;
+overflow: hidden;
+margin-right: auto;
+
+}
+
+/* The Close Button */
+.close {
+color: white;
+position: absolute;
+top: 10px;
+right: 25px;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #999;
+text-decoration: none;
+cursor: pointer;
+}
+
+.mySlides {
+height: 100vh;
+background: red;
+width: 100%;
+}
+
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+
+
+.caption-container {
+text-align: center;
+background-color: black;
+padding: 2px 16px;
+}
+
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+img.hover-shadow {
+transition: 0.3s;
+}
+
+.hover-shadow:hover {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mySlides video {
+height: 100vh;
+margin-top: 0px;
+background: black;
+width: inherit;
+}
+
+
+
+
+    
+.wrapper{
+    background-image: linear-gradient(36deg,#c05a9c,#223971);
+}    
+
+    
+
+
+.container h2{
+    font-size: 48px;
+}
+    
+
+    
+.carousel {
+  padding: 0;
+}
+
+    
+.carousel-item img {
+    height: 400px;
+}
+    
+    
+.carousel-fourth li {
+  padding-right: 2.92%;
+}
+    
+     
+  
+.container {
+max-width: 1240px;
+margin-right: auto;
+margin-left: auto;
+}
+   
+    
+    .clearfix{
+    clear: both;
+}
+        
+
+
+
+
+.row{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.row > * {
+flex-shrink: 0;
+width: 100%;
+max-width: 100%;
+
+}
+
+
+.marquee{
+    color: #fff;
+}
+
+a:hover{
+    color: #fff
+}
+    
+    
+       
+.wrapper {
+  background-image: linear-gradient(to right,#f2709c,#ff9472);
+}       
+
+    
+
+.col {
+flex: 0 0 auto;
+width: 25%;
+margin-top: 20px;
+}    
+
+
+.channel-header {
+  display: block;
+  position: relative;
+  height: 160px;
+  -moz-border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  cursor: pointer;
+}
+   
+    
+.channel-logo {
+  text-align: center;
+  padding-top: 20px;
+}
+    
+
+.card-body {
+background-color: rgba(0,0,0,.5);
+}
+
+.card {
+  background-color: inherit;
+}
+    
+
+.time {
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+}
+
+    
+.full-epg-list {
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+}
+    
+.full-epg-content {
+  overflow: scroll;
+  height: 500px;
+}
+
+.full-epg-list i {
+  color: #fff;
+}
+    
+
+.peek-program .fas.fa-eye {
+  color: #fff;
+  position: absolute;
+  right: 35px;
+  bottom: 8px;
+}
+    
+    
+.full-epg-list .fa fa-th-list {
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+}    
+    
+
+
+.marquee-w {
+display: block;
+height: 140px;
+overflow: hidden;
+position: relative;
+
+}
+.marquee {
+position: relative;
+font-size: 18px;
+display: block;
+overflow: hidden;
+white-space: nowrap;
+
+
+}
+
+.marquee:hover span.marquee_text {
+display: inline-block;
+animation: marquee 3s linear infinite;
+animation-delay: 2s;    
+}
+    
+    
+
+@keyframes marquee {
+0% {
+transform: translate(0, 0);
+}
+100% {
+transform: translate(-100%, 0);
+}
+
+}
+
+
+.hidden{
+display: none;
+}
+
+
+        
+        
+
+    
+.fa-solid.fa-gear.fa-2xl {
+  color: #fff;
+  opacity: 1;
+}
+    
+    
+    
+    
+    
+    
+.full-epg-modal {
+  width: 100%;
+  /* background-color: #992727; */
+  opacity: 1;
+  position: fixed;
+  display: none;
+  color: #fff;
+  z-index: 999;
+  height: 100%;
+  top:0;
+  left: 0;
+}
+
+
+
+    
+.full-epg-close-icon {
+ position: absolute;
+float: right;
+right: -29px;
+top: -20px;
+z-index: 999;
+width: fit-content;
+float: right;
+}
+    
+.full-epg-close-icon i {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+    
+.full-epg-content {
+  overflow: scroll;
+  height: 500px;
+}
+    
+.full-epg-modal-dialog {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  opacity: .9;
+}
+    
+.red{
+    color: red;
+}
+    
+    
+.toolbox{
+position:fixed;
+height:fit-content;
+background:rgb(46, 46, 46);
+top: 200px;
+left:0;
+margin-left: -250px;
+
+}
+
+.toolbox-button{
+position: absolute;
+top: 205px;
+height: 30px;
+width: 15px;
+}
+    
+.boxes{
+height: auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 254px;
+
+}
+
+.boxes > div{
+
+width: 40px;
+height: 38px;
+padding: 10px;
+margin: 10px;
+}
+    
+.toolbox-button{
+    position: fixed;
+    top: 205px;
+    height: 30px;
+    width: 15px;
+    margin-left: 10px;
+}    
+    
+.epg-popover{
+    position: fixed;
+    top: 200px;
+    right: 260px;
+    width: 280px;
+    height: 300px;
+    background-color: #fff;
+    display: none;
+    z-index: 999;
+    padding: 20px;
+}
+    
+.style1{
+background-image: linear-gradient(to right top,#625793,#7f5694,#9a548f,#b15386,#c45579,#d0586f,#d95e63,#df6657,#e46f4d,#e77941,#e78536,#e49129);
+}
+
+.style2{
+background-image: linear-gradient(to right,#ff4e50,#f9d423);
+}
+
+.style3{
+background-image: linear-gradient(to right,#fe8c00,#f83600);
+}
+
+.style4{
+background-image: linear-gradient(to right,#fdc830,#f37335);
+}
+
+.style5{
+background-image: linear-gradient(90deg,#dad299 10%,#b0dab9 90%);
+}
+
+.style6{
+background-image: linear-gradient(to top,#48c6ef 0,#6f86d6 100%);
+}
+.style7{
+background-image: linear-gradient(to right,#f2709c,#ff9472);
+}
+
+.style8{
+background-image: linear-gradient(to right,#de6262,#ffb88c);
+}
+
+.style9{
+background-image: linear-gradient(345deg,#d253b1,#fb6f4a);
+}
+
+.style10{
+background-image: linear-gradient(to right,#c04848,#480048);
+}
+
+.style11{
+background-image: linear-gradient(to right,#cc2b5e,#753a88);
+}
+
+.style12{
+background-image: linear-gradient(36deg,#c05a9c,#223971);
+}
+
+.style13{
+background-image: linear-gradient(to right,#00b09b,#96c93d);
+}
+
+.style14{
+background-image: linear-gradient(45deg,#42b7f5 0,#c3e060 100%);
+}
+.style15{
+background-image: linear-gradient(45deg,#0369d1 0,#00ecbc 99%,#00ecbc 100%);
+}
+
+.style16{
+background-image: linear-gradient(to right,#00d2ff,#3a7bd5);
+}
+
+    
+.full-epg-content li {
+  margin-bottom: 10px;
+}
+
+</style>
+    
+
+{% endblock %}
+
+{% block content %}
+   
+   
+   
+   <div class="epg-popover" id="epg-popover">
+      
+      <div class="pop-over-content" id="pop-over-content">
+          <img src="static/images/posters/911.jpg" width="240" height="260" alt="no image">
+      </div>
+       
+   </div>
+   
+   
+   
+   
+   
+    
+    <div class="full-epg-modal" id="full-epg-modal">
+
+        <div class="full-epg-modal-dialog">
+            <div class="full-epg-header py-3" id="full-epg-header"><img src="static/assets/img/logos/{{data[41]['channel_logo']}}" width="150" height="70" alt="">
+                <hr>
+            </div>
+            <div id="full-epg-content" class="full-epg-content" data-bs-trigger="hover" data-bs-toggle="popover" title="Gladiator" data-bs-content="Lorem Ipsum sit dolar amet"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione at fugiat, quae explicabo est architecto sunt corporis, dolorem ex accusamus reiciendis vel distinctio. Eos voluptatibus, consequuntur praesentium quis, non aspernatur.</p></div>
+            <div class="full-epg-close-icon" id="full-epg-close-icon"><i class="fa fa-times-circle" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="container py-5">
+
+    <div class="row">
+
+        {% set total_channels =  data|length %}
+
+
+
+        {%for channel in range(0, data|length)%}
+
+        <div class="col">
+            <div class="card shadow-sm">
+                <div class="channel-header">
+                    <div class="channel-logo">
+
+                        {% if stream_option == "iptv" %}
+
+                        <img src="static/assets/img/logos/{{data[channel]['channel_logo']}}" width="160" height="90" alt="{{data[channel]['channel_name']}}" onclick="openModal();currentSlide('{{data[channel]['iptv']}}')">
+
+                        {% else %}
+
+                        {% if  data[channel]['country']  == 'uk' %}
+
+                        <img src="static/assets/img/logos/{{data[channel]['channel_logo']}}" width="160" height="90" alt="{{data[channel]['channel_name']}}" onclick="openModal();currentSlide('{{data[channel]['webstream']}}')">
+
+                        {% else %}
+
+                        <a href="{{data[channel]['webstream']}}" target="_blank"><img src="static/assets/img/logos/{{data[channel]['channel_logo']}}" width="160" height="90" alt="{{data[channel]['channel_name']}}"></a>
+
+                        {% endif %}
+
+
+                        {% endif %}
+
+                    </div>
+
+
+                    <div class="icons">
+                        <span class="full-epg-list" onclick="fullEpg(event, {{ data2[channel] }})"><i class="fa fa-th-list" aria-hidden="true"></i>
+                        </span>
+                        <div class="peek-program"><a class="fas fa-eye" data-bs-trigger="hover" data-bs-html=true data-bs-toggle="popover-peek" title="{{ data[channel]['current_epg'][0]['program'] }}" data-bs-content="<img src='static/images/posters/{{ data[channel]['current_epg'][0]['program'] }}.jpg' width='220' height='250' alt='no image'>"></a></div>
+                    </div>
+
+
+                </div>
+
+                {% if data[channel]['current_epg']|length < 1 %}
+                {% set limit = data[channel]['current_epg']|length %}
+                {% else %}
+                {% set limit = 1 %}
+                {% endif %}
+
+                {%for i in range(0, limit) %}
+
+                <div class="card-body">
+
+                    <div class="marquee">
+                        <span class="marquee-text"><a class="card-text" href="https://gidonline.io/film/{{data[channel]['current_epg'][i]['program']}}" target="_blank">{{data[channel]['current_epg'][i]['program']}}</a></span>
+                        <span class="hidden">full text</span>
+
+                    </div>
+
+                    <div class="time">
+                        <span class="start-time">{{data[channel]['current_epg'][i]['start_time']}}</span>
+                        <span class="finish-time">{{data[channel]['current_epg'][i]['finish_time']}}</span>
+                    </div>
+
+                </div>
+
+                {%endfor%}
+
+            </div>
+        </div>
+
+        {%endfor%}
+    </div><!-- row -->
+
+
+
+
+
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <div class="mySlides">
+            <video id="video" style="text-align: center" controls></video>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div> 
+
+
+
+
+    <span id="total_channels" hidden>{{ total_channels }}</span>
+      
+      
+
+ <div id="toolbox" class="toolbox">
+    <div class="boxes">
+        <div class="style1" onclick="changeBg('style1')"></div>
+        <div class="style2" onclick="changeBg('style2')"></div>
+        <div class="style3" onclick="changeBg('style3')"></div>
+        <div class="style4" onclick="changeBg('style4')"></div>
+        <div class="style5" onclick="changeBg('style5')"></div>
+        <div class="style6" onclick="changeBg('style6')"></div>
+        <div class="style7" onclick="changeBg('style7')"></div>
+        <div class="style8" onclick="changeBg('style8')"></div>
+        <div class="style9" onclick="changeBg('style9')"></div>
+        <div class="style10" onclick="changeBg('style10')"></div>
+        <div class="style11" onclick="changeBg('style11')"></div>
+        <div class="style12" onclick="changeBg('style12')"></div>
+        <div class="style13" onclick="changeBg('style13')"></div>
+        <div class="style14" onclick="changeBg('style14')"></div>
+        <div class="style15" onclick="changeBg('style15')"></div>
+        <div class="style16" onclick="changeBg('style16')"></div>
+    </div>
+</div>
+<span id="toolbox-button" class="toolbox-button"><i class="fa-solid fa-gear fa-2xl"></i></span>
+       
+
+
+
+
+<script>
+      
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover-peek"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+
+
+
+
+
+
+setTimeout(epgUpdateStart, 55000);
+
+
+let total_channels = document.getElementById("total_channels").innerHTML
+    
+
+    
+    
+function epgUpdateStart(){
+    epgUpdate()
+    
+}
+    
+function epgUpdate(){
+    setTimeout(epgUpdate, 55000);
+    
+    
+    const date = new Date();
+
+    function addZero(x) {
+      if (x < 10) {
+        return x = '0' + x;
+      } else {
+          return x;
+      }
+    }
+
+    function twelveHour(x) {
+      if (x > 12) {
+        return x = x - 12;
+      } else if (x == 0) {
+          return x = 12;
+      } else {
+          return x;
+      }
+    }
+
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    
+    
+    // console.log("current_date="+addZero(h)+addZero(m)+addZero(s))
+    
+    
+    
+    let time = $(".time")
+    let card_text = $(".card-text")
+    
+    const xhr = new XMLHttpRequest()
+    xhr.onreadystatechange = function() {
+
+      if (xhr.readyState == 4 && xhr.status == 200) {
+      response = JSON.parse(xhr.response)
+      ch_name = response
+          
+          
+          
+      for(let i = 0; i<=total_channels-1; i++){
+          
+        card_text[i].innerText = response[i]['epg'][0]['program']
+          
+          
+        let start_time = response[i]['epg'][0]['start_time'];
+        start_time = start_time.slice(0,4)
+        start_time = start_time.slice(0,2)+":"+start_time.slice(2,4)
+
+
+        let finish_time = response[i]['epg'][0]['finish_time'];
+        finish_time = finish_time.slice(0,4)
+        finish_time = finish_time.slice(0,2)+":"+finish_time.slice(2,4)
+          
+          
+        time[i].firstElementChild.innerText = start_time+" - "
+        time[i].lastElementChild.innerText = finish_time
+          
+          
+      }
+          
+                              
+          
+      }
+
+    } // onready state change function
+
+    xhr.open('POST',"{{ url_for('update_schedule') }}")
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+    xhr.send("current_date="+addZero(h)+addZero(m)+addZero(s)+"&q=Ajax Request")
+    //xhr.send()
+
+}
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+// *******************    Scripts For Web Player   ******************* //
+
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+}
+
+
+function currentSlide(href) {
+    showSlides(href);
+}
+
+
+function showSlides(href) {
+
+    if(Hls.isSupported())
+    {
+        var video = document.getElementById('video');
+        var hls = new Hls();
+        hls.loadSource(href);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED,function()
+        {
+        video.play();
+        });
+    }
+    else if (video.canPlayType('application/vnd.apple.mpegurl'))
+    {
+        video.src = href;
+        video.addEventListener('canplay',function()
+        {
+        video.play();
+        });
+    }
+
+
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+
+    slides[0].style.display = "block";
+    dots[0].className += " active";
+
+}
+
+
+function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+
+
+    var video = document.getElementById('video');
+    var hls = new Hls();
+    hls.loadSource('http://213.172.73.170:8081/nimble_live/1051__NST/playlist.m3u8');
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function()
+    {
+        video.stop();
+    });
+}
+
+    
+    
+    
+    
+// *******************    Scripts For Marquee   ******************* //
+    
+let marquee = $(".marquee");
+let program_time = $(".time");
+let trimmed_text = ""
+
+for(let i=0; i<total_channels; i++){
+
+    
+    let start_time = program_time[i].children[0].innerHTML;
+    start_time = start_time.slice(0,4)
+    start_time = start_time.slice(0,2)+":"+start_time.slice(2,4)
+    program_time[i].children[0].innerHTML = start_time+" - "
+
+
+    let finish_time = program_time[i].children[1].innerHTML;
+    finish_time = finish_time.slice(0,4)
+    finish_time = finish_time.slice(0,2)+":"+finish_time.slice(2,4)
+    program_time[i].children[1].innerHTML = finish_time
+
+
+    marquee[i].children[1].innerHTML = marquee[i].children[0].firstChild.innerHTML
+
+    marquee[i].children[1].setAttribute("class","hidden")
+
+
+    if(marquee[i].children[0].firstChild.innerHTML.length > 23){
+
+        marquee[i].children[0].firstChild.parentElement.setAttribute("class", "marquee_text")
+
+        const trim_again = marquee[i].children[0].firstChild.innerText.slice(0,25)
+        marquee[i].children[0].firstChild.innerHTML = trim_again +"..."
+
+
+    }
+
+}
+
+
+    
+
+   
+    
+    
+ 
+    
+    
+    
+// *******************    Scripts For Full Epg / PopUp   ******************* //
+
+    
+
+
+function fullEpg(event, data){
+    
+    console.log(data['channel_logo'])
+    let now = new Date();
+    
+    function addZero(x) {
+      if (x < 10) {
+        return x = '0' + x;
+      } else {
+          return x;
+      }
+    }
+
+    function twelveHour(x) {
+      if (x > 12) {
+        return x = x - 12;
+      } else if (x == 0) {
+          return x = 12;
+      } else {
+          return x;
+      }
+    }
+
+    
+    var h = now.getHours();
+    var m = now.getMinutes();
+    var s = now.getSeconds();
+    
+    
+    // console.log("current_date="+addZero(h)+addZero(m)+addZero(s))
+    
+    
+    current_time = addZero(h)+""+addZero(m)+""+addZero(s);
+    
+    
+    
+    event.preventDefault();
+
+    let full_epg_modal = $('.full-epg-modal');
+    let full_epg_modal_dialog = $('.full-epg-modal-dialog');
+    
+    let full_epg_content = $('.full-epg-modal-dialog')[0].querySelector('.full-epg-content') 
+    full_epg_modal.css("display", "block");
+    
+    full_epg_content.innerHTML=""
+
+    
+    full_epg_header_img = $('.full-epg-modal-dialog')[0].childNodes[1].childNodes[0]
+    
+    console.log(full_epg_header_img)
+    
+    full_epg_header_img.src = "static/assets/img/logos/"+data['channel_logo']
+    
+    
+    //full_epg_header[0].children[0].setAttribute("src","static/images/logos/"+data['channel_logo'])
+    
+    //full_epg_header.innerHTML = data['channel_name']
+    
+    
+    let ul = document.createElement("ul")
+    
+    for(let i=0; i<data['full_epg'].length; i++){
+        
+        
+        
+        if(current_time > data['full_epg'][i]['start_time'] && current_time < data['full_epg'][i]['finish_time']){
+        
+            let li = document.createElement("li")
+            li.style.margin = "10px 0"
+            li.style.width= "440px"
+            li.style.backgroundColor = "red"
+            
+            li.innerHTML = "<span>"+data['full_epg'][i]['start_time']+"</span> - <span>"+data['full_epg'][i]['finish_time']+"</span><a href='https://gidonline.io/film/"+data['full_epg'][i]['program']+"/' target='_blank' onmouseout='epgPopoverClose()' onmouseover='epgPopover(event, this.innerHTML)'>"+data['full_epg'][i]['program']+"</a>"
+            
+            
+            ul.append(li)
+            
+        }
+        
+        else{
+            
+            let li = document.createElement("li")
+            li.innerHTML = "<span>"+data['full_epg'][i]['start_time']+"</span>- <span>"+data['full_epg'][i]['finish_time']+"</span><a href='https://gidonline.io/film/"+data['full_epg'][i]['program']+"/' target='_blank' onmouseout='epgPopoverClose()' onmouseover='epgPopover(event, this.innerHTML)'>"+data['full_epg'][i]['program']+"</a>"
+            ul.append(li)
+            
+            
+        }
+  }    
+    
+   
+    full_epg_content.append(ul)
+    
+    
+        
+    
+    
+    
+
+    
+    
+
+   
+    
+    //full_epg_header_img.setAttribute("src","static/images/logos/"+data['channel_logo'])
+    
+
+    }
+
+let full_epg_close_icon = document.getElementById("full-epg-close-icon");
+let full_epg_modal = document.getElementById("full-epg-modal");
+    
+full_epg_close_icon.addEventListener("click", myFunction);
+full_epg_modal.addEventListener("click", myFunction);
+
+function myFunction() {
+  
+  let full_epg_content = $('#full-epg-content')[0];
+
+  
+  $('#full-epg-modal').css("display","none");
+  
+    
+}
+    
+    
+    
+    
+    
+// *******************    Scripts For Full Epg Popover   ******************* //    
+    
+    
+function epgPopover(event, img_name){
+    event.preventDefault();
+    
+    //alert(event.clientY)
+    
+    epg_popover = $('#epg-popover')
+    let y = event.clientY - 300
+    
+        
+    pic = epg_popover[0].querySelector("img")
+    pic.src="static/images/posters/"+img_name+".jpg"
+    epg_popover.css("display", "block")
+    epg_popover.css("top", y)
+    epg_popover.css("z-index", 9999)
+    
+    
+
+    
+}    
+    
+function epgPopoverClose(){
+    epg_popover = $('#epg-popover')
+    
+    pic = epg_popover[0].querySelector("img")
+    pic.src=""
+    
+    epg_popover.css("display","none")
+    
+}
+    
+    
+    
+    
+    
+    
+ $("#toolbox-button").click(function(){
+
+                
+                if($('#toolbox').css("margin-left") == "0px"){
+                    
+                    $('#toolbox').animate({"margin-left": '-=250'});
+                    $('#toolbox-button').animate({"margin-left": '-=250'});
+                }
+
+                else{
+
+                    $('#toolbox').animate({"margin-left": '+=250'});
+                    $('#toolbox-button').animate({"margin-left": '+=250'});
+
+                }
+
+            });
+
+    
+// *******************    Scripts For Changing Background Color   ******************* //  
+
+let style1 = "linear-gradient(to right top,#625793,#7f5694,#9a548f,#b15386,#c45579,#d0586f,#d95e63,#df6657,#e46f4d,#e77941,#e78536,#e49129)"
+let style2 = "linear-gradient(to right,#ff4e50,#f9d423)"
+let style3 = "linear-gradient(to right,#fe8c00,#f83600)"
+let style4 = "linear-gradient(to right,#fdc830,#f37335)"
+let style5 = "linear-gradient(90deg,#dad299 10%,#b0dab9 90%)"
+let style6 = "linear-gradient(to top,#48c6ef 0,#6f86d6 100%)"
+let style7 = "linear-gradient(to right,#f2709c,#ff9472)"
+let style8 = "linear-gradient(to right,#de6262,#ffb88c)"
+let style9 = "linear-gradient(345deg,#d253b1,#fb6f4a)"
+let style10 = "linear-gradient(to right,#c04848,#480048)"
+let style11 = "linear-gradient(to right,#cc2b5e,#753a88)"
+let style12 = "linear-gradient(36deg,#c05a9c,#223971)"
+let style13 = "linear-gradient(to right,#00b09b,#96c93d)"
+let style14 = "linear-gradient(45deg,#42b7f5 0,#c3e060 100%)"
+let style15 = "linear-gradient(45deg,#0369d1 0,#00ecbc 99%,#00ecbc 100%)"
+let style16 = "linear-gradient(to right,#00d2ff,#3a7bd5)"
+    
+function changeBg(e){
+    
+
+    switch(e) {
+
+        case "style1":
+        $(".wrapper").css("background-image", style1);
+        break;
+
+        case "style2":
+        $(".wrapper").css("background-image", style2);
+        break;
+
+        case "style3":
+        $(".wrapper").css("background-image", style3);
+        break;
+
+        case "style4":
+        $(".wrapper").css("background-image", style4);
+        break;
+
+        case "style5":
+        $(".wrapper").css("background-image", style5);
+        break;
+
+        case "style6":
+        $(".wrapper").css("background-image", style6);
+        break;
+
+        case "style7":
+        $(".wrapper").css("background-image", style7);
+        break;
+
+        case "style8":
+        $(".wrapper").css("background-image", style8);
+        break;
+
+        case "style9":
+        $(".wrapper").css("background-image", style9);
+        break;
+
+        case "style10":
+        $(".wrapper").css("background-image", style10);
+        break;
+
+        case "style11":
+        $(".wrapper").css("background-image", style11);
+        break;
+
+        case "style12":
+        $(".wrapper").css("background-image", style12);
+        break;
+
+        case "style13":
+        $(".wrapper").css("background-image", style13);
+        break;
+
+        case "style14":
+        $(".wrapper").css("background-image", style14);
+        break;
+
+        case "style15":
+        $(".wrapper").css("background-image", style15);
+        break;
+
+        case "style16":
+        $(".wrapper").css("background-image", style16);
+        break;
+
+        default:
+        // code block
+    } 
+
+
+} 
+    
+    
+
+      
+</script>
+
+
+{% endblock %}
