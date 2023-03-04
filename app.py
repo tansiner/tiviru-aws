@@ -7,8 +7,8 @@ app = Flask(__name__)
 app.secret_key = "Secret Key"
 
 #SqlAlchemy Database Configuration With Mysql
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:admin12345@database-1.cl7j5j2rhsoe.us-west-2.rds.amazonaws.com/flaskaws'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flask-aws'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:admin12345@database-1.cl7j5j2rhsoe.us-west-2.rds.amazonaws.com/flaskaws'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
@@ -27,14 +27,14 @@ class Channels(db.Model):
     status = db.Column(db.String(100))
 
 
-    def __init__(self, id, channel_name, channel_logo, channel_src, status, country):
+    def __init__(self, id, channel_name, channel_logo, iptv, country, webstream, status):
 
         self.id = id
         self.channel_name = channel_name
         self.channel_logo = channel_logo
         self.iptv = iptv
-        self.webstream = webstream
         self.country = country
+        self.webstream = webstream
         self.status = webstream
 
 
@@ -105,6 +105,12 @@ def home():
     
 
     return render_template("home.html", ms_slides = ms_slides, series_slides = series_slides, documentaries_slides = documentaries_slides, movies_slides = movies_slides)
+
+
+
+
+
+
 
 
 
@@ -358,7 +364,7 @@ def update_schedule():
 
 if __name__ == '__main__':
 
-    # app.config['ENV'] = 'development'
-    # app.config['DEBUG'] = True
-    # app.config['TESTING'] = False
+    app.config['ENV'] = 'development'
+    app.config['DEBUG'] = True
+    app.config['TESTING'] = False
     app.run()
