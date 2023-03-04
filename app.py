@@ -110,12 +110,6 @@ def home():
 
 
 
-
-
-
-
-
-
 guide=minidom.parse("static/guide.xml")
 full_date = datetime.date(datetime.now())
 today = full_date.strftime("%Y%m%d")
