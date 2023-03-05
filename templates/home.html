@@ -252,5 +252,77 @@ h2.series{
 </div>
 
 
+<script>
+
+// let slideIndex = 0;
+      // showSlides();
+      
+      // function showSlides() {
+      //   let i;
+      //   let slides = document.getElementsByClassName("mySlides");
+      //   let slider_content = document.getElementsByClassName("slider-content");
+      //   let dots = document.getElementsByClassName("dot");
+      
+      //   console.log("refresh")
+      
+      //   for (i = 0; i < slides.length; i++) {
+      //     slides[i].style.display = "none";  
+      //     slider_content[i].style.display = "none";  
+      //   }
+      
+      
+      
+      //   slideIndex++;
+        
+      //   if (slideIndex > 3) {slideIndex = 1}    
+      //   for (i = 0; i < dots.length; i++) {
+      //     dots[i].className = dots[i].className.replace(" active", "");
+      //   }
+      //   slides[slideIndex-1].style.display = "block";  
+      //   slider_content[slideIndex-1].style.display = "block";
+      //   // dots[slideIndex-1].className += " active";
+      //   // setTimeout(showSlides, 6000); // Change image every 2 seconds
+      // }
+
+
+
+
+
+      let manuelSlideIndex = 1;
+showManuelSlides(manuelSlideIndex);
+
+
+function currentSlide(n) {
+  showManuelSlides(manuelSlideIndex = n);
+}
+
+function showManuelSlides(n) {
+  let i;
+  let slider_content = document.getElementsByClassName("slider-content");
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {manuelSlideIndex = 1}    
+  if (n < 1) {manuelSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    slider_content[i].style.display = "none"; 
+  }
+  
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[manuelSlideIndex-1].style.display = "block";
+  slider_content[manuelSlideIndex-1].style.display = "block"; 
+  dots[manuelSlideIndex-1].className += " active";
+}
+
+
+
+
+
+
+</script>
+
+
 {% endblock %}
 

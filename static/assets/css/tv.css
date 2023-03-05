@@ -1,0 +1,538 @@
+.wrapper > h1{
+font-size: 52px;
+text-align: center;
+/* background-color: yellowgreen; */
+margin: 15% auto;
+color: #fff;
+font-family: 'Kaushan Script', cursive;
+}
+
+
+.fa-solid{
+opacity:0.5;
+color:#000000;
+}
+
+
+/*********************    LightBox Styles       **********************/
+
+
+* {
+box-sizing: border-box;
+}
+
+.row > .column {
+padding: 0 8px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column {
+float: left;
+width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+position: relative;
+margin-left: auto;
+padding: 0;
+width: 100%;
+max-width: 1290px;
+height: 100vh;
+background: red;
+overflow: hidden;
+margin-right: auto;
+
+}
+
+/* The Close Button */
+.close {
+color: white;
+position: absolute;
+top: 10px;
+right: 25px;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #999;
+text-decoration: none;
+cursor: pointer;
+}
+
+.mySlides {
+height: 100vh;
+background: red;
+width: 100%;
+}
+
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+
+
+.caption-container {
+text-align: center;
+background-color: black;
+padding: 2px 16px;
+}
+
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+img.hover-shadow {
+transition: 0.3s;
+}
+
+.hover-shadow:hover {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mySlides video {
+height: 100vh;
+margin-top: 0px;
+background: black;
+width: inherit;
+}
+
+    
+.wrapper{
+    background-image: linear-gradient(36deg,#c05a9c,#223971);
+}    
+
+    
+.container h2{
+    font-size: 48px;
+}
+    
+
+.carousel {
+  padding: 0;
+}
+
+    
+.carousel-item img {
+    height: 400px;
+}
+    
+    
+.carousel-fourth li {
+  padding-right: 2.92%;
+}
+    
+     
+  
+.container {
+max-width: 1240px;
+margin-right: auto;
+margin-left: auto;
+}
+   
+    
+    .clearfix{
+    clear: both;
+}
+        
+
+
+
+
+.row{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.row > * {
+flex-shrink: 0;
+width: 100%;
+max-width: 100%;
+
+}
+
+
+.marquee{
+    color: #fff;
+}
+
+a:hover{
+    color: #fff
+}
+    
+    
+       
+.wrapper {
+  background-image: linear-gradient(to right,#f2709c,#ff9472);
+}       
+
+    
+
+.col {
+flex: 0 0 auto;
+width: 25%;
+margin-top: 20px;
+}    
+
+
+.channel-header {
+  display: block;
+  position: relative;
+  height: 160px;
+  -moz-border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  cursor: pointer;
+}
+   
+    
+.channel-logo {
+  text-align: center;
+  padding-top: 20px;
+}
+    
+
+.card-body {
+background-color: rgba(0,0,0,.5);
+}
+
+.card {
+  background-color: inherit;
+}
+    
+
+.time {
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+}
+
+    
+.full-epg-list {
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+}
+    
+.full-epg-content {
+  overflow: scroll;
+  height: 500px;
+}
+
+.full-epg-list i {
+  color: #fff;
+}
+    
+
+.peek-program .fas.fa-eye {
+  color: #fff;
+  position: absolute;
+  right: 35px;
+  bottom: 8px;
+}
+    
+    
+.full-epg-list .fa fa-th-list {
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+}    
+    
+
+
+.marquee-w {
+display: block;
+height: 140px;
+overflow: hidden;
+position: relative;
+
+}
+.marquee {
+position: relative;
+font-size: 18px;
+display: block;
+overflow: hidden;
+white-space: nowrap;
+
+
+}
+
+.marquee:hover span.marquee_text {
+display: inline-block;
+animation: marquee 3s linear infinite;
+animation-delay: 2s;    
+}
+    
+    
+
+@keyframes marquee {
+0% {
+transform: translate(0, 0);
+}
+100% {
+transform: translate(-100%, 0);
+}
+
+}
+
+
+.hidden{
+display: none;
+}
+
+
+        
+        
+
+    
+.fa-solid.fa-gear.fa-2xl {
+  color: #fff;
+  opacity: 1;
+}
+    
+    
+    
+    
+    
+    
+.full-epg-modal {
+  width: 100%;
+  /* background-color: #992727; */
+  opacity: 1;
+  position: fixed;
+  display: none;
+  color: #fff;
+  z-index: 999;
+  height: 100%;
+  top:0;
+  left: 0;
+}
+
+
+
+    
+.full-epg-close-icon {
+ position: absolute;
+float: right;
+right: -29px;
+top: -20px;
+z-index: 999;
+width: fit-content;
+float: right;
+}
+    
+.full-epg-close-icon i {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+    
+.full-epg-content {
+  overflow: scroll;
+  height: 500px;
+}
+    
+.full-epg-modal-dialog {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  opacity: .9;
+}
+    
+.red{
+    color: red;
+}
+    
+    
+.toolbox{
+position:fixed;
+height:fit-content;
+background:rgb(46, 46, 46);
+top: 200px;
+left:0;
+margin-left: -250px;
+
+}
+
+.toolbox-button{
+position: absolute;
+top: 205px;
+height: 30px;
+width: 15px;
+}
+    
+.boxes{
+height: auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 254px;
+
+}
+
+.boxes > div{
+
+width: 40px;
+height: 38px;
+padding: 10px;
+margin: 10px;
+}
+    
+.toolbox-button{
+    position: fixed;
+    top: 205px;
+    height: 30px;
+    width: 15px;
+    margin-left: 10px;
+}    
+    
+.epg-popover{
+    position: fixed;
+    top: 200px;
+    right: 260px;
+    width: 280px;
+    height: 300px;
+    background-color: #fff;
+    display: none;
+    z-index: 999;
+    padding: 20px;
+}
+    
+.style1{
+background-image: linear-gradient(to right top,#625793,#7f5694,#9a548f,#b15386,#c45579,#d0586f,#d95e63,#df6657,#e46f4d,#e77941,#e78536,#e49129);
+}
+
+.style2{
+background-image: linear-gradient(to right,#ff4e50,#f9d423);
+}
+
+.style3{
+background-image: linear-gradient(to right,#fe8c00,#f83600);
+}
+
+.style4{
+background-image: linear-gradient(to right,#fdc830,#f37335);
+}
+
+.style5{
+background-image: linear-gradient(90deg,#dad299 10%,#b0dab9 90%);
+}
+
+.style6{
+background-image: linear-gradient(to top,#48c6ef 0,#6f86d6 100%);
+}
+.style7{
+background-image: linear-gradient(to right,#f2709c,#ff9472);
+}
+
+.style8{
+background-image: linear-gradient(to right,#de6262,#ffb88c);
+}
+
+.style9{
+background-image: linear-gradient(345deg,#d253b1,#fb6f4a);
+}
+
+.style10{
+background-image: linear-gradient(to right,#c04848,#480048);
+}
+
+.style11{
+background-image: linear-gradient(to right,#cc2b5e,#753a88);
+}
+
+.style12{
+background-image: linear-gradient(36deg,#c05a9c,#223971);
+}
+
+.style13{
+background-image: linear-gradient(to right,#00b09b,#96c93d);
+}
+
+.style14{
+background-image: linear-gradient(45deg,#42b7f5 0,#c3e060 100%);
+}
+.style15{
+background-image: linear-gradient(45deg,#0369d1 0,#00ecbc 99%,#00ecbc 100%);
+}
+
+.style16{
+background-image: linear-gradient(to right,#00d2ff,#3a7bd5);
+}
+
+    
+.full-epg-content li {
+  margin-bottom: 10px;
+}

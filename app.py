@@ -246,7 +246,15 @@ def tv():
                 x += 1
 
     return render_template("tv.html", data=channel_list_for_current_epg, data2=channel_list_for_full_epg ,stream_option=stream_option)
-    # return render_template("tv.html")
+
+
+
+
+@app.route('/tv2')
+def tv2():
+
+    return render_template("tv2.html")
+
 
 
 
