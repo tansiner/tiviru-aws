@@ -232,6 +232,69 @@ h2.series{
   
 </div>
 
+
+<div class="popular-movies py-5">
+
+
+  <h1>UK SERIES</h1>
+
+  <!-- Flickity HTML init -->
+  <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+    {% for x in range(0,uk_series|length) %}
+
+
+      <div class="carousel-cell"><a href="{{ uk_series[x].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ uk_series[x].img }}.jpg" alt="" width="280px"></a></div>
+
+    {% endfor %}
+
+  </div>
+  
+</div>
+
+
+<div class="popular-movies py-5">
+
+
+  <h1>RUSSIAN SERIES</h1>
+
+  <!-- Flickity HTML init -->
+  <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+    {% for x in range(0,russian_series|length) %}
+
+
+      <div class="carousel-cell"><a href="{{ russian_series[x].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ russian_series[x].img }}.jpg" alt="" width="280px"></a></div>
+
+    {% endfor %}
+
+  </div>
+  
+</div>
+
+
+<div class="popular-movies py-5">
+
+
+  <h1>USA SERIES</h1>
+
+  <!-- Flickity HTML init -->
+  <div class="carousel" data-flickity='{ "groupCells": true }'>
+
+    {% for x in range(0,usa_series|length) %}
+
+
+      <div class="carousel-cell"><a href="{{ usa_series[x].source }}" target="_blank"><img src="static/assets/img/secondary-carousel/{{ usa_series[x].img }}.jpg" alt="" width="280px"></a></div>
+
+    {% endfor %}
+
+  </div>
+  
+</div>
+
+
+
+
 <div class="popular-movies py-5">
 
 
