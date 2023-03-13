@@ -1,0 +1,6 @@
+database-1
+
+database-1.cl7j5j2rhsoe.us-west-2.rds.amazonaws.com
+
+admin
+admin12345
