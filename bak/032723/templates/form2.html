@@ -5,13 +5,8 @@
    {{ super() }}
 
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
-
-
 <style>
-
-body {
+   body {
   background: hsl(120deg, 60%, 50%);
   font-family: sans-serif;
 }
@@ -27,9 +22,9 @@ body.error fieldset {
 }
 
 h1, h2 {
-  /* position: absolute;
+  position: absolute;
   left: 50%;
-  transform: translateX(-50%); */
+  transform: translateX(-50%);
   font-family: sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -44,11 +39,11 @@ h1 {
 h2 {
   top: 44px;
   color: hsl(0deg, 0%, 100%);
-  /* font-size: 10px; */
+  font-size: 10px;
   opacity: 0.7;
 }
 
-/* ul.items {
+ul.items {
   position: absolute;
   width: 30px;
   height: auto;
@@ -64,15 +59,15 @@ ul.items li {
   border-radius: 50%;
   opacity: 0.4;
   cursor: pointer;
-} */
+}
 ul.items li.active {
   opacity: 1;
 }
 
 form {
-  position: relative;
+  position: absolute;
   width: 300px;
-  height: 60px; 
+  height: 60px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -285,68 +280,6 @@ body.error fieldset {
 
 /*# sourceMappingURL=output.css.map */
  
-
-
-
-footer {
-  position: absolute;
-  bottom: 0px;
-  background: black;
-  width: 100%;
-  padding: 50px;
-  color: #fff;
-}
-
-
-
-/* updated version */
-
-ul.items {
-  position: absolute;
-  width: auto;
-  height: 29px;
-  top: 162%;
-  left: -6px;
-  transform: translateY(-50%);
-  display: inline-flex;
-  left: 9px;
-
-}
-
-ul.items li {
-  width: 8px;
-  height: 8px;
-  margin: 10px 0;
-    margin-top: 10px;
-    margin-right: 0px;
-  background: hsl(0deg, 0%, 100%);
-  border-radius: 50%;
-  opacity: 0.4;
-  cursor: pointer;
-  margin-top: 9px;
-  padding: 6px;
-  margin-right: 10px;
-}
-
-.form-wrapper{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-form ul{
-  padding-left: 0;
-}
-
-.form-control{
-  margin-left: 41px;
-  margin-top: 10px;
-  width: 72%;
-}
-
-form fieldset.disable {
-  display: none;
-}
-
  
 </style>
     
@@ -355,89 +288,70 @@ form fieldset.disable {
 
 {% block content %}
    
-
-<div class="container py-5">
-
-  <div class="row">
-
-      <div class="col-5 center form-wrapper">
-
-        <h2 style="text-align: center;">TIVIRU</h2>
-        <h3 style="font-size: 18px; text-align: center; color: bisque;">You can add your content via this form</h3>
    
-<form id="upload-file" method="post" enctype="multipart/form-data">
+   
+<h2>Just practising Javascript</h2>
+<form>
   <ul class="items"></ul>
   <fieldset class="title enable">
-    <div class="icon left"><span class="material-symbols-outlined">theaters</span></div>
+    <div class="icon left"><i class="user"></i></div>
     <input type="text" name="title" placeholder="title"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="category">
-    <div class="icon left"><span class="material-symbols-outlined">featured_play_list</span></div>
-    <select name="category" class="custom-select custom-select-lg mb-3 form-control">
-      <option value="movies">Movies</option>
-      <option selected value="series">Series</option>
-      <option value="documentary">Documentary</option>
-    </select>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon left"><i class="letter"></i></div>
+    <input type="text" name="category" placeholder="Category"/>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="genres">
-    <div class="icon left"><span class="material-symbols-outlined">grid_view</span></div>
-
-    <select name="genres" class="custom-select custom-select-lg mb-3 form-control">
-      <option value="comedy">Comedy</option>
-      <option value="drama">Drama</option>
-      <option selected value="action">Action</option>
-      <option value="horror">Horror</option>
-      <option value="scifi">Sci-Fi</option>
-    </select>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon left"><i class="lock"></i></div>
+    <input type="text" name="genres" placeholder="Genres"/>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
-
   <fieldset class="summary">
-    <div class="icon left"><i class="material-symbols-outlined">newspaper</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="genres" placeholder="Summary"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="cast">
-    <div class="icon left"><i class="material-symbols-outlined">group</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="cast" placeholder="Cast"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="img">
-    <div class="icon left"><i class="material-symbols-outlined">image</i></div>
-    <input type="file" name="img" class="img" id="myimg">
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon left"><i class="lock"></i></div>
+    <input type="text" name="img" placeholder="Image"/>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="source">
-    <div class="icon left"><i class="material-symbols-outlined">add_link</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="source" placeholder="Source"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="country">
-    <div class="icon left"><i class="material-symbols-outlined">flag</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="country" placeholder="Country"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="status">
-    <div class="icon left"><i class="material-symbols-outlined">clear_all</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="status" placeholder="Status"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="year">
-    <div class="icon left"><i class="material-symbols-outlined">calendar_month</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="year" placeholder="Year"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="main_slider">
-    <div class="icon left"><i class="material-symbols-outlined">linear_scale</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="main_slider" placeholder="Main Slider"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
   <fieldset class="carousel">
-    <div class="icon left"><i class="material-symbols-outlined">view_carousel</i></div>
+    <div class="icon left"><i class="lock"></i></div>
     <input type="text" name="carousel" placeholder="Carousel"/>
-    <div class="icon right button material-symbols-outlined">arrow_downward</div>
+    <div class="icon right button"><i class="arrow"></i></div>
   </fieldset>
 
 
@@ -453,15 +367,16 @@ form fieldset.disable {
 
 
 
-    </div>
-    </div>
-    </div>
+    
 
 
 <script>
 
 
 function formDatas(allDatas){
+
+    console.log("formDatas function", allDatas)
+
 
 
     const xhr = new XMLHttpRequest()
@@ -470,12 +385,12 @@ function formDatas(allDatas){
       if (xhr.readyState == 4 && xhr.status == 200) {
         response = JSON.parse(xhr.response)
         
-        if(response == "ok"){
+        thanksMessage = response
+        thanksField = document.querySelector(".thanks")
+        
+        console.log(thanksField.childNodes[12])
 
-
-          imgUpload();
-
-        }
+        thanksField.childNodes[12].innerHTML = response
                              
           
       }
@@ -490,29 +405,6 @@ function formDatas(allDatas){
     //xhr.send()
 
 
-}
-
-function imgUpload(){
-  
-  var form_data = new FormData($('#upload-file')[0]);
-  console.log(form_data);
-
-
-  const xhr = new XMLHttpRequest()
-    xhr.onreadystatechange = function() {
-
-      if (xhr.readyState == 4 && xhr.status == 200) {
-        response = JSON.parse(xhr.response)
-
-        console.log("img uploaded")
-
-      }
-
-    } // onready state change function
-
-    xhr.open('POST',"{{ url_for('imgUpload') }}")
-    //xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
-    xhr.send(form_data)
 
 
 }
@@ -554,31 +446,28 @@ function next(target) {
     nextEnable.classList.add('enable');
 
 
-    // Switch active class on left list
-    var active = document.querySelector('ul.items li.active'),
-        nextActive = active.nextElementSibling;
-    active.classList.remove('active');
-    nextActive.classList.add('active');
-
-
     ind = ind + 1;
     count = form.querySelectorAll('fieldset').length;
+    console.log(count)
     allDatas = [];
 
     // formData.push(document.querySelector('form fieldset input'))
 
     if(ind == count - 1){
         
-        fieldset = document.querySelectorAll("fieldset") 
+
+        allInputs = document.querySelectorAll("input")
 
         for(var x = 0; x < count-1; x++){
+            allDatas.push(allInputs[x].value)
 
-          allDatas.push(fieldset[x].children[1].value)
+            
 
         }
 
-      formDatas(allDatas)
+    console.log(allDatas)
 
+    formDatas(allDatas)
     }
     
     

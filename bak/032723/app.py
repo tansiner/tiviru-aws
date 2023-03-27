@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 from xml.dom import minidom
 from datetime import datetime
 
-UPLOAD_FOLDER = 'static/assets/img/secondary-carousel/'
+UPLOAD_FOLDER = 'static/uploads/'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
 app = Flask(__name__)
@@ -20,8 +20,8 @@ app.secret_key = "Secret Key"
 
 
 #SqlAlchemy Database Configuration With Mysql
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flaskaws'
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:admin12345@database-1.cl7j5j2rhsoe.us-west-2.rds.amazonaws.com/flaskaws'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flaskaws'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:admin12345@database-1.cl7j5j2rhsoe.us-west-2.rds.amazonaws.com/flaskaws'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
@@ -570,39 +570,16 @@ def processFormDatas():
         year = request.form['year']
         main_slider = request.form['main_slider']
         carousel = request.form['carousel']
-
-        img1 = img.split("\\")
-
-        n_img = img1[2].split(".")
-
-
-        print(n_img[0])
-
-
         
 
-        print(title, category, genres, summary, cast, n_img[0], source, country, status, year, main_slider, carousel) 
+        print(title, category, genres, summary, cast, img, source, country, status, year, main_slider, carousel) 
 
-        my_data = Media(id, title, category, genres, summary, cast, n_img[0], source, country, status, year, main_slider, carousel)
+        my_data = Media(id, title, category, genres, summary, cast, img, source, country, status, year, main_slider, carousel)
         db.session.add(my_data)
         db.session.commit()       
            
 
-    return jsonify("ok")
-
-
-@app.route('/imgUpload', methods = ['POST', 'GET'])
-def imgUpload():
-
-    if request.method == 'POST':
-        isthisFile = request.files.get('img')
-        print(isthisFile)
-
-        isthisFile.save(UPLOAD_FOLDER + isthisFile.filename)
-
-
-    return jsonify("ok")
-
+    return jsonify("Your Content has been added successfully")
 
 
 
