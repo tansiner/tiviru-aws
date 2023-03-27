@@ -14,10 +14,6 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 app.secret_key = "Secret Key"
-  
-
-
-
 
 #SqlAlchemy Database Configuration With Mysql
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flaskaws'
