@@ -533,24 +533,10 @@ def update_schedule():
 
 
 
-
-
-
-
-
-
-
-
-
 @app.route("/form2", methods=['GET', 'POST'])
 @app.route('/form2')
 def form2():
-
-    
     return render_template("form2.html")
-
-
-
 
 
 @app.route('/processFormDatas', methods = ['POST', 'GET'])
