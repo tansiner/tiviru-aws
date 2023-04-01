@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% block title %}Russian Tv Channels{% endblock %}
+{% block head %}
+  
+   {{ super() }}
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <link rel="stylesheet" href="{{url_for('static', filename='assets/css/tv.css')}}"/>
+<style>
+    
+ 
+</style>
+    
+
+{% endblock %}
+
+{% block content %}
+   
+   
+   
+
+<div class="container py-5">
+
+    <div class="row">
+
+        <div class="col">
+            <div class="card shadow-sm">
+                <div class="channel-header">
+                    <div class="channel-logo">
+                        <img src="static/assets/img/logos/sonyscifi.jpg" width="160" height="90" alt="" onclick="openModal()">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- row -->
+
+
+
+
+
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <div class="mySlides">
+            <video id="video" style="text-align: center" controls></video>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div> 
+
+
+
+
+    
+
+
+<script>
+
+    
+  
+
+// *******************    Scripts For Web Player   ******************* //
+
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+}
+
+
+function currentSlide(href) {
+    showSlides(href);
+}
+
+
+function showSlides(href) {
+
+    if(Hls.isSupported())
+    {
+        var video = document.getElementById('video');
+        var hls = new Hls();
+        hls.loadSource(href);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED,function()
+        {
+        video.play();
+        });
+    }
+    else if (video.canPlayType('application/vnd.apple.mpegurl'))
+    {
+        video.src = href;
+        video.addEventListener('canplay',function()
+        {
+        video.play();
+        });
+    }
+
+
+    var i;
+    var streamSlides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+
+    streamSlides[0].style.display = "block";
+    dots[0].className += " active";
+
+}
+
+
+function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+
+
+    var video = document.getElementById('video');
+    var hls = new Hls();
+    hls.loadSource('http://213.172.73.170:8081/nimble_live/1051__NST/playlist.m3u8');
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function()
+    {
+        video.stop();
+    });
+}
+
+    
+  
+</script>
+
+
+{% endblock %}

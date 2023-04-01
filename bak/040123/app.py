@@ -15,13 +15,9 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 app.secret_key = "Secret Key"
 
-
-
-
-
 #SqlAlchemy Database Configuration With Mysql
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flaskaws'
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:admin12345@database-1.cl7j5j2rhsoe.us-west-2.rds.amazonaws.com/flaskaws'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flaskaws'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:admin12345@database-1.cl7j5j2rhsoe.us-west-2.rds.amazonaws.com/flaskaws'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
@@ -136,16 +132,9 @@ def home():
     for slide in movies.query.filter_by(category="movies", carousel=1).all():
     
         movies_slides.append(slide)
-
-
-    adult_movies = Media
-    adult_movies_slides = []
-    for slide in movies.query.filter_by(category="movies", genres="adult", carousel=1).all():
     
-        adult_movies_slides.append(slide)
-        print(adult_movies_slides)
 
-    return render_template("home.html", ms_slides = ms_slides, series_slides = series_slides, uk_series = uk_series_slides, russian_series = russian_series_slides, usa_series = usa_series_slides, documentaries_slides = documentaries_slides, movies_slides = movies_slides, softcore_movies = adult_movies_slides)
+    return render_template("home.html", ms_slides = ms_slides, series_slides = series_slides, uk_series = uk_series_slides, russian_series = russian_series_slides, usa_series = usa_series_slides, documentaries_slides = documentaries_slides, movies_slides = movies_slides)
 
 
 
@@ -540,24 +529,10 @@ def update_schedule():
 
 
 
-
-
-
-
-
-
-
-
-
 @app.route("/form2", methods=['GET', 'POST'])
 @app.route('/form2')
 def form2():
-
-    
     return render_template("form2.html")
-
-
-
 
 
 @app.route('/processFormDatas', methods = ['POST', 'GET'])
