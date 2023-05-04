@@ -76,27 +76,22 @@
   </channel>
   <channel id="Fox Life HD">
     <display-name lang="ru">Fox Life HD</display-name>
-    <icon src="https://resizer.mail.ru/p/6c098478-a5ad-563b-b67b-c553f1c2471d/dpr:200/AAACPJ4zPHoalOYgLr2pmVSYmbyf6gQgzFBaOXad6XiLijBZ0qRafmX38WBL6zo4cMGpV1Pw7nmxPQQ4_qYpflBnHXc.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
   <channel id="А1">
     <display-name lang="ru">А1</display-name>
-    <icon src="https://resizer.mail.ru/p/d6406644-e9f0-5944-ba3f-7afc0a47ead0/dpr:200/AQAC147F1gkWPlyZFNqmQbuoUeNqfiZujX-8zslAdqJje4DPQMyp4eE0__RM3GD3Qh89BZVQzAU7VIyzU5qxP5iOQKc.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
   <channel id="А2">
     <display-name lang="ru">А2</display-name>
-    <icon src="https://resizer.mail.ru/p/78341c4c-defa-5e6e-bee0-2c778f8de46f/dpr:200/AQACef5bLJKMPK0NaJJuR403K1z0xYfV-bw-7Osw9UrByc4b5UyRSm4ImJ_VcM9iPauf0N00DMRZ3vxGQQhWi1V7VyQ.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
   <channel id="Amedia Hit">
     <display-name lang="ru">Amedia Hit</display-name>
-    <icon src="https://resizer.mail.ru/p/7c5b0af5-8bd1-5997-8954-d8269fac8cd3/dpr:200/AQACUWU1HlNQmKllH61bKZFCMK2feChxORYcoNgUnHnQsXaj3Ru_IRnn-nRU24NBQLfgxxx1pcpwvJQnNzW1ju13pi8.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
   <channel id="Amedia Premium HD">
     <display-name lang="ru">Amedia Premium HD</display-name>
-    <icon src="https://resizer.mail.ru/p/59a67e72-9dff-5016-b99b-56d6c9d2f19f/dpr:200/AAAC_Bn_X3guEFtOawvEhvzRzFspeqJai01tbu7nJMOXQ2I9OmIvrA1xQh3v4vNW_855ftTCz-6mzob6z1f-62iYfew.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
   <channel id="Sony Turbo">
@@ -409,9 +404,6 @@
   <programme start="20230505030500 +0300" stop="20230505044500 +0300" channel="Кино ТВ HD">
     <title lang="ru">Невозможное</title>
   </programme>
-  <programme start="20230504154000 +0300" stop="20230504165500 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 3</title>
-  </programme>
   <programme start="20230504165500 +0300" stop="20230504182000 +0300" channel="Хит">
     <title lang="ru">Иван Царевич и Серый Волк 4</title>
   </programme>
@@ -498,188 +490,5 @@
   </programme>
   <programme start="20230505023500 +0300" stop="20230505041500 +0300" channel="TV1000 Action">
     <title lang="ru">Другой мир 2</title>
-  </programme>
-  <programme start="20230504162000 +0300" stop="20230504171500 +0300" channel="А1">
-    <title lang="ru">Рашаш</title>
-  </programme>
-  <programme start="20230504171500 +0300" stop="20230504174000 +0300" channel="А1">
-    <title lang="ru">Красавцы</title>
-  </programme>
-  <programme start="20230504174000 +0300" stop="20230504181000 +0300" channel="А1">
-    <title lang="ru">Красавцы</title>
-  </programme>
-  <programme start="20230504181000 +0300" stop="20230504190000 +0300" channel="А1">
-    <title lang="ru">Домина</title>
-  </programme>
-  <programme start="20230504190000 +0300" stop="20230504200000 +0300" channel="А1">
-    <title lang="ru">Домина</title>
-  </programme>
-  <programme start="20230504200000 +0300" stop="20230504210000 +0300" channel="А1">
-    <title lang="ru">Прослушка</title>
-  </programme>
-  <programme start="20230504210000 +0300" stop="20230504220000 +0300" channel="А1">
-    <title lang="ru">Прослушка</title>
-  </programme>
-  <programme start="20230504220000 +0300" stop="20230504225500 +0300" channel="А1">
-    <title lang="ru">Рашаш</title>
-  </programme>
-  <programme start="20230504225500 +0300" stop="20230504235000 +0300" channel="А1">
-    <title lang="ru">Рашаш</title>
-  </programme>
-  <programme start="20230504235000 +0300" stop="20230505012500 +0300" channel="А1">
-    <title lang="ru">451 градус по Фаренгейту</title>
-  </programme>
-  <programme start="20230505012500 +0300" stop="20230505021500 +0300" channel="А1">
-    <title lang="ru">Домина</title>
-  </programme>
-  <programme start="20230505021500 +0300" stop="20230505031500 +0300" channel="А1">
-    <title lang="ru">Домина</title>
-  </programme>
-  <programme start="20230505031500 +0300" stop="20230505041500 +0300" channel="А1">
-    <title lang="ru">Прослушка</title>
-  </programme>
-  <programme start="20230504162500 +0300" stop="20230504175500 +0300" channel="А2">
-    <title lang="ru">Сын Америки</title>
-  </programme>
-  <programme start="20230504175500 +0300" stop="20230504181500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
-  </programme>
-  <programme start="20230504181500 +0300" stop="20230504184000 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
-  </programme>
-  <programme start="20230504184000 +0300" stop="20230504190500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
-  </programme>
-  <programme start="20230504190500 +0300" stop="20230504194500 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
-  </programme>
-  <programme start="20230504194500 +0300" stop="20230504203000 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
-  </programme>
-  <programme start="20230504203000 +0300" stop="20230504210000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230504210000 +0300" stop="20230504212500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230504212500 +0300" stop="20230504215500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230504215500 +0300" stop="20230504222500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230504222500 +0300" stop="20230504235500 +0300" channel="А2">
-    <title lang="ru">Искусство ограбления</title>
-  </programme>
-  <programme start="20230504235500 +0300" stop="20230505002000 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
-  </programme>
-  <programme start="20230505002000 +0300" stop="20230505004500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
-  </programme>
-  <programme start="20230505004500 +0300" stop="20230505010500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
-  </programme>
-  <programme start="20230505010500 +0300" stop="20230505015000 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
-  </programme>
-  <programme start="20230505015000 +0300" stop="20230505023000 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
-  </programme>
-  <programme start="20230505023000 +0300" stop="20230505030000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230505030000 +0300" stop="20230505033000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230505033000 +0300" stop="20230505040000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230505040000 +0300" stop="20230505042500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
-  </programme>
-  <programme start="20230504150000 +0300" stop="20230504170000 +0300" channel="Amedia Hit">
-    <title lang="ru">Лев</title>
-  </programme>
-  <programme start="20230504170000 +0300" stop="20230504173000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
-  </programme>
-  <programme start="20230504173000 +0300" stop="20230504180000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
-  </programme>
-  <programme start="20230504180000 +0300" stop="20230504185000 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
-  </programme>
-  <programme start="20230504185000 +0300" stop="20230504195000 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
-  </programme>
-  <programme start="20230504195000 +0300" stop="20230504204000 +0300" channel="Amedia Hit">
-    <title lang="ru">Ответный удар</title>
-  </programme>
-  <programme start="20230504204000 +0300" stop="20230504213000 +0300" channel="Amedia Hit">
-    <title lang="ru">Ответный удар</title>
-  </programme>
-  <programme start="20230504213000 +0300" stop="20230504223000 +0300" channel="Amedia Hit">
-    <title lang="ru">Кайфтаун</title>
-  </programme>
-  <programme start="20230504223000 +0300" stop="20230504233000 +0300" channel="Amedia Hit">
-    <title lang="ru">Кайфтаун</title>
-  </programme>
-  <programme start="20230504233000 +0300" stop="20230505013000 +0300" channel="Amedia Hit">
-    <title lang="ru">Лев</title>
-  </programme>
-  <programme start="20230505013000 +0300" stop="20230505020000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
-  </programme>
-  <programme start="20230505020000 +0300" stop="20230505023000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
-  </programme>
-  <programme start="20230505023000 +0300" stop="20230505032000 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
-  </programme>
-  <programme start="20230505032000 +0300" stop="20230505041500 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
-  </programme>
-  <programme start="20230504154500 +0300" stop="20230504173000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Страшные истории для рассказа в темноте</title>
-  </programme>
-  <programme start="20230504173000 +0300" stop="20230504180000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Городские легенды</title>
-  </programme>
-  <programme start="20230504180000 +0300" stop="20230504184000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
-  </programme>
-  <programme start="20230504184000 +0300" stop="20230504192500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
-  </programme>
-  <programme start="20230504192500 +0300" stop="20230504202000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Город на холме</title>
-  </programme>
-  <programme start="20230504202000 +0300" stop="20230504211500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Город на холме</title>
-  </programme>
-  <programme start="20230504211500 +0300" stop="20230504220500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Ирма Веп</title>
-  </programme>
-  <programme start="20230504220500 +0300" stop="20230504230000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Ирма Веп</title>
-  </programme>
-  <programme start="20230504230000 +0300" stop="20230505010500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Девушка в лабиринте</title>
-  </programme>
-  <programme start="20230505010500 +0300" stop="20230505013000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Бетти</title>
-  </programme>
-  <programme start="20230505013000 +0300" stop="20230505020000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Бетти</title>
-  </programme>
-  <programme start="20230505020000 +0300" stop="20230505024000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
-  </programme>
-  <programme start="20230505024000 +0300" stop="20230505032500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
-  </programme>
-  <programme start="20230505032500 +0300" stop="20230505042000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Город на холме</title>
   </programme>
 </tv>
