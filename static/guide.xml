@@ -1,682 +1,1286 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version  V3.3.0.0 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
-  <channel id="ТНТ4">
-    <display-name lang="ru">ТНТ4</display-name>
-    <icon src="https://resizer.mail.ru/p/122dd37a-740b-55fd-97d5-bb119eac32fd/dpr:200/AQACWu9zJYrbP1iWcoY6KxxzDlo2heS1y0K6DAwUWUjSn205b66lumDNbP7qfq8zZ98_OStFjfi1zTyY7ku9tM9D-lY.jpg" />
+  <channel id="Киносерия">
+    <display-name lang="ru">Киносерия</display-name>
+    <icon src="https://resizer.mail.ru/p/45bfa7ff-f25f-5ebf-ad75-fbae826b11fd/dpr:200/AAACG9ZjMGjIPHfO0h2-_iOCGQKIbkLh04y_dOBZN9i_Zl8I9_ISSaB1D744YppbPRDPVOJWZt-BpHrDwzxw_mFL8Sw.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Настоящее Страшное Телевидение">
-    <display-name lang="ru">Настоящее Страшное Телевидение</display-name>
-    <icon src="https://resizer.mail.ru/p/82740131-f21e-5a02-9536-cc157fabb45f/dpr:200/AQACx-pthn5wzsqMz_biuPqIiKbSC_2A9fXy9acIH6XrZ7vFozTy_SNCqXXc_suYWZHJ2iPVx6g2hFue9Ws2EdpE_qE.png" />
+  <channel id="Киносемья">
+    <display-name lang="ru">Киносемья</display-name>
+    <icon src="https://resizer.mail.ru/p/6eae32d9-229d-5ee6-8398-de9ef0834c20/dpr:200/AAACo0Q2js47PmJBRaD5GXvILXiZzkncPp3CU7t8MpD60kU99lKhoN4Z2F42RzuxdqoFq60_-E7btVDMbsAajbnKccA.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="ViP Comedy">
-    <display-name lang="ru">ViP Comedy</display-name>
-    <icon src="https://resizer.mail.ru/p/68ccc582-29f8-5359-b4c0-ff580db733b0/dpr:200/AQAC-XJJTkuec4Dx8VyY6SG5HfsSGiXMSoMD1A8PV2iBWaYlnkH-3g3H0s2zFYG0rz1d9mVgesRKOwKmbAzPh24Mez4.jpg" />
+  <channel id="Кинохит">
+    <display-name lang="ru">Кинохит</display-name>
+    <icon src="https://resizer.mail.ru/p/2a64ac38-423d-5829-afa2-d82d08f0b5b1/dpr:200/AAACJvV8KwFl7FD0_8AUOULk6ekZ1htgPrADYPz4CIfxhMYhQaUUrjRLwmUfMqEea4dXndtV7nyLMjxa8LyPJ6nd_Uc.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="ViP Premiere">
-    <display-name lang="ru">ViP Premiere</display-name>
-    <icon src="https://resizer.mail.ru/p/e8a2250d-9329-5fd0-831d-c78c28ba0967/dpr:200/AQACmyPVq5jhjVFvJDf3wsVhZcD6gAM9YEdJuvNx6JDmzwF7jBtZk1utcgtDtz8dZVkQOmOy-8hw8s9kcr64RU6l_yA.jpg" />
+  <channel id="Киномикс">
+    <display-name lang="ru">Киномикс</display-name>
+    <icon src="https://resizer.mail.ru/p/9864d840-33db-5422-9817-fea5d5071819/dpr:200/AAACRKf-KAZ9F7D-KwncnhP5rjB67-EDyYcPtMpyTm-IVMpE8Jl0k0Mnpbbdrq1hQCEO6FEvsbxlTce7h8OyLaAUaU8.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="ViP Megahit">
-    <display-name lang="ru">ViP Megahit</display-name>
-    <icon src="https://resizer.mail.ru/p/a248e70c-35b6-5660-9cb1-fe5138f3ff00/dpr:200/AQACAEvb-gotoQlyAP363oSSh_AQr-fOYKB3d8lgu2Z9JC4VP6z7d1WAtUbVflXWbeRVAzHSOQ6-oirQ_WRqAzVIdLE.jpg" />
+  <channel id="Кинокомедия">
+    <display-name lang="ru">Кинокомедия</display-name>
+    <icon src="https://resizer.mail.ru/p/7f916a74-7360-501a-82f8-4f51123a60d6/dpr:200/AAACn-glRGSABRMtRjldZ0otaxotl-d24klacucf5Rh7JEi83G-NUyzzzCggFEgi5gitTgAcP6YqKR2SD3jryW8hpk4.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="ViP Serial">
-    <display-name lang="ru">ViP Serial</display-name>
-    <icon src="https://resizer.mail.ru/p/de20ab86-d259-5f7a-a200-2d4b09562ad8/dpr:200/AQACiWqt0ZJzdhsL7n5TdKjA9jYiMKWr6-4Ua9T-vQLH0kgBjsTvPZYIKAGJ8WHDlamNRnpzMUtfcVek0RS3nb1GHZw.jpg" />
+  <channel id="Киноужас">
+    <display-name lang="ru">Киноужас</display-name>
+    <icon src="https://resizer.mail.ru/p/b55413f7-bd31-50f6-9354-6d2fc9c01f54/dpr:200/AAACcBFe5vQb6EG_qzNMDN-vn3ei3THkQJX4_80GuivW-fR3U4A-ksSkA4-mnDijXgbQVpb9bNh-9KPlVZT9B5wfUjg.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Страшное HD">
-    <display-name lang="ru">Страшное HD</display-name>
-    <icon src="https://resizer.mail.ru/p/3ff38bf7-e08a-5a3b-9071-2613a65183b3/dpr:200/AAACJW53QUvg__iJkIcH7aBEA1Ez4o8WEbcd6t8SF6alONlodmUbUail-2CDHOhSdxi-8k_zwqCrKSwsbpuTKF6SOMU.png" />
+  <channel id="Кинопремьера">
+    <display-name lang="ru">Кинопремьера</display-name>
+    <icon src="https://resizer.mail.ru/p/5e23930b-ce3d-5162-82b3-de4aa57749e1/dpr:200/AAACXLZ_nEK62iZKKTjjftAN-aoyBr-nJtHv75J07ey55sE4X6YmbRyUvMNLrgvxKTxxHeXyqEGfEByc8-P-dY4QicQ.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Комедийное HD">
-    <display-name lang="ru">Комедийное HD</display-name>
-    <icon src="https://resizer.mail.ru/p/17a9a4fe-19ed-5cb9-9707-9cded8101344/dpr:200/AAACxzrxU3rH8gVrIMEZvQo82RVuORMYh9xAlXYS8P2oFaS1Qp-Dmv4TtLAzhMVD2VnPPnNNwo0pMjrN1ru15Wlhg_I.png" />
+  <channel id="Наше новое кино">
+    <display-name lang="ru">Наше новое кино</display-name>
+    <icon src="https://resizer.mail.ru/p/45e7aef4-fb30-5175-ba6a-522b7dcfd064/dpr:200/AAACWjkbvqB_wxvpf3qOHXoSsDpsl8GHWDgUNxCKYPhy1AL2pPkoXa81BBM9GNxT_ruADioBdhrTpaqgCM9fR-N5kyg.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Шокирующее HD">
-    <display-name lang="ru">Шокирующее HD</display-name>
-    <icon src="https://resizer.mail.ru/p/48320ca9-1f6d-5365-938b-0ff801946623/dpr:200/AAACJti04guJY_DuVfikqSPV3K8DttcA2g6Jdv3_P1x6Q4V9KfnI8zdcWdLwlZMrYyVWR0MX8Z7VZzUzFpervGlzFKk.png" />
+  <channel id="Мужское кино">
+    <display-name lang="ru">Мужское кино</display-name>
+    <icon src="https://resizer.mail.ru/p/84c20c75-95c4-565f-9cda-8e90e25ac9a9/dpr:200/AAAC_AZvcrQy1yFomShCF1FSbRDX65O3EQS8U6fmXZcxoFum9v2XtVEoZEOodor7MpAPumhtS2BQa3FV1Bp1YWdDEkY.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Кино ТВ HD">
-    <display-name lang="ru">Кино ТВ HD</display-name>
-    <icon src="https://resizer.mail.ru/p/83c28e96-1743-5a4b-8b2e-efb8e3828ce5/dpr:200/AQACUJ71KckrGGunSXLpTz5ZYtFrOMPcdMiFEjeWWfY8Fw5dnpF7VWCcXE7W_m1f4OvEQdSM7kOjhtBrmxczr2IO81Q.png" />
+  <channel id="Родное кино">
+    <display-name lang="ru">Родное кино</display-name>
+    <icon src="https://resizer.mail.ru/p/21f79716-f6bc-5a11-a538-459d67b6942e/dpr:200/AAACF3CjkUz0U7dFhwlMmal-5IIJV1evVnLjMbE4sf_JhmXN5fhT3JRdJOTk6hvWsn_uM1dPK65I9cUC2u17JY4jKpU.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Хит">
-    <display-name lang="ru">Хит</display-name>
-    <icon src="https://resizer.mail.ru/p/66551525-e9ba-57b3-8a0b-1f1b67de96c1/dpr:200/AAACoSrLvKwJ-PrX-hhMuRoH13C9GV_v1un3W1maumMRkPas9l1i7fbxClmhQY9AijKHMxGPFycMmWoeb2mFMuDbDv4.png" />
+  <channel id="Киносвидание">
+    <display-name lang="ru">Киносвидание</display-name>
+    <icon src="https://resizer.mail.ru/p/58526726-fef3-5efa-8ad9-1e52c262cba4/dpr:200/AAACaQbbYjMr66z02t50kjifPyOcNfHbt9IEwrvKauiCPlXQquuMSV8fCUlpzWDxYIbIQLW064YS_yiypW56HRJmpC0.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Остросюжетное HD">
-    <display-name lang="ru">Остросюжетное HD</display-name>
-    <icon src="https://resizer.mail.ru/p/c2f8532f-a7da-5b12-b24d-98841a697f3c/dpr:200/AAAC6b64YtN_lbnMCZWwh_obdzP_bkTB49K4oqnhG4wmqb7u4-kCWrQd5s4Ul2uMsEEjx4CqBrh9iFelCHR6W8oj6SE.png" />
+  <channel id="Gulli Girl">
+    <display-name lang="ru">Gulli Girl</display-name>
+    <icon src="https://resizer.mail.ru/p/22be41d1-2357-5bd5-89d4-a952812f925f/dpr:200/AAACLruCExwKh9ELIx6Xz_32qi2XTch7ZIGu83iSVRHAEMmLD-D7ZYtYJYxK8LG-HuMU4VUCt90DGdDC9jmQFF1OC5w.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="TV1000">
-    <display-name lang="ru">TV1000</display-name>
-    <icon src="https://resizer.mail.ru/p/758d26c3-af73-58bd-a580-dcae09a2f360/dpr:200/AQACxZtF91xbQMzbg13O8X03wF2aQvSQR4I1s9dV67WJKujF4lCCmnZ_nqbHgirpV8h6LnbYex1pjei62ADSb52Y2b4.jpg" />
+  <channel id="Cinema">
+    <display-name lang="ru">Cinema</display-name>
+    <icon src="https://resizer.mail.ru/p/9c94adba-55b2-5970-b265-fc721528a76f/dpr:200/AQAC7x9TPMnJeuY_rZDeXjrVMjm5SIgyGtk_T0pP9xrzBxPD1WpDptmduDk2l9fGO-XFXKjQVwNKSy3aODpANPWJPRs.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="TV1000 Action">
-    <display-name lang="ru">TV1000 Action</display-name>
-    <icon src="https://resizer.mail.ru/p/4bf92500-4836-5d04-8dfa-16e3f3b98199/dpr:200/AQACreoSDF9q8nqlv_pGP5PVL4W0MHwKrUho8hI0ecPT1DEQeEge2ZFbm_7ciayYRqPdRtQBb4OF-uQIGHR5tcFONc4.jpg" />
+  <channel id="Кинопоказ">
+    <display-name lang="ru">Кинопоказ</display-name>
+    <icon src="https://resizer.mail.ru/p/f0f35769-1ee8-5fa9-b8c1-60aceea7150a/dpr:200/AAACvrXnGnod7sxZ47nMFf33JQ52jQGi_53W0ogV22_k-OzJASmKer2VYPuUoibcZgHUKCD2z_FTkJSm4NDNMNJz0SM.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="FOX">
-    <display-name lang="ru">FOX</display-name>
+  <channel id="Русский роман">
+    <display-name lang="ru">Русский роман</display-name>
+    <icon src="https://resizer.mail.ru/p/75d62292-476a-58e1-b0f9-335d6c031600/dpr:200/AQACSF27tRwzOVFMukv-aVKndnCWVao6lrt6pkA3wwFgY1AG9-XtrenZAjQOyrtxHp3uuwq7FPa7sIyIwl3zrGtsHZs.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Fox Life HD">
-    <display-name lang="ru">Fox Life HD</display-name>
-    <icon src="https://resizer.mail.ru/p/6c098478-a5ad-563b-b67b-c553f1c2471d/dpr:200/AAACPJ4zPHoalOYgLr2pmVSYmbyf6gQgzFBaOXad6XiLijBZ0qRafmX38WBL6zo4cMGpV1Pw7nmxPQQ4_qYpflBnHXc.png" />
+  <channel id="Комедия">
+    <display-name lang="ru">Комедия</display-name>
+    <icon src="https://resizer.mail.ru/p/2caa1fa5-25c3-53f5-bc57-82ba95b72f2f/dpr:200/AQACoednNr10nzBzRidZ-jVoOL2mEtWzB4rkgzbIkckclQUPeIkrL2aktORtlnZGC2vXF0c8dI0C9ZXbhEoz-2Gj7uA.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="А1">
-    <display-name lang="ru">А1</display-name>
-    <icon src="https://resizer.mail.ru/p/d6406644-e9f0-5944-ba3f-7afc0a47ead0/dpr:200/AQAC147F1gkWPlyZFNqmQbuoUeNqfiZujX-8zslAdqJje4DPQMyp4eE0__RM3GD3Qh89BZVQzAU7VIyzU5qxP5iOQKc.png" />
+  <channel id="Капитан Фантастика">
+    <display-name lang="ru">Капитан Фантастика</display-name>
+    <icon src="https://resizer.mail.ru/p/7373c6f7-70fe-5c5e-adee-cc411f8717a7/dpr:200/AAAC-Iffv3B58RBrggGsrsYZljBUcEf8UBavduYwWJe6yUKocLnLR-6N_PdNdVK-42Y5yTHBmgy2hIN6uEnW2Jg07IU.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="А2">
-    <display-name lang="ru">А2</display-name>
-    <icon src="https://resizer.mail.ru/p/78341c4c-defa-5e6e-bee0-2c778f8de46f/dpr:200/AQACef5bLJKMPK0NaJJuR403K1z0xYfV-bw-7Osw9UrByc4b5UyRSm4ImJ_VcM9iPauf0N00DMRZ3vxGQQhWi1V7VyQ.png" />
+  <channel id="Беларусь 5">
+    <display-name lang="ru">Беларусь 5</display-name>
+    <url>http://www.vsetv.com</url>
+  </channel>
+  <channel id="МАТЧ! Футбол 1">
+    <display-name lang="ru">МАТЧ! Футбол 1</display-name>
+    <icon src="https://resizer.mail.ru/p/10eae81f-cc8e-5bf4-b57b-b6a7434ebdb4/dpr:200/AQACCFq2B6d2s_7ypmB548koaklP7VM3msmCXdeGTTnpPqC9zqUlfmQIXFH_bfuRfs1AKui3G9yezt2kYvZdlhCltjY.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Amedia Hit">
-    <display-name lang="ru">Amedia Hit</display-name>
-    <icon src="https://resizer.mail.ru/p/7c5b0af5-8bd1-5997-8954-d8269fac8cd3/dpr:200/AQACUWU1HlNQmKllH61bKZFCMK2feChxORYcoNgUnHnQsXaj3Ru_IRnn-nRU24NBQLfgxxx1pcpwvJQnNzW1ju13pi8.png" />
+  <channel id="МАТЧ! Футбол 3">
+    <display-name lang="ru">МАТЧ! Футбол 3</display-name>
+    <icon src="https://resizer.mail.ru/p/56fd06a2-3c36-5d70-9a87-4740096ae0db/dpr:200/AQACa8puw49ENMWwJApzSGcmO-5n6DYxXJqePub_v3JEZ9kB-y-H__EClT1qkuHDHdl_tibrpqHk-SD1yljPAugNlfY.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Amedia Premium HD">
-    <display-name lang="ru">Amedia Premium HD</display-name>
-    <icon src="https://resizer.mail.ru/p/59a67e72-9dff-5016-b99b-56d6c9d2f19f/dpr:200/AAAC_Bn_X3guEFtOawvEhvzRzFspeqJai01tbu7nJMOXQ2I9OmIvrA1xQh3v4vNW_855ftTCz-6mzob6z1f-62iYfew.png" />
+  <channel id="МАТЧ! Страна">
+    <display-name lang="ru">МАТЧ! Страна</display-name>
+    <icon src="https://resizer.mail.ru/p/cafcb831-9d25-5781-82ca-3f4308a8e03f/dpr:200/AQACRoQLSzsJzYY_5iuxWQfprPyIy11vPJt-GtzLPAhK3mjuos9GJ9zcop3mqbVNZpJvRNJJXHDwiufv1JMedEbHs8Y.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Sony Turbo">
-    <display-name lang="ru">Sony Turbo</display-name>
+  <channel id="МАТЧ! Наш Спорт">
+    <display-name lang="ru">МАТЧ! Наш Спорт</display-name>
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="SONY ТВ">
-    <display-name lang="ru">SONY ТВ</display-name>
+  <channel id="МАТЧ! Футбол 2">
+    <display-name lang="ru">МАТЧ! Футбол 2</display-name>
+    <icon src="https://resizer.mail.ru/p/93b4067c-274f-5cec-a824-b101563e1c13/dpr:200/AQACSfAFtfm-qeAGS7ZjlIxsod55wSoVuyDEqH4qNNopLlNyBBkhtcr6swTdLhl6r2si-Gx5WVT_vq321ebvqzL_53Q.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="SONY Sci-Fi">
-    <display-name lang="ru">SONY Sci-Fi</display-name>
+  <channel id="МАТЧ! Игра">
+    <display-name lang="ru">МАТЧ! Игра</display-name>
+    <icon src="https://resizer.mail.ru/p/b0f60b75-ca55-55c3-8abd-bf7d00fad91e/dpr:200/AQACc-jdCZdwTeGerM3vntun7j2T0vso2xrlJy1ocJRq3vkP9aYz4rmDkf1V4s4NdRz_PfiGSyBKicNuduPPbBQ5ZTo.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Hollywood HD">
-    <display-name lang="ru">Hollywood HD</display-name>
+  <channel id="МАТЧ! Арена">
+    <display-name lang="ru">МАТЧ! Арена</display-name>
+    <icon src="https://resizer.mail.ru/p/d4e4f993-d772-59a8-a3d9-6e0b648f4b82/dpr:200/AQACrgJk0OhR8K7fp6mkA-RFbWDKjliv_1bHPNCN0cfv6oqgd1rhOZA3zpQYyzevD9dYXpYrA2q1oYW23VLz1raFiqQ.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Романтичное HD">
-    <display-name lang="ru">Романтичное HD</display-name>
+  <channel id="МАТЧ! Премьер">
+    <display-name lang="ru">МАТЧ! Премьер</display-name>
+    <icon src="https://resizer.mail.ru/p/0ab78b28-a6c9-57d0-b916-a2ed5087938f/dpr:200/AQACAcvypmHDP4anwaPt5hKHKAXtFVMTZgmmZDDZ0lDi5_5hFpT9A4lOsHpyguSfFokhyzwLH7xeQTkns_00ekf6qvs.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="СТС Love">
-    <display-name lang="ru">СТС Love</display-name>
+  <channel id="Русская ночь">
+    <display-name lang="ru">Русская ночь</display-name>
+    <icon src="https://resizer.mail.ru/p/25902772-cb27-583a-b556-d56d51ee3ca4/dpr:200/AAACNghUmIPImO55XBfecyZnWsusjcCxMqt9_2RCn8ejLTsTZlEjjFFoPCkan-Aq60iSmbJlTwzK1EugwCVUE13M3rA.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="TV1000 Русское кино">
-    <display-name lang="ru">TV1000 Русское кино</display-name>
+  <channel id="O-la-la">
+    <display-name lang="ru">O-la-la</display-name>
+    <icon src="https://resizer.mail.ru/p/0efb757c-9089-5f07-9e4e-a218df0b213d/dpr:200/AAACOL6dAK12yXOmdeiwFErbjKTabrOOVmCyHpO2Ykot286hlbdFKAemlgmb_gAxIXo-ssz4LjGpRwuCCI3Q4F71lqc.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="СТС">
-    <display-name lang="ru">СТС</display-name>
+  <channel id="Dorcel TV">
+    <display-name lang="ru">Dorcel TV</display-name>
+    <icon src="https://resizer.mail.ru/p/2ecde00d-8a7d-5a49-8906-726af46f8d87/dpr:200/AAACDR3fCoXZD9dHgK_mhIwTuf9fUjzWZEdff0_mw2ibccO9M3mSzBCDU-6LxZc3uIEArQ6gNCuvDnHTkN_viSnDyUs.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="Nickelodeon">
-    <display-name lang="ru">Nickelodeon</display-name>
+  <channel id="Brazzers TV Europe">
+    <display-name lang="ru">Brazzers TV Europe</display-name>
+    <icon src="https://resizer.mail.ru/p/db3f3ecf-e3c2-5849-974b-623ada6cae6a/dpr:200/AAACqN1B8fUPxVI0jvdQO9OuvjCwynl6ula9U_0HIVe3SzRJAbHzRNDwJQIqojIS5UkCfuG7bglN-fOydT_aptXsj9A.png" />
     <url>http://www.tv.mail.ru</url>
   </channel>
-  <channel id="ТНТ">
-    <display-name lang="ru">ТНТ</display-name>
-    <url>http://www.tv.mail.ru</url>
-  </channel>
-  <programme start="20230504163000 +0300" stop="20230504170000 +0300" channel="ТНТ4">
-    <title lang="ru">Интерны</title>
-  </programme>
-  <programme start="20230504170000 +0300" stop="20230504173000 +0300" channel="ТНТ4">
-    <title lang="ru">Интерны</title>
-  </programme>
-  <programme start="20230504173000 +0300" stop="20230504180000 +0300" channel="ТНТ4">
-    <title lang="ru">Интерны</title>
-  </programme>
-  <programme start="20230504180000 +0300" stop="20230504183500 +0300" channel="ТНТ4">
-    <title lang="ru">Камеди Клаб</title>
-  </programme>
-  <programme start="20230504183500 +0300" stop="20230504190000 +0300" channel="ТНТ4">
-    <title lang="ru">Comedy Классика</title>
-  </programme>
-  <programme start="20230504190000 +0300" stop="20230504193000 +0300" channel="ТНТ4">
-    <title lang="ru">Камеди Клаб</title>
-  </programme>
-  <programme start="20230504193000 +0300" stop="20230504200000 +0300" channel="ТНТ4">
-    <title lang="ru">Камеди Клаб</title>
-  </programme>
-  <programme start="20230504200000 +0300" stop="20230504210000 +0300" channel="ТНТ4">
-    <title lang="ru">Камеди Клаб</title>
-  </programme>
-  <programme start="20230504210000 +0300" stop="20230504220000 +0300" channel="ТНТ4">
-    <title lang="ru">Камеди Клаб</title>
-  </programme>
-  <programme start="20230504220000 +0300" stop="20230504230000 +0300" channel="ТНТ4">
-    <title lang="ru">Камеди Клаб</title>
-  </programme>
-  <programme start="20230504230000 +0300" stop="20230505000000 +0300" channel="ТНТ4">
-    <title lang="ru">Камеди Клаб</title>
-  </programme>
-  <programme start="20230505000000 +0300" stop="20230505010000 +0300" channel="ТНТ4">
-    <title lang="ru">По-братски</title>
-  </programme>
-  <programme start="20230505010000 +0300" stop="20230505020000 +0300" channel="ТНТ4">
-    <title lang="ru">Comedy Баттл</title>
-  </programme>
-  <programme start="20230505020000 +0300" stop="20230505025000 +0300" channel="ТНТ4">
-    <title lang="ru">Что было дальше?</title>
-  </programme>
-  <programme start="20230505025000 +0300" stop="20230505030000 +0300" channel="ТНТ4">
-    <title lang="ru">Не спать!</title>
-  </programme>
-  <programme start="20230505030000 +0300" stop="20230505040000 +0300" channel="ТНТ4">
-    <title lang="ru">Не спать!</title>
-  </programme>
-  <programme start="20230505040000 +0300" stop="20230505045000 +0300" channel="ТНТ4">
-    <title lang="ru">Не спать!</title>
-  </programme>
-  <programme start="20230504155500 +0300" stop="20230504173500 +0300" channel="Настоящее Страшное Телевидение">
-    <title lang="ru">Другой мир 2</title>
-  </programme>
-  <programme start="20230504173500 +0300" stop="20230504192500 +0300" channel="Настоящее Страшное Телевидение">
-    <title lang="ru">Экстрасенс</title>
-  </programme>
-  <programme start="20230504192500 +0300" stop="20230504210000 +0300" channel="Настоящее Страшное Телевидение">
-    <title lang="ru">Экстрасенс 2. Лабиринты разума</title>
-  </programme>
-  <programme start="20230504210000 +0300" stop="20230504230000 +0300" channel="Настоящее Страшное Телевидение">
-    <title lang="ru">Мистериум. Охотники на фазанов</title>
-  </programme>
-  <programme start="20230504230000 +0300" stop="20230505003000 +0300" channel="Настоящее Страшное Телевидение">
-    <title lang="ru">Оттепель</title>
-  </programme>
-  <programme start="20230505003000 +0300" stop="20230505021500 +0300" channel="Настоящее Страшное Телевидение">
-    <title lang="ru">Убежище</title>
-  </programme>
-  <programme start="20230505021500 +0300" stop="20230505034000 +0300" channel="Настоящее Страшное Телевидение">
-    <title lang="ru">Забытое</title>
-  </programme>
-  <programme start="20230504154500 +0300" stop="20230504172500 +0300" channel="ViP Comedy">
-    <title lang="ru">Сокровище Амазонки</title>
-  </programme>
-  <programme start="20230504172500 +0300" stop="20230504190000 +0300" channel="ViP Comedy">
-    <title lang="ru">Такси 5</title>
-  </programme>
-  <programme start="20230504190000 +0300" stop="20230504203000 +0300" channel="ViP Comedy">
-    <title lang="ru">Майор Пэйн</title>
-  </programme>
-  <programme start="20230504203000 +0300" stop="20230504220000 +0300" channel="ViP Comedy">
-    <title lang="ru">Бриллиантовый полицейский</title>
-  </programme>
-  <programme start="20230504220000 +0300" stop="20230504234000 +0300" channel="ViP Comedy">
-    <title lang="ru">Белые цыпочки</title>
-  </programme>
-  <programme start="20230504234000 +0300" stop="20230505012000 +0300" channel="ViP Comedy">
-    <title lang="ru">Знакомство с родителями</title>
-  </programme>
-  <programme start="20230505012000 +0300" stop="20230505031000 +0300" channel="ViP Comedy">
-    <title lang="ru">Знакомство с Факерами</title>
-  </programme>
-  <programme start="20230505031000 +0300" stop="20230505044000 +0300" channel="ViP Comedy">
-    <title lang="ru">Знакомство с Факерами 2</title>
-  </programme>
-  <programme start="20230504154500 +0300" stop="20230504172500 +0300" channel="ViP Premiere">
-    <title lang="ru">Дэдпул</title>
-  </programme>
-  <programme start="20230504172500 +0300" stop="20230504191500 +0300" channel="ViP Premiere">
-    <title lang="ru">Дэдпул 2</title>
-  </programme>
-  <programme start="20230504191500 +0300" stop="20230504210000 +0300" channel="ViP Premiere">
-    <title lang="ru">Флешбэк</title>
-  </programme>
-  <programme start="20230504210000 +0300" stop="20230504223000 +0300" channel="ViP Premiere">
-    <title lang="ru">Взрывная игра</title>
-  </programme>
-  <programme start="20230504223000 +0300" stop="20230505000000 +0300" channel="ViP Premiere">
-    <title lang="ru">Анатомия убийств</title>
-  </programme>
-  <programme start="20230505000000 +0300" stop="20230505012000 +0300" channel="ViP Premiere">
-    <title lang="ru">Рассказы Русалочки</title>
-  </programme>
-  <programme start="20230505012000 +0300" stop="20230505025000 +0300" channel="ViP Premiere">
-    <title lang="ru">Честный вор</title>
-  </programme>
-  <programme start="20230505025000 +0300" stop="20230505043000 +0300" channel="ViP Premiere">
-    <title lang="ru">Страшные истории для рассказа в темноте</title>
-  </programme>
-  <programme start="20230504161000 +0300" stop="20230504180000 +0300" channel="ViP Megahit">
-    <title lang="ru">Война миров</title>
-  </programme>
-  <programme start="20230504180000 +0300" stop="20230504195500 +0300" channel="ViP Megahit">
-    <title lang="ru">Первый мститель</title>
-  </programme>
-  <programme start="20230504195500 +0300" stop="20230504220000 +0300" channel="ViP Megahit">
-    <title lang="ru">Первый мститель</title>
-  </programme>
-  <programme start="20230504220000 +0300" stop="20230505001500 +0300" channel="ViP Megahit">
-    <title lang="ru">Первый мститель. Противостояние</title>
-  </programme>
-  <programme start="20230505001500 +0300" stop="20230505015500 +0300" channel="ViP Megahit">
-    <title lang="ru">Мумия</title>
-  </programme>
-  <programme start="20230505015500 +0300" stop="20230505033500 +0300" channel="ViP Megahit">
-    <title lang="ru">Мумия</title>
-  </programme>
-  <programme start="20230504155500 +0300" stop="20230504170000 +0300" channel="ViP Serial">
-    <title lang="ru">Мушкетеры</title>
-  </programme>
-  <programme start="20230504170000 +0300" stop="20230504174000 +0300" channel="ViP Serial">
-    <title lang="ru">Мушкетеры</title>
-  </programme>
-  <programme start="20230504174000 +0300" stop="20230504182500 +0300" channel="ViP Serial">
-    <title lang="ru">Доктор Живаго</title>
-  </programme>
-  <programme start="20230504182500 +0300" stop="20230504184000 +0300" channel="ViP Serial">
-    <title lang="ru">Доктор Живаго</title>
-  </programme>
-  <programme start="20230504184000 +0300" stop="20230504191500 +0300" channel="ViP Serial">
-    <title lang="ru">Война и мир</title>
-  </programme>
-  <programme start="20230504191500 +0300" stop="20230504200000 +0300" channel="ViP Serial">
-    <title lang="ru">Доктор Живаго</title>
-  </programme>
-  <programme start="20230504200000 +0300" stop="20230504210000 +0300" channel="ViP Serial">
-    <title lang="ru">Хилер</title>
-  </programme>
-  <programme start="20230504210000 +0300" stop="20230504220000 +0300" channel="ViP Serial">
-    <title lang="ru">Хилер</title>
-  </programme>
-  <programme start="20230504220000 +0300" stop="20230504225500 +0300" channel="ViP Serial">
-    <title lang="ru">Метод Фрейда</title>
-  </programme>
-  <programme start="20230504225500 +0300" stop="20230504235000 +0300" channel="ViP Serial">
-    <title lang="ru">Метод Фрейда</title>
-  </programme>
-  <programme start="20230504235000 +0300" stop="20230505004000 +0300" channel="ViP Serial">
-    <title lang="ru">Мушкетеры</title>
-  </programme>
-  <programme start="20230505004000 +0300" stop="20230505013500 +0300" channel="ViP Serial">
-    <title lang="ru">Мушкетеры</title>
-  </programme>
-  <programme start="20230505013500 +0300" stop="20230505022000 +0300" channel="ViP Serial">
-    <title lang="ru">Доктор Живаго</title>
-  </programme>
-  <programme start="20230505022000 +0300" stop="20230505030500 +0300" channel="ViP Serial">
-    <title lang="ru">Доктор Живаго</title>
-  </programme>
-  <programme start="20230505030500 +0300" stop="20230505035500 +0300" channel="ViP Serial">
-    <title lang="ru">Доктор Живаго</title>
-  </programme>
-  <programme start="20230504161000 +0300" stop="20230504174000 +0300" channel="Страшное HD">
-    <title lang="ru">Обратная связь</title>
-  </programme>
-  <programme start="20230504174000 +0300" stop="20230504190000 +0300" channel="Страшное HD">
-    <title lang="ru">Возвращение</title>
-  </programme>
-  <programme start="20230504190000 +0300" stop="20230504203000 +0300" channel="Страшное HD">
-    <title lang="ru">Бабушка</title>
-  </programme>
-  <programme start="20230504203000 +0300" stop="20230504220000 +0300" channel="Страшное HD">
-    <title lang="ru">Венецияфрения</title>
-  </programme>
-  <programme start="20230504220000 +0300" stop="20230504232500 +0300" channel="Страшное HD">
-    <title lang="ru">Господин Дьявол</title>
-  </programme>
-  <programme start="20230504232500 +0300" stop="20230505010500 +0300" channel="Страшное HD">
+  <programme start="20230504165000 +0300" stop="20230504175000 +0300" channel="Киносерия">
+    <title lang="ru">Каменская</title>
+    <sub-title lang="ru">Не мешайте палачу</sub-title>
+    <desc lang="ru">Вернувшись в столицу, Анастасия начинает расследовать серию загадочных преступлений, жертвами которых стали виновные в жестоких убийствах люди. Майор Каменская и не подозревает, что снова встретится со своим подопечным.</desc>
+  </programme>
+  <programme start="20230504175000 +0300" stop="20230504185500 +0300" channel="Киносерия">
+    <title lang="ru">Мажор</title>
+    <desc lang="ru">Игоря подозревают в убийстве Карасева. Королев из ревности умалчивает о существовании важного свидетеля. Соколовский находит убийцу Карасева, но тот умирает на его глазах, так и не открыв имя заказчика. У Игоря есть основания полагать, что отец что-то недоговаривает о прошлом.</desc>
+  </programme>
+  <programme start="20230504185500 +0300" stop="20230504200000 +0300" channel="Киносерия">
+    <title lang="ru">Мажор</title>
+    <desc lang="ru">Игорь активно работает с опергруппой. Найдены два трупа, причина смерти - сильное обезвоживание. Родионова и ее команда ищут связь и возможных свидетелей преступлений. Ночью в квартиру Соколовского забирается неизвестный. В попытке догнать преступника он едва избегает пули. Друг и партнер отца Игнатьев рассказывает Игорю о существовании некой записки….</desc>
+  </programme>
+  <programme start="20230504200000 +0300" stop="20230504210000 +0300" channel="Киносерия">
+    <title lang="ru">Мажор</title>
+    <desc lang="ru">Королев в баре попадает в драку - теперь ему инкриминируют убийство. Пряников запрещает сотрудникам вмешиваться в это дело. Вика Родионова просит Игоря помочь найти настоящего убийцу и провести собственное расследование. В результате успешной операции Родионова обезвреживает преступника и спасает Игорю жизнь. Соколовский-ст. признается сыну в том, что у него действительно когда-то был роман с другой женщиной. Игорь пытается выяснить главное - где был отец в ту ночь, когда умерла мама….</desc>
+  </programme>
+  <programme start="20230504210000 +0300" stop="20230504220500 +0300" channel="Киносерия">
+    <title lang="ru">Мажор</title>
+    <desc lang="ru">Обстоятельства смерти любовницы отца знакомы Игорю - так же погибли его мать и следователь Карасев. Выясняется, что за несколько часов до смерти к женщине приезжал Соколовский-ст. Из разговора с Пряниковым Игорь понимает, что его начальник что-то скрывает. Команда Вики Родионовой ведет поиск серийного убийцы. Во время задержания Игорь упускает преступника. Соколовский-ст. везет сына на рыбалку и знакомит его с Дато - человеком из своего прошлого….</desc>
+  </programme>
+  <programme start="20230504220500 +0300" stop="20230504230000 +0300" channel="Киносерия">
+    <title lang="ru">Вольф Мессинг. Видевший сквозь время</title>
+    <desc lang="ru">Сталин умирает, но власти по-прежнему нужен Мессинг. После ХХ съезда Хрущев готовится убрать тело Сталина из мавзолея, но, опасаясь народных волнений, вызывает Мессинга к себе и просит его сделать для народа правильное предсказание.</desc>
+  </programme>
+  <programme start="20230504230000 +0300" stop="20230505000000 +0300" channel="Киносерия">
+    <title lang="ru">Вольф Мессинг. Видевший сквозь время</title>
+    <desc lang="ru">Мессинг ухаживает за больной Аидой, хотя точно знает день и час ее смерти. Неожиданно Мессинга снова вызывают в Кремль.</desc>
+  </programme>
+  <programme start="20230505000000 +0300" stop="20230505010000 +0300" channel="Киносерия">
+    <title lang="ru">Жизнь и приключения Мишки Япончика</title>
+    <desc lang="ru">Мишка перехватывает шхуну и забирает драгоценности. Он должен один появиться в оговоренном с Ржевским-Раевским месте и передать ему деньги. Однако, когда Япончик приезжает туда со своими людьми, он натыкается на засаду Осипа Тора и полицейских. В кустах за операцией наблюдает Акула. Начинается перестрелка. Тор ранен. Ржевский-Раевский убегает с деньгами, не оставив Мишке обещанную половину….</desc>
+  </programme>
+  <programme start="20230505010000 +0300" stop="20230505020000 +0300" channel="Киносерия">
+    <title lang="ru">Жизнь и приключения Мишки Япончика</title>
+    <desc lang="ru">Мишка переходит на сторону красных. В городе устанавливается власть большевиков. Революционеры добираются и до домов Аверманов и Винницких. Мишка говорит Гершу о том, что красные еще хуже полиции. Герш отправляется к Стоцкому, чтобы договориться об освобождении из тюрьмы невиновных. Разговор не клеится, и Стоцкий отдает приказ убрать Герша.</desc>
+  </programme>
+  <programme start="20230505020000 +0300" stop="20230505034000 +0300" channel="Киносерия">
+    <title lang="ru">Розовая Пантера</title>
+    <desc lang="ru">События фильма начинаются с победы национальной французской сборной по футболу над китайскими соперниками. Однако сразу после турнира был убит тренер французской команды Ив Глюан, а с его пальца похищено бриллиантовое кольцо, известное как "Розовая пантера". Инспектор Шарль Дрейф, мечтая получить Орден Почетного легиона, расследование этого дела поручает самому некомпетентному инспектору - недотепе Жаку Клузо, чтобы отвлечь всеобщее внимание. Сам же Дрейф тайно собрал команду лучших следователей, желая быстро раскрыть это дело и получить долгожданный Орден.</desc>
+  </programme>
+  <programme start="20230504154500 +0300" stop="20230504172500 +0300" channel="Киносемья">
+    <title lang="ru">Зверополис</title>
+    <desc lang="ru">Добро пожаловать в Зверополис — современный город, населенный самыми разными животными, от огромных слонов до крошечных мышек. Зверополис разделен на районы, полностью повторяющие естественную среду обитания разных жителей — здесь есть и элитный район Площадь Сахары, и неприветливый Тундратаун. В этом городе появляется новый офицер полиции, жизнерадостная зайчиха Джуди Хоппс, которая с первых дней работы понимает, как сложно быть маленькой и пушистой среди больших и сильных полицейских. Джуди хватается за первую же возможность проявить себя, несмотря на то что ее партнером будет болтливый хитрый лис Ник Уайлд. Вдвоем им предстоит раскрыть сложное дело, от которого будет зависеть судьба всех обитателей Зверополиса.</desc>
+  </programme>
+  <programme start="20230504172500 +0300" stop="20230504190000 +0300" channel="Киносемья">
+    <title lang="ru">Ральф</title>
+    <desc lang="ru">Ральф — второстепенный персонаж восьмибитной компьютерной игры, и ему надоело находиться в тени главного героя, мастера на все руки Феликса, который всегда появляется, чтобы «исправить» ситуацию! После 30 лет добросовестной работы в роли злодея, в течение которых все похвалы выпадали на долю Феликса, Ральф больше не хочет быть плохим. Он решает отправиться в путешествие по аркадным играм разных жанров, чтобы доказать всем, что и он тоже может быть героем. На своем пути Ральф встречает героев разных игр — хладнокровную сержанта Калхун из игры «Долг героя», оберегающую планету от нашествия инопланетных захватчиков, и сладкую на вид, но острую на язычок Ванилопу, чье существование в гоночном симуляторе «Сладкий форсаж» внезапно оказывается под угрозой. Наконец-то Ральфу выпадает шанс показать, что он умеет не только разрушать!</desc>
+  </programme>
+  <programme start="20230504190000 +0300" stop="20230504201500 +0300" channel="Киносемья">
+    <title lang="ru">Русалочка</title>
+    <sub-title lang="ru">Начало истории Ариэль</sub-title>
+    <desc lang="ru">Представьте далекие времена, задолго до того как Ариэль познакомилась с принцем Эриком и вышла на сушу - времена, когда музыка была еще под запретом в подводном королевстве Атлантики. Разрываясь между семейными обязанностями и любовью к музыке, Ариэль должна сделать самый трудный выбор в своей жизни.</desc>
+  </programme>
+  <programme start="20230504201500 +0300" stop="20230504213000 +0300" channel="Киносемья">
+    <title lang="ru">Русалочка</title>
+    <desc lang="ru">Таинственные глубины моря хранят немало тайн, а обитатели океана могут рассказать множество удивительных историй. И самой невероятной из них была и остается история русалочки Ариэль. Дочь могущественного царя подводного мира Тритона, она однажды влюбляется в прекрасного и мужественного принца. Но разве они могут быть вместе - земной человек и морская дева? Однако настоящие чувства преодолевают любые преграды. Ради своей любви Ариэль готова пойти на все. Даже если для обретения своего счастья ей навсегда придется покинуть родной океан и навеки стать земной девушкой….</desc>
+  </programme>
+  <programme start="20230504213000 +0300" stop="20230504224000 +0300" channel="Киносемья">
+    <title lang="ru">Русалочка-2</title>
+    <sub-title lang="ru">Возвращение в море</sub-title>
+    <desc lang="ru">У Русалочки Ариэль и принца Эрика, которые живут во дворце, рождается прекрасная дочь Мэлоди. Когда девочке исполнилось двенадцать лет, она всей душой полюбила море и часто проводила время на его берегу. Но Ариэль очень волновалась за Мэлоди и запрещала ей приближаться к морскому берегу. Так как девочка не знала, что ее мать — настоящая русалка, то считала, что ее просто не понимают. Этим конфликтом решает воспользоваться морская ведьма Моргана, давно мечтающая заполучить трезубец царя Тритона.\n«Русалочка 2: Возвращение в море» — продолжение классического диснеевского мультфильма 1989 года.</desc>
+  </programme>
+  <programme start="20230504224000 +0300" stop="20230505003000 +0300" channel="Киносемья">
+    <title lang="ru">Принц Персии. Пески времени</title>
+    <desc lang="ru">В центре сюжета - приключения отважного принца Дастана и его спутницы, прекрасной принцессы Тамины. Вместе храбрым героям предстоит пережить множество невероятных погонь, принять участие в масштабных сражениях и не дать коварным злодеям похитить таинственный Кинжал Времени - волшебный артефакт, с помощью которого можно выиграть любую битву и даже уничтожить целый город!</desc>
+  </programme>
+  <programme start="20230505003000 +0300" stop="20230505020000 +0300" channel="Киносемья">
+    <title lang="ru">Angry Birds 2 в кино</title>
+    <desc lang="ru">«Angry Birds в кино 2» — это продолжение приключений знаменитых «злых» птичек. На этот раз противостояние с их заклятыми врагами выходит на совершенно новый уровень.</desc>
+  </programme>
+  <programme start="20230505020000 +0300" stop="20230505033500 +0300" channel="Киносемья">
+    <title lang="ru">Няньки</title>
+    <desc lang="ru">Питер и Дэвид Фалконе — братья-близнецы, работающие официантами. Больше всего на свете они хотят открыть свой собственный ресторан, но из-за своего экстравагантного поведения они не могут получить заем у банков. Фрэнк Хиллхерст — коррумпированный бизнесмен, который решил сдаться властям и дать показания в суде против коллег. Но бывший помощник угрожает убить его племянников-близнецов, если он даст эти показания. После того, как Питер и Дэвид спасают Фрэнка и племянников, то Хиллхерст решает нанять их присматривать за детьми и предлагает им сумму, которая поможет открыть ресторан. Но только вот мальчики не сильно рады своим новым нянькам.</desc>
+  </programme>
+  <programme start="20230504144500 +0300" stop="20230504173000 +0300" channel="Кинохит">
+    <title lang="ru">Волк с Уолл-стрит</title>
+    <desc lang="ru">Черная комедия об исполнении американской мечты. Джордан Белфорт основал одну из крупнейших брокерских контор в 1987 году, но десять лет спустя был осужден за отмывание денег и ряд прочих финансовых преступлений. Он справился с алкогольной и наркотической зависимостью, выработанной за время махинаций на Уолл-стрит, написал две книги и теперь читает лекции о том, как достичь успеха. Фильм «Волк с Уолл-стрит» снят по мотивам одноименной книги мемуаров Белфорта.</desc>
+  </programme>
+  <programme start="20230504173000 +0300" stop="20230504190000 +0300" channel="Кинохит">
+    <title lang="ru">Законы привлекательности</title>
+    <desc lang="ru">Работа сводит двух успешных адвокатов в зале суда на грязном бракоразводном процессе. Оба бывших супруга, клиенты Дэниела и Одри, претендуют на замок, находящийся в Ирландии. Адвокаты едут туда, чтобы на месте разобраться в ситуации. Но под пасмурным ирландским небом, среди холмов и полей, два противника, испытывающие легкое влечение друг к другу, но категорически не желающие признать это чувство, попадают на национальный ирландский праздник, и после ночи бурного веселья Дэниел и Одри просыпаются мужем и женой….</desc>
+  </programme>
+  <programme start="20230504190000 +0300" stop="20230504204500 +0300" channel="Кинохит">
+    <title lang="ru">Король Лев</title>
+    <desc lang="ru">Всем знакомая история взросления львенка Симбы, познавшего горе утраты, предательство и изгнание, который отвоевывает свое законное место в круговороте жизни и становится истинным Королем.</desc>
+  </programme>
+  <programme start="20230504204500 +0300" stop="20230504221000 +0300" channel="Кинохит">
+    <title lang="ru">Доспехи Бога</title>
+    <desc lang="ru">"Азиатский ястреб" - так назвали героя Джеки в Европе. Когда он похитил в Африке ритуальный меч, то не предполагал, что это начало опасных приключений. Оказывается, что меч - часть древних доспехов Бога, и если их уничтожить, то в мире будут править силы ужаса и зла. Силы зла, которые укрылись в неприступном монастыре, узнают, что у Джеки есть доступ к остальным доспехам. Они похищают девушку, которую любит Ястреб, и требуют выкупа. Понимая, что одной ловкостью ему не справиться с полчищами бандитов, Джеки добровольно становится человеком-бомбой. Но этот козырь он приберег на самый крайний случай….</desc>
+  </programme>
+  <programme start="20230504221000 +0300" stop="20230505000000 +0300" channel="Кинохит">
+    <title lang="ru">Коматозники</title>
+    <desc lang="ru">Учащийся медицинского института Нельсон страстно желает узнать, существует ли жизнь после смерти. Юноша убеждает своих одногруппников — Джо, Дэвида, Рэнди и Рэйчел — провести интересный и опасный эксперимент. Он хочет испытать клиническую смерть в течение одной минуты, после чего друзья должны перевести его в реанимацию. Эксперимент проходит удачно, и остальные ребята тоже хотят попробовать «умереть и воскреснуть». У каждого из студентов имеются на это свои причины, только Рэнди опасается прощаться с жизнью. Пусть даже на минуту.</desc>
+  </programme>
+  <programme start="20230505000000 +0300" stop="20230505014000 +0300" channel="Кинохит">
+    <title lang="ru">Мечтатель</title>
+    <desc lang="ru">Бен Грейн — в прошлом прекрасный наездник, чей дар был истрачен вхолостую. Соня — чудесная лошадь, чье многообещающее будущее перечеркнула обидная травма. Ненужная своему владельцу, она переходит к Бену за бесценок. Новая покупка не только вселяет новую надежду, но и становится переломным этапом в отношениях Бена с дочерью Кейл. Две родственные души, несмотря на обоюдную привязанность, были далеки от взаимопонимания. Объединенные общей целью, они готовят Соню к международным конным соревнованиям. «Мечтатель» — режиссерский дебют Джона Гэйтинса. Фильм основан на реальных событиях.</desc>
+  </programme>
+  <programme start="20230505014000 +0300" stop="20230505040000 +0300" channel="Кинохит">
+    <title lang="ru">Солдат Джейн</title>
+    <desc lang="ru">Драматический боевик Ридли Скотта. В правительстве США ведутся бурные дискуссии на тему дискриминации по половому признаку в военно-морском флоте. По итогам споров для прохождения элитной программы в подразделение спецназа во Флориде отправляют первую женщину. Ей становится лейтенант Джордан О’ Нил. Но жестоких испытаний, которым здесь подвергаются солдаты, порой не выдерживают даже мужчины. И Джордан предстоит доказать всему миру и самой себе, что она гораздо выносливее многих представителей «сильного» пола.</desc>
+  </programme>
+  <programme start="20230504154000 +0300" stop="20230504172000 +0300" channel="Киномикс">
+    <title lang="ru">Судья Дредд</title>
+    <desc lang="ru">В третьем тысячелетии мир переменился. Климат, народы - все перевернулось. Земля превратилась в ядовитую выжженную пустыню, которую стали называть "Проклятая земля". Миллионы людей сосредоточились в нескольких огромных городах, на улицах которых царили хаос и преступники. Система правосудия не смогла справиться с анархией, и был создан новый порядок - элитные подразделения, которые сами задерживали, судили, выносили приговор и приводили его в исполнение. Их называли Судьями.</desc>
+  </programme>
+  <programme start="20230504172000 +0300" stop="20230504200000 +0300" channel="Киномикс">
+    <title lang="ru">Несколько хороших парней</title>
+    <desc lang="ru">Два моряка, служившие на американской военно-морской базе в Гуантанамо, предстают перед судом за жестокую расправу над своим товарищем. Защищать их выпадает потомственному адвокату Дэниэлу Каффи. Вскоре молодому юристу становится ясно, что дело совсем не такое простое, как казалось поначалу. Осознавая, что предпринимаемые им действия могут стоить ему карьеры, Дэниэл решает все же раскрыть тайну жестоких убийств и заставить тех, кто повинен в смерти солдата, нести ответственность по всей строгости закона.</desc>
+  </programme>
+  <programme start="20230504200000 +0300" stop="20230504215500 +0300" channel="Киномикс">
+    <title lang="ru">Стриптизерши</title>
+    <desc lang="ru">После того, как банковский кризис оставил без работы танцовщиц элитного нью-йоркского стрип-клуба, женщины решили отомстить своим нахальным клиентам с Уолл-стрит, оставив их без гроша.</desc>
+  </programme>
+  <programme start="20230504215500 +0300" stop="20230505000500 +0300" channel="Киномикс">
+    <title lang="ru">Телохранитель киллера</title>
+    <desc lang="ru">Он — телохранитель мирового уровня. Его новая работа — охранять киллера, которого все мечтают убить. Он и сам с удовольствием прикончил бы этого гада. Но работа есть работа: смертельные враги в прошлом, они вынуждены объединиться в настоящем, чтобы выжить. Однако их методы настолько различны, а принципы противоположны, что вопрос выживания — под большим вопросом.</desc>
+  </programme>
+  <programme start="20230505000500 +0300" stop="20230505041000 +0300" channel="Киномикс">
+    <title lang="ru">Крестный отец 2</title>
+    <desc lang="ru">Вторая часть гангстерской саги «Крестный отец», повествующая о ранних годах жизни будущего главы одного из сильнейших мафиозных кланов Корлеоне — Вито Корлеоне и продолжающая сюжет первого фильма. Будущий Дон Корлеоне, урождённый Вито Андолини, появился на свет в 1891 году в Корлеоне. Отец Вито был убит за оскорбление главаря местной мафии, когда мальчику было девять. Его мать и брат Паоло также погибли от рук мафиози. Несмотря на то, что юный Андолини считался недоразвитым, потому что не мог говорить, убийца его семьи Дон Чичо опасался, что рано или поздно Вито отомстит ему, и начал на него настоящую охоту. Поэтому родственникам приходится отправить его в Америку. Там по ошибке таможенника мальчик получает имя родной деревеньки Корлеоне и с того дня он станет известен как Вито Корлеоне.</desc>
+  </programme>
+  <programme start="20230504154000 +0300" stop="20230504173500 +0300" channel="Кинокомедия">
+    <title lang="ru">Убойный футбол</title>
+    <desc lang="ru">Предприимчивый тренер по футболу увидел в шестерых братьях свою команду мечты. Каждый из них владеет древним мастерством кунг-фу и обладает уникальными качествами, которые помогут за короткий срок превратить их в первоклассных спортсменов. Парни влюблены в футбол и готовы на эксперимент: объединить опыт древних мастеров кунг-фу и современную тактику футбола. Но времени в обрез: впереди международный турнир по футболу и миллион долларов на кону. С первым свистком арбитра отступать будет уже некуда! Но амбиций им не занимать, и вряд ли кто-то сможет им помешать пробиться на верхушки турнирной таблицы.</desc>
+  </programme>
+  <programme start="20230504173500 +0300" stop="20230504193000 +0300" channel="Кинокомедия">
+    <title lang="ru">Очень плохие мамочки</title>
+    <desc lang="ru">Идеальная мать, прекрасная жена, хорошая домохозяйка с успешной карьерой. Но стоит немного расслабиться, как тебе сразу напоминают о твоих обязанностях. Почему только мужчины имеют право развлекаться? Сколько же можно это терпеть? Пора команде отчаянных мамочек пуститься во все тяжкие.</desc>
+  </programme>
+  <programme start="20230504193000 +0300" stop="20230504212000 +0300" channel="Кинокомедия">
+    <title lang="ru">Очень плохие мамочки 2</title>
+    <desc lang="ru">Большой дом, любящий мужчина, талантливые дети и карьера в гору. Мы уже взрослые и сами принимаем решения? Как бы не так! Любимые родители до сих пор не оставляют нас без «ценных советов», особенно, когда неожиданно нагрянут на Новый год. Правда, отрываться они тоже научат по-взрослому! Другими словами, праздник подкрался незаметно...</desc>
+  </programme>
+  <programme start="20230504212000 +0300" stop="20230504232500 +0300" channel="Кинокомедия">
+    <title lang="ru">Между ангелом и бесом</title>
+    <desc lang="ru">Герой Жерара Депардье — успешный владелец кабаре со стриптизом Антуан. Однажды мужчине звонит старый армейский друг из Гонконга и просит позаботиться о мальчике-китайце и доставить его к матери в Париж. В благодарность Антуан получит 20 процентов от суммы в 30 миллионов долларов. Мужчина соглашается на сделку и отправляется в Китай. Его друга по неизвестной пока причине убивают местные мафиози, которые начинают охоту на самого Антуана. На помощь герою и его юному спутнику приходит тихий священник, сопровождающий трудных детей в приют. Боевые действия перемещаются на территорию Франции.\nОригинальное название фильма «Между ангелом и бесом» — «Ангелы-хранители».</desc>
+  </programme>
+  <programme start="20230504232500 +0300" stop="20230505013000 +0300" channel="Кинокомедия">
+    <title lang="ru">Малавита</title>
+    <desc lang="ru">Криминальная комедия. Однажды на тихой улочке провинциального французского городка поселился писатель по фамилии Блейк со своим семейством и собакой Малавитой. На этом многовековое спокойствие города закончилось. Ведь никто и представить себе не мог, что на самом деле мистер Блейк — бывший глава мафии, которого власти прячут здесь от преследования. И вот в городок приезжают люди «Коза Ностры». Фильм «Малавита» — экранизация одноименного романа знаменитого писателя Тонино Бенаквисты.</desc>
+  </programme>
+  <programme start="20230505013000 +0300" stop="20230505030500 +0300" channel="Кинокомедия">
+    <title lang="ru">Золотой ребенок</title>
+    <desc lang="ru">В одном тибетском монастыре обнаружился ребенок с экстрасенсорными способностями. По легендам, это Золотой ребенок — избранный, умеющий творить чудеса. Об этом узнали злодеи, которые решили воспользоваться способностями мальчика и похитили его. Американский соцработник Чендлер Джерелл преуспел в деле поиска пропавших детей. Именно к нему обращаются представители монастыря, с просьбой спасти Золотого ребенка.</desc>
+  </programme>
+  <programme start="20230504162500 +0300" stop="20230504182000 +0300" channel="Киноужас">
+    <title lang="ru">Я плюю на ваши могилы-2</title>
+    <desc lang="ru">Фильм «Я плюю на ваши могилы 2» — экстремальный хоррор о мести. Красавица Джесика только что переехала в Нью-Йорк, чтобы сделать карьеру модели. Но девичьи мечты о роскошной жизни разбиваются: ее насилуют, пытают, а вскоре похищают и увозят в непонятном направлении. Джесика оказывается одна в чужой стране, где ее почти что похоронят заживо. Чудом избежав смерти, девушка решает жестоко отомстить обидчикам.</desc>
+  </programme>
+  <programme start="20230504182000 +0300" stop="20230504201500 +0300" channel="Киноужас">
+    <title lang="ru">Хищные воды</title>
+    <sub-title lang="ru">Западня</sub-title>
+    <desc lang="ru">Компания друзей решает исследовать пещеры в Северной Австралии. Неожиданно они оказываются вблизи полчища крокодилов, грозящих напасть в любой момент.</desc>
+  </programme>
+  <programme start="20230504201500 +0300" stop="20230504214500 +0300" channel="Киноужас">
+    <title lang="ru">Преследование</title>
+    <desc lang="ru">Отец семейства Ханс едет на автомобиле вместе с женой и двумя дочерями, когда на пути ему попадается медлительный минивэн. Ханс подрезает автомобиль, который начинает преследовать его машину. Мстительный водитель следует за Хансом и его семьей явно с недобрыми намерениями, и семейная поездка превращается в жестокую игру на выживание.\n«Преследование» — нидерландский триллер о семейной поездке, которая обернулась кошмаром из-за дорожного конфликта.</desc>
+  </programme>
+  <programme start="20230504214500 +0300" stop="20230504234500 +0300" channel="Киноужас">
+    <title lang="ru">Битва за Землю</title>
+    <desc lang="ru">Действие ленты разворачивается в пригороде Чикаго спустя десять лет после того, как местность оккупировали инопланетные войска. Конфликт зреет со стороны всех участников событий: коллаборационистов, сопротивленцев и диссидентов.</desc>
+  </programme>
+  <programme start="20230504234500 +0300" stop="20230505014500 +0300" channel="Киноужас">
+    <title lang="ru">Факультет</title>
+    <desc lang="ru">В колледже Хэррингтон в Огайо студенты живут обычной жизнью: влюбляются и ссорятся, курят травку, выбирают лидеров и воюют с ботаниками-скромниками. В разгар учебного года ничего не предвещает беды. Но однажды тихоня Кейси находит на футбольном поле странного вида паразита, который, будучи помещенный в аквариум с водой, начинает стремительно развиваться и мутировать. Вскоре после этого Кейси вместе с другими учениками факультета: пижоном Зиком, неформалкой Стокли, Стэном и Далайлой — осознает ужасную вещь: их преподаватели одержимы неизвестной формой жизни. Пришельцы с другой планеты руководят мыслями и поступками учителей. Группа ребят пытается спастись от бывших преподавателей и узнают, что монстров в них убивает наркотик, который подпольно изготавливает Зик.</desc>
+  </programme>
+  <programme start="20230505014500 +0300" stop="20230505033000 +0300" channel="Киноужас">
+    <title lang="ru">Вторжение в эфир</title>
+    <desc lang="ru">В конце 1990-х любитель видео находит записи зловещих пиратских передач и становится одержим раскрытием заговора, который скрывается за ними.</desc>
+  </programme>
+  <programme start="20230505033000 +0300" stop="20230505045500 +0300" channel="Киноужас">
+    <title lang="ru">Цензор</title>
+    <desc lang="ru">Энид работает цензором и смотрит фильмы, исследуя их на предмет жестоких сцен и насилия. Она гордится тем, что оберегает публику от пагубного влияния кровавых подробностей. Но однажды просмотр особо жестокого фильма вызывает в памяти героини давнее воспоминание, связанное с исчезновением ее сестры. Энид пытается вспомнить подробности своего прошлого и становится одержимой желанием разгадать эту тайну.\n«Цензор» — фильм ужасов, отдающий дань эстетике ужастиков 1980-х годов, выходивших на видеокассетах.</desc>
+  </programme>
+  <programme start="20230504163000 +0300" stop="20230504184000 +0300" channel="Кинопремьера">
+    <title lang="ru">Большой золотой слиток</title>
+    <desc lang="ru">Начинающий писатель Сэмюэль Листон знакомится с мужчиной средних лет по имени Флойд Деверо. Отец двоих детей и в целом загадочная личность, Деверо нанимает Листона, чтобы тот написал его биографию. Вот только обстоятельства, которые приводят к такой договоренности, весьма удивительны, а работа над книгой быстро заходит в тупик из-за царящего вокруг хаоса.\n«Большой золотой слиток» — черная комедия с элементами фэнтези с Оскаром Айзеком и Меган Фокс.</desc>
+  </programme>
+  <programme start="20230504184000 +0300" stop="20230504203000 +0300" channel="Кинопремьера">
+    <title lang="ru">Лето 1941 года</title>
+    <desc lang="ru">События фильма разворачиваются в начале Великой Отечественной войны, летом 1941 года. Отряд лейтенанта Ади Шарипова оказался в окружении врага. Солдаты, вынужденные отступить в болота, осознают, что им неоткуда ждать помощи. Впереди страх и неизвестность, которые убивают быстрее, чем вражеские пули.</desc>
+  </programme>
+  <programme start="20230504203000 +0300" stop="20230504221000 +0300" channel="Кинопремьера">
+    <title lang="ru">Вечеринка на вылет</title>
+    <desc lang="ru">Жанна — очень талантливый архитектор. Ее новыми заказчиками становится семья Джагер, владеющая империей по продаже настольных игр. Но когда во время вечеринки кто-то убивает главу семьи, героине приходится расследовать происшествие, сыграв во все знаменитые игры.</desc>
+  </programme>
+  <programme start="20230504221000 +0300" stop="20230505003500 +0300" channel="Кинопремьера">
+    <title lang="ru">Восемь сотен</title>
+    <desc lang="ru">Сюжет фильма основан на эпизоде японо-китайской войны 1937 года, когда 88-я дивизия Народно-революционной армии Китая, в которой на момент события оставалось чуть больше 400 человек из восьми сотен, четверо суток держала оборону склада Сыхан в Шанхае, отвоевывая для остальных войск время для отступления.</desc>
+  </programme>
+  <programme start="20230505003500 +0300" stop="20230505024000 +0300" channel="Кинопремьера">
+    <title lang="ru">Другое имя</title>
+    <desc lang="ru">Жизнь Лизы протекает в бесцветном минимализме роскошных интерьеров и отчужденной сдержанности чувств. В их с мужем загородном доме нет детей, но есть элегантные борзые. Холодное спокойствие дней героини нарушает мрачная тайна из прошлого, которая постепенно превращает все ее существование в настоящий и необратимый кошмар. На что готова Лиза, чтобы сохранить свой секрет?</desc>
+  </programme>
+  <programme start="20230505024000 +0300" stop="20230505043500 +0300" channel="Кинопремьера">
+    <title lang="ru">С любовью и яростью</title>
+    <desc lang="ru">Сара и Жан уже десять лет вместе. Они счастливы и влюблены друг в друга, как в первый месяц отношений. Однажды Сара видит на улице Франсуа, своего бывшего мужчину, с которым она встречалась до Жана. Франсуа был лучшим другом Жана, но исчез из их жизни после расставания с Сарой. Теперь он вернулся, и героиня чувствует, как ее привычный и стабильный мир начинает дрожать.</desc>
+  </programme>
+  <programme start="20230504153000 +0300" stop="20230504173500 +0300" channel="Наше новое кино">
+    <title lang="ru">Холодное золото</title>
+    <desc lang="ru">События фильма разворачиваются в 1942 году в Якутии. Несмотря на то, что линия фронта Великой Отечественной войны далеко, в Якутии почти военная обстановка. Банды сбежавших из лагерей преступников нападают на оленеводов, продуктовые магазины, грабят золотые прииски. В процессе разбоев бандиты ведут агитацию, убеждая жителей Дальнего Востока перейти на сторону Японии. Начальник местного НКВД Карасев считает делом чести расправиться с самой жестокой и кровожадной бандой Попова, которая орудует в Алдане.</desc>
+  </programme>
+  <programme start="20230504173500 +0300" stop="20230504193000 +0300" channel="Наше новое кино">
+    <title lang="ru">Околофутбола</title>
+    <desc lang="ru">Драма о самой закрытой части футбольных болельщиков — околофутбольных хулиганах. Они — самые агрессивные и жестокие представители мира футбольных фанатов. Они — элита околофутбола. Кем бы они ни были в обычной жизни — студентами или банкирами, музыкантами или автомеханиками, на самом деле все они — одна «фирма». Попасть в «фирму» очень сложно, но если ты в ней оказался — это на всю жизнь. И обратного пути нет. Фильм «Околофутбола» основан на реальных событиях.</desc>
+  </programme>
+  <programme start="20230504193000 +0300" stop="20230504213000 +0300" channel="Наше новое кино">
+    <title lang="ru">День выборов 2</title>
+    <desc lang="ru">О чем говорят мужчины? Ну конечно, о женщинах! А в перерывах — о выборах. Ведь те и другие — честные, открытые и непредсказуемые. Но ровно до тех пор, пока ваш рейтинг не упал. И тогда на помощь приходят они! Безупречные костюмы, море креатива и тонна обаяния.</desc>
+  </programme>
+  <programme start="20230504213000 +0300" stop="20230504230500 +0300" channel="Наше новое кино">
+    <title lang="ru">Парень с нашего кладбища</title>
+    <desc lang="ru">25-летний провинциальный парень Коля приезжает в Москву к своему дяде. Ему нужно как можно быстрее отдать долг, который висит на нем с прошлого места работы, и он готов работать каждый день. Точнее, каждую ночь, так как дядя устраивает племянника ночным сторожем на кладбище. Новый сторож приступает к первому дежурству, но к тому, что происходит на кладбище, когда стемнеет, он оказывается не готов. А впереди еще не одна ночь, и Коле нужно сделать выбор: разобраться с таинственными гостями или сбежать.</desc>
+  </programme>
+  <programme start="20230504230500 +0300" stop="20230505003500 +0300" channel="Наше новое кино">
+    <title lang="ru">Батя</title>
+    <desc lang="ru">В детстве Макс быстро выучил, где право, а где лево — потому что Батя сделал ему незабываемую «крапивку» на руке. Считать научился по датам на кладбищенских памятниках. Не сквернословил — ведь однажды Батя на самом деле вымыл ему рот с мылом. И чуть что — сразу вставал в угол. Сегодня такие методы воспитания кажутся родителям дикими, а дети девяностых выстраиваются в очередь к психологам на проработку травм. Рефлексирует о своем детстве и Макс, который стал отцом двух детей и хочет понять, почему его Батя был именно таким — закрытым и в чем-то жестоким.\nБатя обещал навестить Макса и его семью на свое 70-летие, но, как всегда, не приехал. И тогда Макс сам отправляется в дом, в котором он вырос, по дороге вспоминая свое детство с Батей. От этих воспоминаний сожмется сердце у каждого, кто хотя бы чуть-чуть застал девяностые.</desc>
+  </programme>
+  <programme start="20230505003500 +0300" stop="20230505023500 +0300" channel="Наше новое кино">
+    <title lang="ru">Гагарин. Первый в космосе</title>
+    <desc lang="ru">Фильм «Гагарин. Первый в космосе» посвящен первым шагам человечества на пути освоения космоса и судьбе первого космонавта в истории. В первый отряд космонавтов отбирали из трёх тысяч летчиков-истребителей по всей стране. В легендарную двадцатку попали лучшие из лучших. Кто из них полетит первым, не знал никто. Все они стремились к своей цели, проявляя себя по-разному в условиях жесткого, порой бесчеловечного отбора.</desc>
+  </programme>
+  <programme start="20230505023500 +0300" stop="20230505042500 +0300" channel="Наше новое кино">
+    <title lang="ru">Грозный папа</title>
+    <desc lang="ru">В разгар ссоры царь Иван Грозный случайно ранит своего сына, и жизнь царевича оказывается в опасности. Желая все исправить, Грозный решает отправиться в прошлое, используя волшебный гримуар из своей легендарной Библиотеки. Но что-то идет не так, и царь попадает в наше время, где встречает семью Осиповых. Неудачливый археолог и такой же неудачливый отец, Никита Осипов давно потерял контакт со своими детьми — Ромкой и Полей. Но их сплотит общая цель — помочь Грозному спасти сына.\n«Грозный папа» — семейная приключенческая комедия с Евгением Гришковцом и Кириллом Кяро.</desc>
+  </programme>
+  <programme start="20230504160000 +0300" stop="20230504181500 +0300" channel="Мужское кино">
+    <title lang="ru">Оружейный барон</title>
+    <desc lang="ru">Семья Орловых переезжает из Украины в Америку. Устроившись на Брайтон-Бич, родители открывают семейный ресторанчик. Подросшие дети видят, как живут родители и не торопятся брать с них пример. Ориентиром для них все больше становится жестокий окружающий мир. Из-за чего старший сын Юрий решает заняться торговлей оружием. Заручившись поддержкой младшего брата Виталия, Юрий начинает расти и развиваться в этом направлении. Быстро достигнув высот, Юрий так же быстро нажил себе проблем со стороны Интерпола.</desc>
+  </programme>
+  <programme start="20230504181500 +0300" stop="20230504200000 +0300" channel="Мужское кино">
+    <title lang="ru">Тень якудза</title>
+    <desc lang="ru">В Токио жестоко убивают губернатора города и похищают сестру его жены. Власти считают, что за преступлением стоит японская мафия Якудза. Жители города взволнованы происходящим и требуют от полиции наказания виновных. Полиция вынуждена обратится за помощью к ЦРУ. Единственный, кто не боится бросить вызов мафии — агент Трэвис Хантер. Вместе со своим молодым помощником Шоном Маком, Хантер начинает охоту на самого страшного зверя в Японии — мафию Якудза.</desc>
+  </programme>
+  <programme start="20230504200000 +0300" stop="20230504220500 +0300" channel="Мужское кино">
+    <title lang="ru">Три икса</title>
+    <desc lang="ru">Все хорошие детективы начинаются с убийства или равнозначной гадости. В одном из пражских клубов на концерте «Раммштайн» убивают американского агента, и присланный ему на смену агент Аугустус Гиббонс (Сэмюэль Л. Джексон) решает навести порядок и в первую очередь разобраться с убийцами — русской преступной группировкой «Анархия-16», во главе которой стоит бывший офицер нашей армии Йоргий (Мартон Ксокас) и роковая женщина — красавица Елена (Азиа Ардженто). Аугустус нанимает человека, шпиона нового поколения, который должен просочиться в криминальные круги, находящиеся в Праге.</desc>
+  </programme>
+  <programme start="20230504220500 +0300" stop="20230505000500 +0300" channel="Мужское кино">
+    <title lang="ru">Гранит</title>
+    <desc lang="ru">Российский военный инструктор Гранит отправляется в Мозамбик, чтобы обучить бойцов местной армии противостоять террористам. Он застает грустную картину — армия полностью деморализована, подавлена и напугана активностью и жестокостью боевиков. Не получив важных сведений о противнике, Гранит отправляется в разведку, чтобы выяснить место расположение и численность террористов.</desc>
+  </programme>
+  <programme start="20230505000500 +0300" stop="20230505015500 +0300" channel="Мужское кино">
+    <title lang="ru">Рэмбо</title>
+    <sub-title lang="ru">Первая кровь 2</sub-title>
+    <desc lang="ru">Джон Рэмбо отбывает наказание в тюрьме строгого режима. Он смирился со своей участью, но несмотря на свое положение, он продолжает чтить основные заповеди военного братства: верить напарнику, прикрывать его спину, отдать свою жизнь за него и свою страну. И когда его бывший боевой командир предлагает Рэмбо отправиться на спецоперацию по спасению оставшихся в плену американских солдат во Вьетнам, он, не раздумывая, соглашается.</desc>
+  </programme>
+  <programme start="20230505015500 +0300" stop="20230505035000 +0300" channel="Мужское кино">
+    <title lang="ru">День курка</title>
+    <desc lang="ru">Рой Палвер — бывший спецназовец, чье утро каждый раз начинается с того, что его хотят убить. А все потому, что герой застрял в петле времени и понятия не имеет, как из нее выбраться. Каждый день он отбивается от всевозможных убийц: здоровяка с мачете, пулемётчика на вертолете, двух красоток на быстром авто, виртуозно владеющей мечом китаянки, карлика-подрывника и прочих психопатов. А однажды узнает, что его бывшая жена, занимавшаяся секретными разработками, мертва. Рой понимает, что может все изменить.</desc>
+  </programme>
+  <programme start="20230504170500 +0300" stop="20230504190000 +0300" channel="Родное кино">
+    <title lang="ru">Президент и его внучка</title>
+    <desc lang="ru">Вьюжной предновогодней ночью произошло роковое событие. В роддом доставили молодую женщину, у которой начались преждевременные роды в результате автокатастрофы. Ситуация осложнилась тем, что свекром роженицы был известный генерал, который, угрожая оружием врачам, требовал рождения здорового внука. Насмерть перепуганный врач, перед носом которого свирепый генерал размахивает именным пистолетом, находит единственный выход. Одна из двух девочек-близняшек, родившихся у матери-одиночки, будущей художницы, объявляется генеральской внучкой. 31 декабря 2000 года на кремлевской елке встречаются дочь художницы и… внучка нового президента Российской Федерации! "Принцесса" и "нищенка", разумеется, меняются местами….</desc>
+  </programme>
+  <programme start="20230504190000 +0300" stop="20230504212500 +0300" channel="Родное кино">
+    <title lang="ru">Как украсть миллион</title>
+    <desc lang="ru">Коллекция художественных ценностей Шарля Бонне известна не только в Париже, но и далеко за его пределами. О ней ходят легенды, но мало кому посчастливилось видеть ее своими глазами. Никто, кроме дочери Бонне Николь, не знает, что все сокровища - подделки, созданные руками ее гениального папаши-фальсификатора. А он ничего не боится. И дает согласие выставить в музее Клебер Лафайет принадлежащую ему статуэтку Венеры работы Челлини. И тут выясняется, что согласно музейным правилам бесценная Венера, застрахованная на миллион долларов, должна пройти экспертизу. А это означает позор и бесчестье, ибо Венера - тоже творение Шарля Бонне. И бедняжка Николь внезапно находит способ избежать катастрофы и спасти доброе имя семьи….</desc>
+  </programme>
+  <programme start="20230504212500 +0300" stop="20230504233500 +0300" channel="Родное кино">
+    <title lang="ru">Шина - королева джунглей</title>
+    <desc lang="ru">Шина - королева джунглей. Ее белые родители были убиты во время сафари, а девочку взяла на воспитание колдунья из местного племени. Шина выросла, теперь она защищает африканские джунгли и их обитателей, как свой собственный дом от вторжения чужаков.</desc>
+  </programme>
+  <programme start="20230504233500 +0300" stop="20230505010500 +0300" channel="Родное кино">
+    <title lang="ru">Ночные забавы</title>
+    <desc lang="ru">В одной небольшой квартирке сложилась щекотливая ситуация: муж — подчиненный, а начальник — любовник. И в эту и без того непростую историю вмешивается взрослая дочь, которая пытается уличить мать в измене, вовлекая в скандал малознакомого ресторанного саксофониста.</desc>
+  </programme>
+  <programme start="20230505010500 +0300" stop="20230505025500 +0300" channel="Родное кино">
+    <title lang="ru">Ночные забавы</title>
+    <desc lang="ru">В одной небольшой квартирке сложилась щекотливая ситуация: муж — подчиненный, а начальник — любовник. И в эту и без того непростую историю вмешивается взрослая дочь, которая пытается уличить мать в измене, вовлекая в скандал малознакомого ресторанного саксофониста.</desc>
+  </programme>
+  <programme start="20230505025500 +0300" stop="20230505034500 +0300" channel="Родное кино">
+    <title lang="ru">Агентство НЛС</title>
+    <desc lang="ru">Ларису ждут сюрпризы - ребята славно провели время в ночном клубе. А что такое "ночной клуб"? Прежде всего - место охоты! Но иногда охотники сами оказываются в роли жертвы. Вот и Миша с Андреем попали в ловко расставленные сети - первого ждет любовь и ночь с обворожительной моделью, а другого - слава и главная роль в художественном фильме. Похоже на сказку? Конечно. Но редкая сказка обходится без злодеев.</desc>
+  </programme>
+  <programme start="20230505034500 +0300" stop="20230505044000 +0300" channel="Родное кино">
+    <title lang="ru">Агентство НЛС</title>
+    <desc lang="ru">Что делать, если любимое чадо влюбилось, окончательно утратив покой и сон? Тут не обойтись без помощи подруги, у которой дети и взрослее, и опытнее, и к тому же они те самые находчивые ребята из "Агентства НЛС"! И теперь им придется не просто решать нестандартную личную ситуацию несчастного "Ромео", но и создать новую: придумать парню новую жизнь, новый характер. А, может быть, и новую судьбу.</desc>
+  </programme>
+  <programme start="20230504162000 +0300" stop="20230504174500 +0300" channel="Киносвидание">
+    <title lang="ru">Мужчина по вызову 2</title>
+    <desc lang="ru">Дьюс Биглоу отправляется в Амстердам, чтобы встретиться там со своим старым другом и бывшим сутенером Ти-Джеем Хиксом. В городе самых свободных нравов в Европе бывший мужчина по вызову сталкивается с ситуацией, когда местные жиголо подвергаются покушению от неизвестного убийцы, который явно ненавидит мужчин данной профессии. Подозрения падают на Ти-Джеея. Чтобы отбелить имя друга, Дьюс берется за старое — вновь одевается в яркие пиджаки и идет на свидание с раскрепощенными европейскими дамочками, чтобы выследить маньяка. За роль в сиквеле «Мужчина по вызову 2» Роб Шнайдер был удостоен премии «Золотая малина» как худший актер.</desc>
+  </programme>
+  <programme start="20230504174500 +0300" stop="20230504193000 +0300" channel="Киносвидание">
+    <title lang="ru">Из 13 в 30</title>
+    <desc lang="ru">Дженна, тринадцатилетняя школьница, чувствует себя очень несчастной в этом возрасте, считая, что она — гадкий утенок, который вырастет и станет прекрасным лебедем. Но ждать так долго она не хочет. На день рождения она получает от лучшего друга домик для кукол, посыпанный «специальной пыльцой для исполнения желаний» и загадывает желание, чтобы поскорее стать взрослой. И вот на утро она просыпается тридцатилетней женщиной.</desc>
+  </programme>
+  <programme start="20230504193000 +0300" stop="20230504214500 +0300" channel="Киносвидание">
+    <title lang="ru">Подальше от тебя</title>
+    <desc lang="ru">Сестры Мэгги и Роуз - совершенно разные. Мэгги - безработная, безответственная и легкомысленная. Роуз работает адвокатом и не позволяет себе никаких лишних шалостей. Поселившись на время в доме у старшей сестры, Мэгги заводит интрижку с ее женихом. Роуз выгоняет ее из квартиры. Среди старых писем, прихваченных из дома, Мэгги обнаруживает открытку от своей бабушки, о существовании которой ни она, ни сестра не подозревали. Мэгги решает обратиться к ней за помощью.</desc>
+  </programme>
+  <programme start="20230504214500 +0300" stop="20230504233000 +0300" channel="Киносвидание">
+    <title lang="ru">02</title>
+    <sub-title lang="ru">22</sub-title>
+    <desc lang="ru">2:22 пополудни. Безоблачное небо внезапно озаряет мощная световая вспышка. Приборы навигации выходят из строя. Два пассажирских самолета неизбежно должны столкнуться в воздухе. В последнее мгновение опытный авиадиспетчер Дилан успевает развести маршруты, но с этой минуты его жизнь не может быть прежней. В поисках страшной правды Дилан знакомится с таинственной девушкой по имени Сара, вместе с которой он открывает зловещую тайну пересечения судеб.</desc>
+  </programme>
+  <programme start="20230504233000 +0300" stop="20230505014000 +0300" channel="Киносвидание">
+    <title lang="ru">Аманат</title>
+    <desc lang="ru">История страстной любви сына Шамиля Джамалутдина и Лизы Олениной, разворачивающаяся на фоне драматических событий военной истории России первой половины XIX века — заката Николаевской эпохи. Джамалутдин вошел в историю как «великий заложник» — безжалостной политики и большой любви.\n«Аманат» — историческая драма о любви и предательстве, чести и долге, служении отчизне и верности данному слову.</desc>
+  </programme>
+  <programme start="20230505014000 +0300" stop="20230505034000 +0300" channel="Киносвидание">
+    <title lang="ru">История семьи Блум</title>
+    <desc lang="ru">Действие фильма «История семьи Блум» разворачивается в Сиднее вокруг Кэмерона, Сэм и их троих сыновей. Однажды в жизнь героев врывается несчастье — в результате несчастного случая Сэм оказывается почти полностью парализована. Пока семья пытается примириться с новой реальностью, в их руки неожиданно попадает покалеченный детеныш сороки, которому дают имя Пингвин. Птица становится талисманом Блумов.</desc>
+  </programme>
+  <programme start="20230504170900 +0300" stop="20230504172000 +0300" channel="Gulli Girl">
+    <title lang="ru">Подружки-супер-герои</title>
+    <desc lang="ru">Андреа, Мия, Эмма, Оливия и Стефани - лучшие подруги. Они - самые обычные девочки: ходят в школу, занимаются спортом, гуляют с друзьями и впервые по-настоящему влюбляются. Но кроме того каждый день им приходится проявлять недюжинную стойкость и храбрость, чтобы противостоять злу и спасать свой родной город Хартлейк-Сити. Выполняя эту сложную и ответственную миссию, девочки познают ценность дружбы, взаимопомощи и навыка работать в одной команде.</desc>
+  </programme>
+  <programme start="20230504172000 +0300" stop="20230504173100 +0300" channel="Gulli Girl">
+    <title lang="ru">Подружки-супер-герои</title>
+    <desc lang="ru">Андреа, Мия, Эмма, Оливия и Стефани - лучшие подруги. Они - самые обычные девочки: ходят в школу, занимаются спортом, гуляют с друзьями и впервые по-настоящему влюбляются. Но кроме того каждый день им приходится проявлять недюжинную стойкость и храбрость, чтобы противостоять злу и спасать свой родной город Хартлейк-Сити. Выполняя эту сложную и ответственную миссию, девочки познают ценность дружбы, взаимопомощи и навыка работать в одной команде.</desc>
+  </programme>
+  <programme start="20230504173100 +0300" stop="20230504174100 +0300" channel="Gulli Girl">
+    <title lang="ru">Подружки-супер-герои</title>
+    <desc lang="ru">Андреа, Мия, Эмма, Оливия и Стефани - лучшие подруги. Они - самые обычные девочки: ходят в школу, занимаются спортом, гуляют с друзьями и впервые по-настоящему влюбляются. Но кроме того каждый день им приходится проявлять недюжинную стойкость и храбрость, чтобы противостоять злу и спасать свой родной город Хартлейк-Сити. Выполняя эту сложную и ответственную миссию, девочки познают ценность дружбы, взаимопомощи и навыка работать в одной команде.</desc>
+  </programme>
+  <programme start="20230504174100 +0300" stop="20230504175200 +0300" channel="Gulli Girl">
+    <title lang="ru">Подружки-супер-герои</title>
+    <desc lang="ru">Андреа, Мия, Эмма, Оливия и Стефани - лучшие подруги. Они - самые обычные девочки: ходят в школу, занимаются спортом, гуляют с друзьями и впервые по-настоящему влюбляются. Но кроме того каждый день им приходится проявлять недюжинную стойкость и храбрость, чтобы противостоять злу и спасать свой родной город Хартлейк-Сити. Выполняя эту сложную и ответственную миссию, девочки познают ценность дружбы, взаимопомощи и навыка работать в одной команде.</desc>
+  </programme>
+  <programme start="20230504175200 +0300" stop="20230504180200 +0300" channel="Gulli Girl">
+    <title lang="ru">Подружки-супер-герои</title>
+    <desc lang="ru">Андреа, Мия, Эмма, Оливия и Стефани - лучшие подруги. Они - самые обычные девочки: ходят в школу, занимаются спортом, гуляют с друзьями и впервые по-настоящему влюбляются. Но кроме того каждый день им приходится проявлять недюжинную стойкость и храбрость, чтобы противостоять злу и спасать свой родной город Хартлейк-Сити. Выполняя эту сложную и ответственную миссию, девочки познают ценность дружбы, взаимопомощи и навыка работать в одной команде.</desc>
+  </programme>
+  <programme start="20230504180200 +0300" stop="20230504181500 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Марин безошибочно отвечает на вопросы известной радиоигры. Очевидно, она не говорит Венди, что игра является повтором и что она слышала все правильные ответы накануне. Венди потрясена способностями сестры.</desc>
+  </programme>
+  <programme start="20230504181500 +0300" stop="20230504182700 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">В тот момент, когда они спорят и спешат донести друг на друга маме и папе, Марин и Венди улавливают разговор, который сковывает их ужасом: родители разводятся! Хуже того: разлучат и девушек.</desc>
+  </programme>
+  <programme start="20230504182700 +0300" stop="20230504183900 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Венди не может перестать чихать, чесаться и даже покрываться прыщами, как только Марин подходит к ней. У нее что, аллергия на сестру?!</desc>
+  </programme>
+  <programme start="20230504183900 +0300" stop="20230504185100 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Нэт не может перестать восхвалять заслуги своего старшего брата. Раздраженная Марин говорит ему, что ее сестра - чемпионка по кунг-фу! Но Венди занималась всего шесть месяцев, когда училась в первом классе!</desc>
+  </programme>
+  <programme start="20230504185100 +0300" stop="20230504190300 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Венди в отчаянии. Макс не звонил почти сутки, а это значит, что он определенно не хочет иметь с ней ничего общего. Чтобы помочь своей сестре выйти из отчаяния, Марин разрабатывает план: она создает профиль парня, который начинает флиртовать с Венди.</desc>
+  </programme>
+  <programme start="20230504190300 +0300" stop="20230504192500 +0300" channel="Gulli Girl">
+    <title lang="ru">Барби</title>
+    <sub-title lang="ru">друзья навсегда</sub-title>
+    <desc lang="ru">Продолжение истории из мультфильма "Барби. Мечты большого города". Не пропустите новые приключения подружек Барби "Малибу" Робертс и Барби "Бруклин" Робертс, которые преследуют свои мечты о музыкальной славе. А помогут им в этом крепкая дружба, любящие семьи и верные друзья. Мир мультсериала - это смех, веселье, тусовки, новые интересные персонажи и классные песни!</desc>
+  </programme>
+  <programme start="20230504192500 +0300" stop="20230504194700 +0300" channel="Gulli Girl">
+    <title lang="ru">Барби</title>
+    <sub-title lang="ru">друзья навсегда</sub-title>
+    <desc lang="ru">Продолжение истории из мультфильма "Барби. Мечты большого города". Не пропустите новые приключения подружек Барби "Малибу" Робертс и Барби "Бруклин" Робертс, которые преследуют свои мечты о музыкальной славе. А помогут им в этом крепкая дружба, любящие семьи и верные друзья. Мир мультсериала - это смех, веселье, тусовки, новые интересные персонажи и классные песни!</desc>
+  </programme>
+  <programme start="20230504194700 +0300" stop="20230504200800 +0300" channel="Gulli Girl">
+    <title lang="ru">Барби</title>
+    <sub-title lang="ru">друзья навсегда</sub-title>
+    <desc lang="ru">Продолжение истории из мультфильма "Барби. Мечты большого города". Не пропустите новые приключения подружек Барби "Малибу" Робертс и Барби "Бруклин" Робертс, которые преследуют свои мечты о музыкальной славе. А помогут им в этом крепкая дружба, любящие семьи и верные друзья. Мир мультсериала - это смех, веселье, тусовки, новые интересные персонажи и классные песни!</desc>
+  </programme>
+  <programme start="20230504200800 +0300" stop="20230504201000 +0300" channel="Gulli Girl">
+    <title lang="ru">Барби Влог</title>
+    <desc lang="ru">У знаменитой Барби тоже есть видеоблог! В уютной домашней обстановке она снимает короткие ролики на самые разные темы: кулинария, игры, красота, обзор комнат, рубрика вопросов и ответов и даже психология поведения.</desc>
+  </programme>
+  <programme start="20230504201000 +0300" stop="20230504203500 +0300" channel="Gulli Girl">
+    <title lang="ru">Тайны острова Мако</title>
+    <desc lang="ru">Опасаясь, что стая так и не вернется к Мако, подавленная Никси оказывается в конфликте с Лайлой и Сиреной.</desc>
+  </programme>
+  <programme start="20230504203500 +0300" stop="20230504205900 +0300" channel="Gulli Girl">
+    <title lang="ru">Тайны острова Мако</title>
+    <desc lang="ru">Сирена собирает ракушки на рифе и вдруг видит Зака. К счастью, он не успевает ее узнать - она стремительно уплывает прочь.</desc>
+  </programme>
+  <programme start="20230504205900 +0300" stop="20230504212300 +0300" channel="Gulli Girl">
+    <title lang="ru">Гимнастки. В погоне за мечтой</title>
+    <desc lang="ru">Дженни, талантливая молодая гимнастка, переезжает из Майами в Торонто, когда ее семья получает возможность управлять собственным тренажерным залом.</desc>
+  </programme>
+  <programme start="20230504212300 +0300" stop="20230504214500 +0300" channel="Gulli Girl">
+    <title lang="ru">Гимнастки. В погоне за мечтой</title>
+    <desc lang="ru">Дженни, талантливая молодая гимнастка, переезжает из Майами в Торонто, когда ее семья получает возможность управлять собственным тренажерным залом.</desc>
+  </programme>
+  <programme start="20230504214500 +0300" stop="20230504215700 +0300" channel="Gulli Girl">
+    <title lang="ru">Необычная семья</title>
+    <desc lang="ru">Ничто не может расстроить или поссорить тех, кто по-настоящему любит и уважает друг друга, ведь семья - это самое ценное, что у нас есть.</desc>
+  </programme>
+  <programme start="20230504215700 +0300" stop="20230504220800 +0300" channel="Gulli Girl">
+    <title lang="ru">Необычная семья</title>
+    <desc lang="ru">Ничто не может расстроить или поссорить тех, кто по-настоящему любит и уважает друг друга, ведь семья - это самое ценное, что у нас есть.</desc>
+  </programme>
+  <programme start="20230504220800 +0300" stop="20230504221900 +0300" channel="Gulli Girl">
+    <title lang="ru">Необычная семья</title>
+    <desc lang="ru">Ничто не может расстроить или поссорить тех, кто по-настоящему любит и уважает друг друга, ведь семья - это самое ценное, что у нас есть.</desc>
+  </programme>
+  <programme start="20230504221900 +0300" stop="20230504223000 +0300" channel="Gulli Girl">
+    <title lang="ru">Необычная семья</title>
+    <desc lang="ru">Ничто не может расстроить или поссорить тех, кто по-настоящему любит и уважает друг друга, ведь семья - это самое ценное, что у нас есть.</desc>
+  </programme>
+  <programme start="20230504223000 +0300" stop="20230504224100 +0300" channel="Gulli Girl">
+    <title lang="ru">Необычная семья</title>
+    <desc lang="ru">Ничто не может расстроить или поссорить тех, кто по-настоящему любит и уважает друг друга, ведь семья - это самое ценное, что у нас есть.</desc>
+  </programme>
+  <programme start="20230504224100 +0300" stop="20230504225300 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230504225300 +0300" stop="20230504230400 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230504230400 +0300" stop="20230504231500 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230504231500 +0300" stop="20230504232600 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230504232600 +0300" stop="20230504233700 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230504233700 +0300" stop="20230504234800 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230504234800 +0300" stop="20230505000000 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230505000000 +0300" stop="20230505000800 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505000800 +0300" stop="20230505001600 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505001600 +0300" stop="20230505002400 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505002400 +0300" stop="20230505003100 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505003100 +0300" stop="20230505003900 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505003900 +0300" stop="20230505004700 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505004700 +0300" stop="20230505005200 +0300" channel="Gulli Girl">
+    <title lang="ru">Энчантималс</title>
+    <sub-title lang="ru">Волшебные сказки</sub-title>
+    <desc lang="ru">В этом лесу возможно все - любые чудеса и мечты становятся реальностью. Но самое главное и ценное в этом удивительном мире - дружба. А когда рядом верные друзья, то впереди компанию ждут только веселые приключения!</desc>
+  </programme>
+  <programme start="20230505005200 +0300" stop="20230505011500 +0300" channel="Gulli Girl">
+    <title lang="ru">Барби</title>
+    <sub-title lang="ru">друзья навсегда</sub-title>
+    <desc lang="ru">Продолжение истории из мультфильма "Барби. Мечты большого города". Не пропустите новые приключения подружек Барби "Малибу" Робертс и Барби "Бруклин" Робертс, которые преследуют свои мечты о музыкальной славе. А помогут им в этом крепкая дружба, любящие семьи и верные друзья. Мир мультсериала - это смех, веселье, тусовки, новые интересные персонажи и классные песни!</desc>
+  </programme>
+  <programme start="20230505011500 +0300" stop="20230505013600 +0300" channel="Gulli Girl">
+    <title lang="ru">Барби</title>
+    <sub-title lang="ru">друзья навсегда</sub-title>
+    <desc lang="ru">Продолжение истории из мультфильма "Барби. Мечты большого города". Не пропустите новые приключения подружек Барби "Малибу" Робертс и Барби "Бруклин" Робертс, которые преследуют свои мечты о музыкальной славе. А помогут им в этом крепкая дружба, любящие семьи и верные друзья. Мир мультсериала - это смех, веселье, тусовки, новые интересные персонажи и классные песни!</desc>
+  </programme>
+  <programme start="20230505013600 +0300" stop="20230505015800 +0300" channel="Gulli Girl">
+    <title lang="ru">Барби</title>
+    <sub-title lang="ru">друзья навсегда</sub-title>
+    <desc lang="ru">Продолжение истории из мультфильма "Барби. Мечты большого города". Не пропустите новые приключения подружек Барби "Малибу" Робертс и Барби "Бруклин" Робертс, которые преследуют свои мечты о музыкальной славе. А помогут им в этом крепкая дружба, любящие семьи и верные друзья. Мир мультсериала - это смех, веселье, тусовки, новые интересные персонажи и классные песни!</desc>
+  </programme>
+  <programme start="20230505015800 +0300" stop="20230505021000 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Марин и Венди узнают, что этим утром звезда Джой Ди дает автограф-сессию. К сожалению, родители не могут отвезти их туда. Поэтому сестры придумывают план.</desc>
+  </programme>
+  <programme start="20230505021000 +0300" stop="20230505022200 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Сегодня днем Венди пригласила Макса посмотреть романтический фильм. Марин собирается смотреть шоу на планшете старшей сестры. Но когда она включает его, она натыкается на профилактику мононуклеоза - болезни, которая может передаваться через слюну.</desc>
+  </programme>
+  <programme start="20230505022200 +0300" stop="20230505023400 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Венди в восторге: она сможет заработать немного денег на карманные расходы, присматривая за маленькой племянницей мадам Жоржет и проводя день с Максом. Но Марин боится, что тогда сестра оставит ее одну.</desc>
+  </programme>
+  <programme start="20230505023400 +0300" stop="20230505024700 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Марин мечтает о мсье Пимпене, плюшевом кролике, которого она увидела в телевизионной рекламе. Ее родители соглашаются взять его, но при одном условии: ее успеваемость в школе значительно и быстро улучшится.</desc>
+  </programme>
+  <programme start="20230505024700 +0300" stop="20230505025900 +0300" channel="Gulli Girl">
+    <title lang="ru">Сестры</title>
+    <desc lang="ru">Раздраженная своей болтливой сестрой, Венди говорит Марин, что отдаст ей свой планшет, если той удастся промолчать целый день.</desc>
+  </programme>
+  <programme start="20230505025900 +0300" stop="20230505031000 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230505031000 +0300" stop="20230505032100 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230505032100 +0300" stop="20230505033200 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230505033200 +0300" stop="20230505034400 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230505034400 +0300" stop="20230505035500 +0300" channel="Gulli Girl">
+    <title lang="ru">Полли Покет</title>
+    <desc lang="ru">Приключения находчивой девочки Полли, которая доказывает, что сильным может быть даже самый маленький человек. Взрослые часто говорят Полли, что она еще слишком мала, чтобы делать все, что ей хочется. Но Полли доказывает, что быть маленькой - это не ограничение, а наоборот, большой плюс. Это ее главная сила! Однажды она наследует волшебный медальон, который уменьшает ее до 10 сантиметров. Используя эту способность, Полли и ее друзья постоянно попадают в увлекательные приключения и решают проблемы необычным способом.</desc>
+  </programme>
+  <programme start="20230505035500 +0300" stop="20230505040300 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505040300 +0300" stop="20230505041100 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505041100 +0300" stop="20230505041900 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505041900 +0300" stop="20230505042700 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505042700 +0300" stop="20230505043400 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505043400 +0300" stop="20230505044200 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505044200 +0300" stop="20230505045000 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230505045000 +0300" stop="20230505045800 +0300" channel="Gulli Girl">
+    <title lang="ru">Зиг и Шарко</title>
+    <desc lang="ru">Зиг - гиена, всегда озлобленная и вечно голодная. Он мечтает поймать прекрасную русалку Марину себе на обед. Чтобы заполучить ее, Зиг даже подружился с моллюском Берни, живущим неподалеку от желанной добычи. Но славной русалочке нечего бояться, ведь ей на помощь всегда готов прийти Шарко - гигантская акула. Шарко бесстрашен и рад защитить свою подружку в любой ситуации.</desc>
+  </programme>
+  <programme start="20230504161500 +0300" stop="20230504182500 +0300" channel="Cinema">
+    <title lang="ru">Джон Уик 3</title>
+    <desc lang="ru">Киану Ривз в продолжении истории о суперкиллере Джоне Уике, который получает статус изгоя, нарушив кодекс тайной гильдии ассасинов. За его голову объявлено вознаграждение в 14 миллионов долларов, и теперь на него охотится армия самых жестоких и беспощадных убийц.</desc>
+  </programme>
+  <programme start="20230504182500 +0300" stop="20230504200000 +0300" channel="Cinema">
+    <title lang="ru">Мой парень - киллер</title>
+    <desc lang="ru">Любовь — это всегда шок. А эта любовь — как удар ножа, как страстное танго. Но даже в страшном сне Марта не могла представить, что героем ее романа станет киллер. А сама она окажется идеальной подружкой для профессионального убийцы.</desc>
+  </programme>
+  <programme start="20230504200000 +0300" stop="20230504213500 +0300" channel="Cinema">
+    <title lang="ru">Перевозчик</title>
+    <sub-title lang="ru">Наследие</sub-title>
+    <desc lang="ru">Лазурный Берег, комфорт и спокойствие. Фрэнку Мартину — бывшему наемнику, сегодня занятому перевозкой сомнительных грузов, — звонит очередной клиент. Вернее, клиентка — роковая красотка Анна. И перевозчику приходится прервать идиллический уикенд в компании своего отца и отправиться на задание. Вот только грузом оказываются три соблазнительных блондинки, которые на его глазах грабят банк и не собираются на этом останавливаться. А тут еще и отец попадает в лапы мафии. На сей раз это коснулось его лично, и не нарушать собственных жестких правил не получится.</desc>
+  </programme>
+  <programme start="20230504213500 +0300" stop="20230504231500 +0300" channel="Cinema">
+    <title lang="ru">Случайный шпион</title>
+    <desc lang="ru">Обычный продавец в спортивном магазине по имени Бак мечтает о работе полицейского. Он увлечен боевыми искусствами и постоянно сталкивается с уличным произволом, что всегда позволяет ему проявить свои выдающиеся способности. Однажды Бак прославился благодаря тому, что сорвал крупное ограбление торгового центра. Его находит репортер и рассказывается ему историю о корейском миллионере, который может быть отцом Бака. Так как юноша вырос сиротой, он с радостью пускается в путешествие в поисках своего потенциального отца. Но Бак даже не предполагал, что он окажется втянутым в мировой шпионский заговор. «Случайный шпион» — криминальный боевик с элементами комедии с Джеки Чаном в главной роли.</desc>
+  </programme>
+  <programme start="20230504231500 +0300" stop="20230505005500 +0300" channel="Cinema">
+    <title lang="ru">Драйв</title>
+    <desc lang="ru">Великолепный гонщик — при свете дня он выполняет каскадерские трюки на съемочных площадках Голливуда, а по ночам ведет рискованную игру. Но один опасный контракт — и за его жизнь назначена награда. Теперь, чтобы остаться в живых и спасти свою очаровательную соседку, он должен делать то, что умеет лучше всего — виртуозно уходить от погони.</desc>
+  </programme>
+  <programme start="20230505005500 +0300" stop="20230505023500 +0300" channel="Cinema">
+    <title lang="ru">Охотники за головами</title>
+    <desc lang="ru">Роджер Браун — блестящий «охотник за головами», незаменимый специалист по подбору топ-менеджеров для крупнейших фирм. Он может найти нужного человека на любую должность и его рекомендация — залог получения работы. Чтобы удержать красавицу жену, открывшую на деньги мужа картинную галерею в модном районе, Роджер давно уже живет не по средствам и, пользуясь своим служебным положением, крадет дорогие картины у претендентов на руководящие должности. Однажды он встречает голландца Класа Граафа — идеального кандидата для фирмы, специализирующейся на навигационном оборудовании, и, вот удача, владельца картины Рубенса, считавшейся утерянной во время Второй Мировой войны. Кража и последующая продажа шедевра может помочь Роджеру навсегда решить все финансовые проблемы. Но внезапно «охотник за головами» сам превращается в добычу, а охотником выступает Клас Грааф!</desc>
+  </programme>
+  <programme start="20230505023500 +0300" stop="20230505041500 +0300" channel="Cinema">
+    <title lang="ru">Короли улиц</title>
+    <desc lang="ru">Полицейский из Лос-Анджелеса ни разу в жизни не задумывался над тем, что его может ожидать за гранью собственного уютного мира. Однако со смертью любимой жены в его жизнь входит темная, беспощадная, отчаянная пустота. Ладлоу вынужден действовать, когда его же собственные друзья-соратники обвиняют его в убийстве. Так начинается борьба человека за свое место в мире, который все больше и больше контролируется внешними силами.</desc>
+  </programme>
+  <programme start="20230504165000 +0300" stop="20230504184500 +0300" channel="Кинопоказ">
+    <title lang="ru">Крик 2</title>
+    <desc lang="ru">С момента бойни в Вудсборо прошло два года. В надежде забыть о случившемся, Сидни спешно покидает город. Меж тем документальный роман Гейл Уэзерс становится бестселлером. Экранизация книги рождает очередную волну террора — у книжного маньяка появился новый подражатель. На премьере фильма он смачно расправляется с влюбленной парочкой, обещая умножить список жертв. Гейл, под чутким взором офицера Дьюи, обращается к Сидни за помощью. «Крик 2» отмечен рядом любопытных решений. Актерам было предоставлено лишь 10 страниц сценария, так что до финальной сцены никто не знал кто играет убийцу.</desc>
+  </programme>
+  <programme start="20230504184500 +0300" stop="20230504203500 +0300" channel="Кинопоказ">
+    <title lang="ru">Крик 3</title>
+    <desc lang="ru">Кошмары для Сидни Прескотт не закончились, она спряталась ото всех и даже сменила имя, но по-прежнему не может забыть свое прошлое. Тем временем в Вудзборо начинаются съемки третьей части фильма «Удар ножом 3: Возвращение в Вудзборо», созданного по мотивам кошмарных событий в этом городе. Актеров, играющих реальных участников истории, начинают убивать согласно сценарию фильма. И возле каждой жертвы находят фотографию матери Сидни. Девушке приходится вернуться в город, чтобы самой выяснить, как таинственный убийца связан с ее матерью. Сценарий слешера «Крик 3» не раз переписывался из-за вероятности утечки информации.</desc>
+  </programme>
+  <programme start="20230504203500 +0300" stop="20230504221500 +0300" channel="Кинопоказ">
     <title lang="ru">Крик-4</title>
+    <desc lang="ru">Несмотря на то, что Крэйвен задумывал франшизу «Крик» как трилогию, спустя десять лет было решено снять продолжение. С момента последних событий фильма также прошло десятилетие, и в годовщину знаменитой резни в Вудсборо местная звезда Сидни возвращается в родной городок, чтобы почтить память погибших. А заодно и «попиарить» собственную автобиографию…. Но накануне приезда девушки неизвестный маньяк жестоко расправляется с двумя школьницами. Начинается расследование, и Сидни вынуждена остаться жить у своей тети Джилл под неустанным наблюдением полиции.</desc>
+  </programme>
+  <programme start="20230504221500 +0300" stop="20230505000000 +0300" channel="Кинопоказ">
+    <title lang="ru">Крик</title>
+    <desc lang="ru">Маньяк в маскарадном костюме подстерегает девушек, с нечеловеческой изощренностью и жестокостью совершая убийства, предваряемые зловещим звонком жертве. Первой жертвой стала красивая блондинка Кейси. Сидни, едва не ставшая второй, решила, что преступления - дело рук ее парня Билли. Спасаясь от маньяка и настырной журналистки Гейл, падкой на сенсации, Сидни приходится переехать на время к подруге и ее парню. Но кошмары для Сидни только начались.</desc>
+  </programme>
+  <programme start="20230505000000 +0300" stop="20230505015000 +0300" channel="Кинопоказ">
+    <title lang="ru">Крик 2</title>
+    <desc lang="ru">С момента бойни в Вудсборо прошло два года. В надежде забыть о случившемся, Сидни спешно покидает город. Меж тем документальный роман Гейл Уэзерс становится бестселлером. Экранизация книги рождает очередную волну террора — у книжного маньяка появился новый подражатель. На премьере фильма он смачно расправляется с влюбленной парочкой, обещая умножить список жертв. Гейл, под чутким взором офицера Дьюи, обращается к Сидни за помощью. «Крик 2» отмечен рядом любопытных решений. Актерам было предоставлено лишь 10 страниц сценария, так что до финальной сцены никто не знал кто играет убийцу.</desc>
+  </programme>
+  <programme start="20230505015000 +0300" stop="20230505034000 +0300" channel="Кинопоказ">
+    <title lang="ru">Крик 3</title>
+    <desc lang="ru">Кошмары для Сидни Прескотт не закончились, она спряталась ото всех и даже сменила имя, но по-прежнему не может забыть свое прошлое. Тем временем в Вудзборо начинаются съемки третьей части фильма «Удар ножом 3: Возвращение в Вудзборо», созданного по мотивам кошмарных событий в этом городе. Актеров, играющих реальных участников истории, начинают убивать согласно сценарию фильма. И возле каждой жертвы находят фотографию матери Сидни. Девушке приходится вернуться в город, чтобы самой выяснить, как таинственный убийца связан с ее матерью. Сценарий слешера «Крик 3» не раз переписывался из-за вероятности утечки информации.</desc>
+  </programme>
+  <programme start="20230504143500 +0300" stop="20230504180000 +0300" channel="Русский роман">
+    <title lang="ru">Пуанты для Плюшки</title>
+    <desc lang="ru">Когда-то Наташа была худенькой балериной, но балет уже давно в прошлом. Она ведет скучную жизнь с нелюбимой работой и несчастливым замужеством, заедая тоску сдобными булочками "От Сергеича". Несмотря на то что девушка набрала уже чуть больше девяноста килограммов и муж называет ее Плюшкой, она регулярно покупает любимую выпечку и жалуется на жизнь самому "Сергеичу", чье фото украшает упаковку. Однажды судьба делает неожиданный поворот. Наташа встречает свою преподавательницу и получает предложение преподавать балет детям - лишний вес наставницу не смущает, так как она верит в талант своей самой способной ученицы. На первом же занятии она встречает того самого Сергеича с упаковки! Он пришел забирать дочку из балетного класса. Очень скоро Наташа понимает, что влюбилась… Но что делать с мужем и их планами завести ребенка? И как побороть свои комплексы по поводу лишнего веса, да и сам лишний вес?</desc>
+  </programme>
+  <programme start="20230504180000 +0300" stop="20230504213500 +0300" channel="Русский роман">
+    <title lang="ru">Мелодия любви</title>
+    <desc lang="ru">Костя и Дина были самой красивой парой в консерватории. Спустя десять лет Костя стал музыкальным продюсером, а Дина забросила музыку ради успешной жизни. Все идет, как по нотам: квартира, машина и стабильная работа личным ассистентом. Расстраивает Дину только одно: Костя до сих пор не сделал ей предложение. На встрече выпускников любимый появляется с другой и объявляет, что их роман закончен. Отчаяться? Ну уж нет. Это не в характере целеустремленной красавицы. У некоторых, в конце концов, жизнь сложилась еще хуже. Взять хотя бы уличных музыкантов, которые каждую пятницу играют у ее дома. Случайное знакомство с группой оказывается полезным, когда Дине понадобилось найти исполнителей на день рождения шефа. Солист коллектива не только покоряет всех гостей, но и западает в сердце Дины. Но, кажется, этот парень в рваных джинсах - вовсе не тот, за кого себя выдает….</desc>
+  </programme>
+  <programme start="20230504213500 +0300" stop="20230504232000 +0300" channel="Русский роман">
+    <title lang="ru">Кем мы не станем</title>
+    <desc lang="ru">«Кем мы не станем» — это мелодрама, в центре сюжета которой отношения двух семейных пар. Партнеры по бизнесу и ровесники Гена и Дима имеют схожие судьбы. Оба давно в отношениях и оба сознательно не заводят детей. Гена — из-за того, что не хочет повторять ошибок, которые он допустил с сыном от первого брака, а Дима — потому, что его жена Ирина перенесла тяжелую болезнь. Но в жизни не все можно рассчитать до мелочей.</desc>
+  </programme>
+  <programme start="20230504232000 +0300" stop="20230505010000 +0300" channel="Русский роман">
+    <title lang="ru">Колдовское озеро</title>
+    <desc lang="ru">Главная героиня Виктория стала жертвой суеверия — когда ей было 17 лет, она упала в местный водоем, прозванный в народе «колдовское озеро». Согласно народному поверью, в этом озере утопилась дочь помещика, которую бросил возлюбленный. И с тех пор, если в ночь гибели дочери помещика в этом озере искупается девушка, не видать ей счастья в личной жизни. Вика старается не верить в деревенские сказки, но, как назло, ее личная жизнь действительно не складывается. Однажды к ним в городок приезжает француз Анри, который утверждает, что он — потомок того самого губителя девичьей жизни. Между Викой и Анри завязываются теплые отношения.</desc>
+  </programme>
+  <programme start="20230505010000 +0300" stop="20230505040500 +0300" channel="Русский роман">
+    <title lang="ru">Валькины несчастья</title>
+    <desc lang="ru">Напряженные отношения со свекровью заставляют Валю и Михаила переехать из ее огромной квартиры в съемную. Вскоре у Ларисы Васильевны поселяется молодой художник-авангардист, непризнанный гений Данила, которому она обещает помочь пробиться в мире искусства. И в такой ситуации ей никак не обойтись без финансовой поддержка сына. Лариса Васильевна решает развести Михаила с Валей. Однако ее обман оборачивается трагедией - Михаил внезапно умирает. Валя остается одна с детьми. У нее нет ни денег, ни работы, ни жилья. Свекровь отказывается пускать ее на порог. Валя уезжает в другой город к матери, чтобы начать новую жизнь, но и там ей не находится места….</desc>
+  </programme>
+  <programme start="20230504162500 +0300" stop="20230504180500 +0300" channel="Комедия">
+    <title lang="ru">Безумная свадьба</title>
+    <desc lang="ru">Межрасовая комедия. Главные герои фильма, мсье Верней и его жена — добропорядочная буржуазная французская супружеская пара, родители четырех красавиц-дочерей. Как известно, основная проблема всех подобных семей — выдать дочек замуж, чтобы не засиделись в девках. У семейства Верней такой проблемы нет. Три дочери уже нашли свое счастье, вот только мужья, по мнению родителей, подкачали: один — китаец, другой — араб, третий — еврей. Пришло время, и четвертая дочь сообщает радостную весть: она тоже выходит замуж! И ее жених чернокожий. Фильм «Безумная свадьба» стал самой кассовой лентой французского проката 2014 года.</desc>
+  </programme>
+  <programme start="20230504180500 +0300" stop="20230504194300 +0300" channel="Комедия">
+    <title lang="ru">Самая безумная свадьба</title>
+    <desc lang="ru">В жизни Клода и Мари Верней наступает новый кризис. Все четыре мужа их дочерей — Давид, Рашид, Чао и Шарль — по разным причинам решают уехать из Франции.</desc>
+  </programme>
+  <programme start="20230504194300 +0300" stop="20230504212500 +0300" channel="Комедия">
+    <title lang="ru">Красотка в ударе</title>
+    <desc lang="ru">Комедия «Красотка в ударе» рассказывает об обычной девушке Полине — заурядная внешность, проблемы дома и на работе, встречи с одноклассниками по случаю... Ее жизнь меняется, когда она понимает, что проснулась настоящей красоткой, и теперь перед ней открыты все двери. Но, может быть, ей все это только кажется?</desc>
+  </programme>
+  <programme start="20230504212500 +0300" stop="20230504230000 +0300" channel="Комедия">
+    <title lang="ru">Приплыли!</title>
+    <desc lang="ru">Неисправимый романтик Паша мечтает сделать предложение своей девушке Тане, сымитировав сцену из «Титаника». Для этого он готовит прогулку на яхте, однако у отца Паши на нее другие планы: яхта нужна ему для одной не очень законной операции. В череде безумных событий запланированное кораблекрушение окажется далеко не самой большой катастрофой.</desc>
+  </programme>
+  <programme start="20230504230000 +0300" stop="20230505004000 +0300" channel="Комедия">
+    <title lang="ru">Идеальные незнакомцы</title>
+    <desc lang="ru">Семеро старых друзей собираются вместе на ужин. Когда они решают начать игру, заключающуюся в том, что им придется читать все поступающие смс вслух, а на звонки отвечать по громкой связи, они и представить не могут, к чему приведет эта откровенность.</desc>
+  </programme>
+  <programme start="20230505004000 +0300" stop="20230505021000 +0300" channel="Комедия">
+    <title lang="ru">Love</title>
+    <desc lang="ru">Отель «Love» — лучшее место, чтобы отметить 14 февраля, поверить в любовь или хотя бы не оказаться в одиночестве в День всех влюбленных. В этот день в ресторане отеля проходит юбилейный вечер встречи выпускников, и неожиданно старые чувства вспыхивают вновь. Ревнивый муж вламывается во все номера этажа в поисках жены, переставшей отвечать на его звонки. Частный детектив вместе со своей красавицей-клиенткой устраивают настоящее шпионское шоу с прослушкой, чтобы обличить ее подлого супруга. Горничная из Узбекистана должна сделать выбор между своим возлюбленным и деньгами от его матери, выданными в обмен на ее бегство. А скромный студент, мечтающий по-быстрому стать мужчиной, встречает самую болтливую ночную бабочку города.</desc>
+  </programme>
+  <programme start="20230505021000 +0300" stop="20230505033000 +0300" channel="Комедия">
+    <title lang="ru">Счастья! Здоровья!</title>
+    <desc lang="ru">Три влюблённые пары — татарская, армянская и русская — готовятся сыграть свадьбы. Но выясняется, что для Рината и Гузельки свадьба — это способ добыть деньги, чтобы вернуть дорогую скрипку, для отца Артура важнее всего, чтобы свадьба его сына и москвички-Юли прошла в Армении, а у Светы есть «скелет в шкафу» — её «бывший» Андрей в день свадьбы с Олегом вышел из тюрьмы. Зато гости отрываются от души, а у зрителей фильма «Счастья! Здоровья!» есть уникальная возможность побывать сразу на трёх свадьбах. Тосты и конкурсы, песни и танцы, поцелуи и… драки — что за свадьба без драки?! Это бомбически круто и нереально смешно. Три свадьбы, три пары — такие разные, такие непохожие. Но любовь объединяет, а гости от души желают: «Счастья! Здоровья!».</desc>
+  </programme>
+  <programme start="20230504165200 +0300" stop="20230504174700 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Приключения Пети и Волка</title>
+    <desc lang="ru">Это пугающая история о том, как неумолимый дровосек вознамерился срубить дерево, растущее аж из другого мира.</desc>
+  </programme>
+  <programme start="20230504174700 +0300" stop="20230504190000 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Панда и Крош</title>
+    <desc lang="ru">Лучшие друзья - импульсивный Крош и размеренный Панда - каждую ночь просыпаются в магазине игрушек и попадают в приключения вместе со своими друзьями, другими игрушками. Среди них Рори - чувствительный робот, который всего боится, кукла Лили - всезнайка и любительница книг, Скутер - маленький самокат, Енот - хулиган и шутник, Амелия - самолет с необычными мечтами и Слониха, которая заботится обо всех, как мама. После всех своих увлекательных приключений друзья понимают, что самое ценное - это их дружба и работа в команде.</desc>
+  </programme>
+  <programme start="20230504190000 +0300" stop="20230504195700 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Супер10</title>
+    <desc lang="ru">В своей погоне за властью Омега обращает взор на Суперкамень, рожденный из самого ядра Земли. Чтобы защитить Суперкамень от Омеги, другие Суперионы разбили камень на 10 фрагментов и спрятали их в пространственно-временных карманах. Теперь Омега нашла следы осколков Суперкамня, и Суперионы должны снова собраться вместе, чтобы защитить Землю от разрушения. Только найдя 10 фрагментов и 10 избранных Суперионов, можно снова сплавить Суперкамень и спасти планету.</desc>
+  </programme>
+  <programme start="20230504195700 +0300" stop="20230504211200 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Жизнь Гортимера Гиббона на Нормальной Улице</title>
+    <desc lang="ru">Ребята живут в небольшом городке, на первый взгляд, ничем не примечательном. Но на самом деле, ежедневно здесь происходит нечто необычное.</desc>
+  </programme>
+  <programme start="20230504211200 +0300" stop="20230504230300 +0300" channel="Капитан Фантастика">
+    <title lang="ru">ДжиФайтерс. Город Супергероев</title>
+    <sub-title lang="ru">Сезон 1-й</sub-title>
+    <desc lang="ru">В мультсериале рассказываются истории о том, как мальчик-кот и его друзья защищают планету от злобных инопланетян!</desc>
+  </programme>
+  <programme start="20230504230300 +0300" stop="20230505000700 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Лига Вотчкар</title>
+    <desc lang="ru">Ближайшее будущее. Крупная корпорация JH Motors создает высокотехнологичные игрушечные автомобили для детей Watch-Car, оборудованные чипом с искусственным интеллектом. Турниры с участием Watch-Car завоевывают мировую популярность. Главный герой Джино с автомобилем BlueWill входит в Боевую Лигу участников чемпионата и мечтает о победе. Джино с друзьями целыми днями проводит время в автоцентре Watch-Car и готовится к турниру. В это же время появляется темная организация и пытается уничтожить все Watch-Car с помощью Monster-Car. Наши герои сделают все, чтобы защитить свой город и все Watсh-Car в мире. Ключ на старт и вперед! Самое интригующее приключение начинается!</desc>
+  </programme>
+  <programme start="20230505000700 +0300" stop="20230505002000 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Лига Вотчкар</title>
+    <desc lang="ru">Ближайшее будущее. Крупная корпорация JH Motors создает высокотехнологичные игрушечные автомобили для детей Watch-Car, оборудованные чипом с искусственным интеллектом. Турниры с участием Watch-Car завоевывают мировую популярность. Главный герой Джино с автомобилем BlueWill входит в Боевую Лигу участников чемпионата и мечтает о победе. Джино с друзьями целыми днями проводит время в автоцентре Watch-Car и готовится к турниру. В это же время появляется темная организация и пытается уничтожить все Watch-Car с помощью Monster-Car. Наши герои сделают все, чтобы защитить свой город и все Watсh-Car в мире. Ключ на старт и вперед! Самое интригующее приключение начинается!</desc>
+  </programme>
+  <programme start="20230505002000 +0300" stop="20230505021900 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Шахерезада. Нерассказанные истории</title>
+    <desc lang="ru">Шахерезада хочет помочь своему другу, принцу Кариму, вернуться на его законный престол. Карима предал брат и с помощью злых заклинаний превратил в синего монстра. Шахерезада и Карим вынуждены покинуть Золотой Город, чтобы найти волшебное средство - Древо Жизни, которое поможет принцу вновь стать человеком. Путешествие друзей проходит через волшебные страны и таинственные острова, где обитают джинны, султаны и мифические существа. Во время приключений Шахерезада и Карим встретят легендарных героев арабских сказок: Алладина, Синдбада и Али-бабу, подружатся с забавным джинном Халилом, который будет сопровождать их в этом непростом путешествии и иногда давать важные подсказки.</desc>
+  </programme>
+  <programme start="20230505021900 +0300" stop="20230505030400 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Смешарики</title>
+    <desc lang="ru">На планете Земля существует вымышленная страна, где живут забавные круглые зверушки. Здесь новый день не похож на предыдущий, обитатели чудесного места постоянно придумывают себе захватывающие приключения.</desc>
+  </programme>
+  <programme start="20230505030400 +0300" stop="20230505040500 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Фиксики</title>
+    <sub-title lang="ru">Сезон 3-й</sub-title>
+    <desc lang="ru">Продолжение приключений маленьких мастеров в квартире ДимДимыча и лаборатории профессора Чудакова. Сложно поверить, что еще несколько лет назад мы ничего не знали о Фиксиках. А ведь эти маленькие помощники живут в каждом доме!</desc>
+  </programme>
+  <programme start="20230505040500 +0300" stop="20230505045200 +0300" channel="Капитан Фантастика">
+    <title lang="ru">Нико и Меч света</title>
+    <desc lang="ru">Весь мир в опасности! Сила мрака и колдун Нар-Эст готовы его поглотить. Но есть один смельчак по имени Нико, который может противостоять злу. К тому же у Нико будут отличные помощники - меч света и бесстрашная принцесса!</desc>
+  </programme>
+  <programme start="20230504170000 +0300" stop="20230504173000 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Журнал Серии-А</title>
+    <desc lang="ru">Обзор матчей высшего дивизиона итальянской футбольной лиги - одного из самых сильных футбольных дивизионов в мире, который занимает в рейтинге УЕФА 4-е место после чемпионатов Испании, Англии и Германии.</desc>
+  </programme>
+  <programme start="20230504173000 +0300" stop="20230504193000 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Чемпионат Италии. "Верона" - "Интер"</title>
+    <desc lang="ru">Чемпионат Италии по футболу является одним из самых сильных футбольных дивизионов в мире, занимая в рейтинге УЕФА 4-е место после чемпионатов Испании, Англии и Германии.</desc>
   </programme>
-  <programme start="20230505010500 +0300" stop="20230505024500 +0300" channel="Страшное HD">
-    <title lang="ru">Проклятие Кинтанара</title>
+  <programme start="20230504193000 +0300" stop="20230504213500 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Чемпионат Италии. "Монца" - "Рома"</title>
+    <desc lang="ru">Чемпионат Италии по футболу является одним из самых сильных футбольных дивизионов в мире, занимая в рейтинге УЕФА 4-е место после чемпионатов Испании, Англии и Германии.</desc>
   </programme>
-  <programme start="20230505024500 +0300" stop="20230505041000 +0300" channel="Страшное HD">
-    <title lang="ru">Преступить черту</title>
+  <programme start="20230504213500 +0300" stop="20230504214000 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504163000 +0300" stop="20230504180000 +0300" channel="Комедийное HD">
-    <title lang="ru">Жуткая семейка</title>
+  <programme start="20230504214000 +0300" stop="20230504234000 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Чемпионат Италии. "Удинезе" - "Наполи". Прямая трансляция</title>
+    <desc lang="ru">Чемпионат Италии по футболу является одним из самых сильных футбольных дивизионов в мире, занимая в рейтинге УЕФА 4-е место после чемпионатов Испании, Англии и Германии.</desc>
+  </programme>
+  <programme start="20230504234000 +0300" stop="20230504234500 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
+  </programme>
+  <programme start="20230504234500 +0300" stop="20230505013500 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Футбол. Чемпионат Италии. "Ювентус" - "Лечче"</title>
+    <desc lang="ru">Чемпионат Италии по футболу является одним из самых сильных футбольных дивизионов в мире, занимая в рейтинге УЕФА 4-е место после чемпионатов Испании, Англии и Германии.</desc>
+  </programme>
+  <programme start="20230505013500 +0300" stop="20230505020500 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Все о главном</title>
+    <sub-title lang="ru">Валерий Петраков</sub-title>
+    <desc lang="ru">Увлекательное путешествие в мир спорта - все самое важное и главное.</desc>
   </programme>
-  <programme start="20230504180000 +0300" stop="20230504194500 +0300" channel="Комедийное HD">
-    <title lang="ru">Белые цыпочки</title>
+  <programme start="20230505020500 +0300" stop="20230505021000 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504194500 +0300" stop="20230504212000 +0300" channel="Комедийное HD">
-    <title lang="ru">К-9. Собачья работа</title>
+  <programme start="20230505021000 +0300" stop="20230505040000 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Чемпионат Италии. Эмполи - Болонья</title>
+    <desc lang="ru">Чемпионат Италии по футболу является одним из самых сильных футбольных дивизионов в мире, занимая в рейтинге УЕФА 4-е место после чемпионатов Испании, Англии и Германии.</desc>
   </programme>
-  <programme start="20230504212000 +0300" stop="20230504224500 +0300" channel="Комедийное HD">
-    <title lang="ru">Невезучие</title>
+  <programme start="20230505040000 +0300" stop="20230505040500 +0300" channel="МАТЧ! Футбол 1">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504224500 +0300" stop="20230505003000 +0300" channel="Комедийное HD">
-    <title lang="ru">Хот-дог</title>
+  <programme start="20230504155500 +0300" stop="20230504174500 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Чемпионат Германии. "Лейпциг" - "Хоффенхайм"</title>
+    <desc lang="ru">Профессиональная футбольная лига, является высшим дивизионом в системе футбольных лиг Германии. В ней выступают 18 клубов. Чемпионат проходит с августа по май, каждая команда проводит 34 матча. Один из сильнейших футбольных дивизионов в мире.</desc>
   </programme>
-  <programme start="20230505003000 +0300" stop="20230505023500 +0300" channel="Комедийное HD">
-    <title lang="ru">Любовь по правилам и без</title>
+  <programme start="20230504174500 +0300" stop="20230504175000 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230505023500 +0300" stop="20230505042500 +0300" channel="Комедийное HD">
-    <title lang="ru">Лак для волос</title>
+  <programme start="20230504175000 +0300" stop="20230504194000 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Чемпионат Германии. "Унион" - "Байер"</title>
+    <desc lang="ru">Профессиональная футбольная лига, является высшим дивизионом в системе футбольных лиг Германии. В ней выступают 18 клубов. Чемпионат проходит с августа по май, каждая команда проводит 34 матча. Один из сильнейших футбольных дивизионов в мире.</desc>
   </programme>
-  <programme start="20230504153500 +0300" stop="20230504172500 +0300" channel="Шокирующее HD">
-    <title lang="ru">Обряд</title>
+  <programme start="20230504194000 +0300" stop="20230504194500 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504172500 +0300" stop="20230504184500 +0300" channel="Шокирующее HD">
-    <title lang="ru">Призрак монахини из Борли</title>
+  <programme start="20230504194500 +0300" stop="20230504213500 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Чемпионат Германии. "Шальке" - "Вердер"</title>
+    <desc lang="ru">Профессиональная футбольная лига, является высшим дивизионом в системе футбольных лиг Германии. В ней выступают 18 клубов. Чемпионат проходит с августа по май, каждая команда проводит 34 матча. Один из сильнейших футбольных дивизионов в мире.</desc>
   </programme>
-  <programme start="20230504184500 +0300" stop="20230504200500 +0300" channel="Шокирующее HD">
-    <title lang="ru">Мама. Возвращение из тьмы</title>
+  <programme start="20230504213500 +0300" stop="20230504214000 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504200500 +0300" stop="20230504213000 +0300" channel="Шокирующее HD">
-    <title lang="ru">Лес призраков</title>
+  <programme start="20230504214000 +0300" stop="20230504234000 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Чемпионат Италии. Эмполи - Болонья. Прямая трансляция</title>
+    <desc lang="ru">Чемпионат Италии по футболу является одним из самых сильных футбольных дивизионов в мире, занимая в рейтинге УЕФА 4-е место после чемпионатов Испании, Англии и Германии.</desc>
   </programme>
-  <programme start="20230504213000 +0300" stop="20230504230500 +0300" channel="Шокирующее HD">
-    <title lang="ru">Затащи меня в ад</title>
+  <programme start="20230504234000 +0300" stop="20230505000500 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Журнал Лиги чемпионов</title>
+    <desc lang="ru">Вниманию телезрителей предлагаются подробные обзоры прошедших матчей Лиги Чемпионов, компетентный анализ текущих результатов, а также анонсы предстоящих игр.</desc>
   </programme>
-  <programme start="20230504230500 +0300" stop="20230505003500 +0300" channel="Шокирующее HD">
-    <title lang="ru">Рожденный после смерти</title>
+  <programme start="20230505000500 +0300" stop="20230505001000 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230505003500 +0300" stop="20230505015500 +0300" channel="Шокирующее HD">
-    <title lang="ru">Мама. Возвращение из тьмы</title>
+  <programme start="20230505001000 +0300" stop="20230505020000 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Чемпионат Германии. "Вольфсбург" - "Майнц"</title>
+    <desc lang="ru">Профессиональная футбольная лига, является высшим дивизионом в системе футбольных лиг Германии. В ней выступают 18 клубов. Чемпионат проходит с августа по май, каждая команда проводит 34 матча. Один из сильнейших футбольных дивизионов в мире.</desc>
   </programme>
-  <programme start="20230505015500 +0300" stop="20230505032000 +0300" channel="Шокирующее HD">
-    <title lang="ru">Лес призраков</title>
+  <programme start="20230505020000 +0300" stop="20230505020500 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504165000 +0300" stop="20230504190000 +0300" channel="Кино ТВ HD">
-    <title lang="ru">Джек Ричер</title>
+  <programme start="20230505020500 +0300" stop="20230505040000 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Чемпионат Германии. "Бохум" - "Боруссия" (Дортмунд)</title>
+    <desc lang="ru">Профессиональная футбольная лига, является высшим дивизионом в системе футбольных лиг Германии. В ней выступают 18 клубов. Чемпионат проходит с августа по май, каждая команда проводит 34 матча. Один из сильнейших футбольных дивизионов в мире.</desc>
   </programme>
-  <programme start="20230504190000 +0300" stop="20230504210000 +0300" channel="Кино ТВ HD">
-    <title lang="ru">Джек Ричер 2</title>
+  <programme start="20230505040000 +0300" stop="20230505040500 +0300" channel="МАТЧ! Футбол 3">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504210000 +0300" stop="20230504230000 +0300" channel="Кино ТВ HD">
-    <title lang="ru">Безумный Макс</title>
+  <programme start="20230504163000 +0300" stop="20230504180500 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Смешанные единоборства. АСА. Андрей Кошкин против Анатолия Бойко. Трансляция из Москвы</title>
+    <desc lang="ru">Турнир российского промоушена смешанных единоборств Absolute Championship Akhmat.</desc>
   </programme>
-  <programme start="20230504230000 +0300" stop="20230505013500 +0300" channel="Кино ТВ HD">
-    <title lang="ru">Отступники</title>
+  <programme start="20230504180500 +0300" stop="20230504185500 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Динамо Ленинград</title>
   </programme>
-  <programme start="20230505013500 +0300" stop="20230505030500 +0300" channel="Кино ТВ HD">
-    <title lang="ru">Телохранитель</title>
+  <programme start="20230504185500 +0300" stop="20230504192500 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">6х6</title>
   </programme>
-  <programme start="20230505030500 +0300" stop="20230505044500 +0300" channel="Кино ТВ HD">
-    <title lang="ru">Невозможное</title>
+  <programme start="20230504192500 +0300" stop="20230504211500 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Волейбол. Чемпионат России. Pari Суперлига. Мужчины. Матч за 3-е место. "Зенит" (Санкт-Петербург) - "Локомотив" (Новосибирск)</title>
   </programme>
-  <programme start="20230504165500 +0300" stop="20230504182000 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 4</title>
+  <programme start="20230504211500 +0300" stop="20230504213000 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Специальный репортаж</title>
+    <sub-title lang="ru">Страна спортивная</sub-title>
+    <desc lang="ru">Спортсмены, команды, сборы, тренировки и турниры - корреспонденты рассказывают обо всем с места событий и общаются с главными героями происходящего.</desc>
   </programme>
-  <programme start="20230504182000 +0300" stop="20230504194000 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк</title>
+  <programme start="20230504213000 +0300" stop="20230504215000 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Специальный репортаж</title>
+    <sub-title lang="ru">В нашем углу ринга</sub-title>
+    <desc lang="ru">Спортсмены, команды, сборы, тренировки и турниры - корреспонденты рассказывают обо всем с места событий и общаются с главными героями происходящего.</desc>
   </programme>
-  <programme start="20230504194000 +0300" stop="20230504205000 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 2</title>
+  <programme start="20230504215000 +0300" stop="20230504220500 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Специальный репортаж</title>
+    <sub-title lang="ru">В нашем углу ринга</sub-title>
+    <desc lang="ru">Спортсмены, команды, сборы, тренировки и турниры - корреспонденты рассказывают обо всем с места событий и общаются с главными героями происходящего.</desc>
   </programme>
-  <programme start="20230504205000 +0300" stop="20230504220500 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 3</title>
+  <programme start="20230504220500 +0300" stop="20230504223000 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Что по спорту?</title>
+    <sub-title lang="ru">Владикавказ</sub-title>
   </programme>
-  <programme start="20230504220500 +0300" stop="20230504233000 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 4</title>
+  <programme start="20230504223000 +0300" stop="20230505002000 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Волейбол. Чемпионат России. Pari Суперлига. Женщины. Финал. "Динамо" (Москва) - "Локомотив" (Калининградская область)</title>
   </programme>
-  <programme start="20230504233000 +0300" stop="20230505005000 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк</title>
+  <programme start="20230505002000 +0300" stop="20230505012500 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Бокс. Чемпионат мира. Трансляция из Узбекистана</title>
+    <desc lang="ru">Чемпионат мира по боксу - спортивное соревнование среди любителей. Проводится Международной ассоциацией любительского бокса (МАЛБ, AIBA). Первый чемпионат прошел в Гаване (Куба) в1974 году. С 2001 года проводятся чемпионаты мира по боксу среди женщин.</desc>
   </programme>
-  <programme start="20230505005000 +0300" stop="20230505020000 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 2</title>
+  <programme start="20230505012500 +0300" stop="20230505031500 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Баскетбол 1х1. Лига Ставок - B1BOX. Трансляция из Москвы</title>
+    <desc lang="ru">В эфире телеканала "Матч ТВ" - очередные баскетбольные баталии нового турнира B1BOX, организованного бывшим игроком баскетбольного ЦСКА, бронзовым призером Евролиги и чемпионом Единой лиги ВТБ Виктором Кейру.</desc>
   </programme>
-  <programme start="20230505020000 +0300" stop="20230505031000 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 3</title>
+  <programme start="20230505031500 +0300" stop="20230505041000 +0300" channel="МАТЧ! Страна">
+    <title lang="ru">Автоспорт. G-Drive Российская серия кольцевых гонок. Трансляция из Сочи</title>
+    <desc lang="ru">G-Drive Российская серия кольцевых гонок - так теперь называются чемпионат и Кубок России, а также Кубок РАФ, объединенные промоутером SMP Racing. Партнером серии в 2022 году стал топливный бренд G-Drive от сети АЗС "Газпромнефть".</desc>
   </programme>
-  <programme start="20230505031000 +0300" stop="20230505043500 +0300" channel="Хит">
-    <title lang="ru">Иван Царевич и Серый Волк 4</title>
+  <programme start="20230504160000 +0300" stop="20230504180000 +0300" channel="МАТЧ! Футбол 2">
+    <title lang="ru">Чемпионат Бразилии. Атлетико Минейро - Атлетико Паранаэнсе</title>
   </programme>
-  <programme start="20230504161500 +0300" stop="20230504174000 +0300" channel="Остросюжетное HD">
-    <title lang="ru">Овердрайв</title>
+  <programme start="20230504180000 +0300" stop="20230504195500 +0300" channel="МАТЧ! Футбол 2">
+    <title lang="ru">Кубок Турции. 1/2 финала. Сивасспор - Фенербахче. 1-й матч</title>
   </programme>
-  <programme start="20230504174000 +0300" stop="20230504192000 +0300" channel="Остросюжетное HD">
-    <title lang="ru">Смертельная гонка</title>
+  <programme start="20230504195500 +0300" stop="20230504202500 +0300" channel="МАТЧ! Футбол 2">
+    <title lang="ru">Человек из футбола</title>
+    <sub-title lang="ru">Вячеслав Колосков</sub-title>
+    <desc lang="ru">Эксклюзивные интервью со звездами российского футбола.</desc>
   </programme>
-  <programme start="20230504192000 +0300" stop="20230504205500 +0300" channel="Остросюжетное HD">
-    <title lang="ru">Форсаж. Китайский дрифт</title>
+  <programme start="20230504202500 +0300" stop="20230504222500 +0300" channel="МАТЧ! Футбол 2">
+    <title lang="ru">Кубок Турции. 1/2 финала. Истанбул - Анкарагюджю. 1-й матч. Прямая трансляция</title>
   </programme>
-  <programme start="20230504205500 +0300" stop="20230504230000 +0300" channel="Остросюжетное HD">
-    <title lang="ru">Форсаж 6</title>
+  <programme start="20230504222500 +0300" stop="20230505002000 +0300" channel="МАТЧ! Футбол 2">
+    <title lang="ru">Лига Европы. 1/4 финала. Юнион (Бельгия) - Байер (Германия). Ответный матч</title>
+    <desc lang="ru">Ежегодный международный турнир по футболу среди клубов, основанный в 1971 году под названием Кубок УЕФА. Считается вторым по значимости турниром для футбольных клубов.</desc>
   </programme>
-  <programme start="20230504230000 +0300" stop="20230505003000 +0300" channel="Остросюжетное HD">
-    <title lang="ru">Шанхайский перевозчик</title>
+  <programme start="20230505002000 +0300" stop="20230505021500 +0300" channel="МАТЧ! Футбол 2">
+    <title lang="ru">Кубок Турции. 1/2 финала. Истанбул - Анкарагюджю. 1-й матч</title>
   </programme>
-  <programme start="20230505003000 +0300" stop="20230505015500 +0300" channel="Остросюжетное HD">
-    <title lang="ru">Овердрайв</title>
+  <programme start="20230505021500 +0300" stop="20230505040500 +0300" channel="МАТЧ! Футбол 2">
+    <title lang="ru">Чемпионат Бразилии. Интернасьонал - Гояс</title>
   </programme>
-  <programme start="20230505015500 +0300" stop="20230505033500 +0300" channel="Остросюжетное HD">
-    <title lang="ru">Смертельная гонка</title>
+  <programme start="20230504155500 +0300" stop="20230504175000 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Волейбол. Чемпионат России. Pari Суперлига. Мужчины. Матч за 3-е место. "Зенит" (Санкт-Петербург) - "Локомотив" (Новосибирск). 2-й матч</title>
   </programme>
-  <programme start="20230504155500 +0300" stop="20230504172500 +0300" channel="TV1000">
-    <title lang="ru">Реальная белка</title>
+  <programme start="20230504175000 +0300" stop="20230504182500 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Волейбол. Матч звезд Молодежной лиги. Запад - Восток. Трансляция из Санкт-Петербурга</title>
   </programme>
-  <programme start="20230504172500 +0300" stop="20230504190000 +0300" channel="TV1000">
-    <title lang="ru">Реальная белка 2</title>
+  <programme start="20230504182500 +0300" stop="20230504184000 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Специальный репортаж</title>
+    <sub-title lang="ru">Страна спортивная</sub-title>
+    <desc lang="ru">Спортсмены, команды, сборы, тренировки и турниры - корреспонденты рассказывают обо всем с места событий и общаются с главными героями происходящего.</desc>
   </programme>
-  <programme start="20230504190000 +0300" stop="20230504210500 +0300" channel="TV1000">
-    <title lang="ru">Ромео и Джульетта</title>
+  <programme start="20230504184000 +0300" stop="20230504205500 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Волейбол. Чемпионат России. Pari Суперлига. Женщины. Финал. "Динамо" (Москва) - "Локомотив" (Калининградская область). 2-й матч. Прямая трансляция</title>
   </programme>
-  <programme start="20230504210500 +0300" stop="20230504231000 +0300" channel="TV1000">
-    <title lang="ru">Джейн Эйр</title>
+  <programme start="20230504205500 +0300" stop="20230504212500 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Что по спорту?</title>
+    <sub-title lang="ru">Владикавказ</sub-title>
   </programme>
-  <programme start="20230504231000 +0300" stop="20230505013500 +0300" channel="TV1000">
-    <title lang="ru">Разум и чувства</title>
+  <programme start="20230504212500 +0300" stop="20230504233000 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Волейбол. Чемпионат России. Pari Суперлига. Мужчины. Финал. "Зенит-Казань" - "Динамо" (Москва). 2-й матч</title>
   </programme>
-  <programme start="20230505013500 +0300" stop="20230505033500 +0300" channel="TV1000">
-    <title lang="ru">Сонная Лощина</title>
+  <programme start="20230504233000 +0300" stop="20230505014000 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Гольф. Кубок Лиги Ставок. Трансляция из Геленджика</title>
   </programme>
-  <programme start="20230504151000 +0300" stop="20230504171000 +0300" channel="TV1000 Action">
-    <title lang="ru">Стрингер</title>
+  <programme start="20230505014000 +0300" stop="20230505034000 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Волейбол. Чемпионат России. Pari Суперлига. Женщины. Финал. "Динамо" (Москва) - "Локомотив" (Калининградская область). 2-й матч</title>
   </programme>
-  <programme start="20230504171000 +0300" stop="20230504190000 +0300" channel="TV1000 Action">
-    <title lang="ru">Два ствола</title>
+  <programme start="20230505034000 +0300" stop="20230505043500 +0300" channel="МАТЧ! Игра">
+    <title lang="ru">Динамо Ленинград</title>
   </programme>
-  <programme start="20230504190000 +0300" stop="20230504205000 +0300" channel="TV1000 Action">
-    <title lang="ru">Копы в глубоком запасе</title>
+  <programme start="20230504170500 +0300" stop="20230504173500 +0300" channel="МАТЧ! Арена">
+    <title lang="ru">Что по спорту?</title>
+    <sub-title lang="ru">Владикавказ</sub-title>
   </programme>
-  <programme start="20230504205000 +0300" stop="20230504225000 +0300" channel="TV1000 Action">
-    <title lang="ru">Славные парни</title>
+  <programme start="20230504173500 +0300" stop="20230504201500 +0300" channel="МАТЧ! Арена">
+    <title lang="ru">Шорт-трек. Кубок мира. Трансляция из Германии</title>
+    <desc lang="ru">Кубок мира по шорт-треку - серия зимних спортивных соревнований по шорт-треку, проводящихся под эгидой Международного союза конькобежцев с сезона 1997-1998 годов. На каждом этапе конькобежцы получают очки в соответствии с занятым местом. В конце сезона по сумме очков определяются победители.</desc>
   </programme>
-  <programme start="20230504225000 +0300" stop="20230505004000 +0300" channel="TV1000 Action">
-    <title lang="ru">Вальдо</title>
+  <programme start="20230504201500 +0300" stop="20230504204500 +0300" channel="МАТЧ! Арена">
+    <title lang="ru">Дублер</title>
+    <desc lang="ru">Чем занимаются профессиональные спортсмены каждый день? Сколько они тренируются и чем заняты все остальное время? Тяжело ли быть профессиональным футболистом, баскетболистом или лыжником? Ведущий Дмитрий Шнякин бросает им вызов: он проведет один день со спортсменом, будет тренироваться наравне с ним и в точности соблюдать его режим. Под силу ли неподготовленному человеку выдержать такое испытание? Сломается ли Дмитрий Шнякин или выйдет из боя с гордо поднятой головой?</desc>
   </programme>
-  <programme start="20230505004000 +0300" stop="20230505023500 +0300" channel="TV1000 Action">
-    <title lang="ru">Другой мир</title>
+  <programme start="20230504204500 +0300" stop="20230504224500 +0300" channel="МАТЧ! Арена">
+    <title lang="ru">Плавание. Чемпионат России. Трансляция из Казани</title>
+    <desc lang="ru">Во Дворце водных видов спорта в Казани пройдет чемпионат России по плаванию. Всего на турнир заявлено более 700 спортсменов.</desc>
   </programme>
-  <programme start="20230505023500 +0300" stop="20230505041500 +0300" channel="TV1000 Action">
-    <title lang="ru">Другой мир 2</title>
+  <programme start="20230504224500 +0300" stop="20230505001000 +0300" channel="МАТЧ! Арена">
+    <title lang="ru">Лыжный спорт. Чемпионат мира. Лыжные гонки. Мужчины. Скиатлон. Трансляция из Словении</title>
   </programme>
-  <programme start="20230504162000 +0300" stop="20230504171500 +0300" channel="А1">
-    <title lang="ru">Рашаш</title>
+  <programme start="20230505001000 +0300" stop="20230505025000 +0300" channel="МАТЧ! Арена">
+    <title lang="ru">Дартс. Профессиональная лига. Про Тур 2. Трансляция из Москвы</title>
   </programme>
-  <programme start="20230504171500 +0300" stop="20230504174000 +0300" channel="А1">
-    <title lang="ru">Красавцы</title>
+  <programme start="20230504163500 +0300" stop="20230504172000 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">МИР Российская Премьер-лига. Обзор тура</title>
   </programme>
-  <programme start="20230504174000 +0300" stop="20230504181000 +0300" channel="А1">
-    <title lang="ru">Красавцы</title>
+  <programme start="20230504172000 +0300" stop="20230504172500 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504181000 +0300" stop="20230504190000 +0300" channel="А1">
-    <title lang="ru">Домина</title>
+  <programme start="20230504172500 +0300" stop="20230504192000 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">МИР Российская Премьер-Лига. Тур 25. "Крылья Советов" - "Зенит"</title>
+    <desc lang="ru">Профессиональная футбольная лига, высший дивизион в системе футбольных лиг России. В ней выступают 16 клубов. С момента основания называлась "Российская футбольная премьер-лига" (РФПЛ).</desc>
   </programme>
-  <programme start="20230504190000 +0300" stop="20230504200000 +0300" channel="А1">
-    <title lang="ru">Домина</title>
+  <programme start="20230504192000 +0300" stop="20230504192500 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230504200000 +0300" stop="20230504210000 +0300" channel="А1">
-    <title lang="ru">Прослушка</title>
+  <programme start="20230504192500 +0300" stop="20230504195000 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Голевая неделя</title>
+    <sub-title lang="ru">РФ</sub-title>
+    <desc lang="ru">Вашему вниманию - новости из мира футбола за неделю.</desc>
   </programme>
-  <programme start="20230504210000 +0300" stop="20230504220000 +0300" channel="А1">
-    <title lang="ru">Прослушка</title>
+  <programme start="20230504195000 +0300" stop="20230504202000 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Человек из футбола</title>
+    <sub-title lang="ru">Денис Бояринцев. Часть 2-я</sub-title>
+    <desc lang="ru">Эксклюзивные интервью со звездами российского футбола.</desc>
   </programme>
-  <programme start="20230504220000 +0300" stop="20230504225500 +0300" channel="А1">
-    <title lang="ru">Рашаш</title>
+  <programme start="20230504202000 +0300" stop="20230504222500 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">FONBET Кубок России. "Урал" (Екатеринбург) - ЦСКА. Ответный матч. В перерыве - Новости футбола</title>
+    <desc lang="ru">Ежегодное соревнование для российских футбольных клубов, проводимое Российским футбольным союзом. В 2022 году бюро исполкома РФС утвердило компанию "ФОНБЕТ" в качестве титульного и беттинг-партнера Кубка России по футболу.</desc>
   </programme>
-  <programme start="20230504225500 +0300" stop="20230504235000 +0300" channel="А1">
-    <title lang="ru">Рашаш</title>
+  <programme start="20230504222500 +0300" stop="20230504225000 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Наши иностранцы</title>
+    <desc lang="ru">Передача расширяет географию РПЛ и рассказывает о футболистах из самых разных государств.</desc>
   </programme>
-  <programme start="20230504235000 +0300" stop="20230505012500 +0300" channel="А1">
-    <title lang="ru">451 градус по Фаренгейту</title>
+  <programme start="20230504225000 +0300" stop="20230504225500 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Новости футбола</title>
+    <desc lang="ru">Обзоры матчей, календарь игр мировых и российских чемпионатов, результаты встреч, турнирные таблицы и многое другое в наших новостях. Не пропустите!</desc>
   </programme>
-  <programme start="20230505012500 +0300" stop="20230505021500 +0300" channel="А1">
-    <title lang="ru">Домина</title>
+  <programme start="20230504225500 +0300" stop="20230504231500 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Специальный репортаж</title>
+    <desc lang="ru">Спортсмены, команды, сборы, тренировки и турниры - корреспонденты рассказывают обо всем с места событий и общаются с главными героями происходящего.</desc>
   </programme>
-  <programme start="20230505021500 +0300" stop="20230505031500 +0300" channel="А1">
-    <title lang="ru">Домина</title>
+  <programme start="20230504231500 +0300" stop="20230505012000 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">FONBET Кубок России. "Краснодар" - "Акрон" (Тольятти). В перерыве - Новости футбола</title>
+    <desc lang="ru">Ежегодное соревнование для российских футбольных клубов, проводимое Российским футбольным союзом. В 2022 году бюро исполкома РФС утвердило компанию "ФОНБЕТ" в качестве титульного и беттинг-партнера Кубка России по футболу.</desc>
   </programme>
-  <programme start="20230505031500 +0300" stop="20230505041500 +0300" channel="А1">
-    <title lang="ru">Прослушка</title>
+  <programme start="20230505012000 +0300" stop="20230505015000 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">Кубок наш</title>
   </programme>
-  <programme start="20230504162500 +0300" stop="20230504175500 +0300" channel="А2">
-    <title lang="ru">Сын Америки</title>
+  <programme start="20230505015000 +0300" stop="20230505035500 +0300" channel="МАТЧ! Премьер">
+    <title lang="ru">МИР Российская Премьер-Лига. Тур 25. "Динамо" - "Факел"</title>
+    <desc lang="ru">Профессиональная футбольная лига, высший дивизион в системе футбольных лиг России. В ней выступают 16 клубов. С момента основания называлась "Российская футбольная премьер-лига" (РФПЛ).</desc>
   </programme>
-  <programme start="20230504175500 +0300" stop="20230504181500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
+  <programme start="20230504155500 +0300" stop="20230504174500 +0300" channel="Русская ночь">
+    <title lang="ru">Лия, неприличная история</title>
   </programme>
-  <programme start="20230504181500 +0300" stop="20230504184000 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
+  <programme start="20230504174500 +0300" stop="20230504175500 +0300" channel="Русская ночь">
+    <title lang="ru">Опытные киски-3</title>
   </programme>
-  <programme start="20230504184000 +0300" stop="20230504190500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
+  <programme start="20230504175500 +0300" stop="20230504193000 +0300" channel="Русская ночь">
+    <title lang="ru">Блондинки</title>
+    <desc lang="ru">Сцена за сценой эти блондинки занимаются любым сексом, какой только можно представить.</desc>
   </programme>
-  <programme start="20230504190500 +0300" stop="20230504194500 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
+  <programme start="20230504193000 +0300" stop="20230504195500 +0300" channel="Русская ночь">
+    <title lang="ru">Для тебя</title>
+    <sub-title lang="ru">Валентина</sub-title>
   </programme>
-  <programme start="20230504194500 +0300" stop="20230504203000 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
+  <programme start="20230504195500 +0300" stop="20230504212000 +0300" channel="Русская ночь">
+    <title lang="ru">Измена</title>
   </programme>
-  <programme start="20230504203000 +0300" stop="20230504210000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504212000 +0300" stop="20230504214500 +0300" channel="Русская ночь">
+    <title lang="ru">Искусство страсти 4</title>
   </programme>
-  <programme start="20230504210000 +0300" stop="20230504212500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504214500 +0300" stop="20230504220000 +0300" channel="Русская ночь">
+    <title lang="ru">Удовольствие на день рождения</title>
   </programme>
-  <programme start="20230504212500 +0300" stop="20230504215500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504220000 +0300" stop="20230504234500 +0300" channel="Русская ночь">
+    <title lang="ru">Сахар и специи</title>
   </programme>
-  <programme start="20230504215500 +0300" stop="20230504222500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504234500 +0300" stop="20230505000000 +0300" channel="Русская ночь">
+    <title lang="ru">Не беспокоить-3</title>
+    <desc lang="ru">Чем может закончится романтическая прогулка по чудному лесу? Вас ждут пикантные подробности.</desc>
   </programme>
-  <programme start="20230504222500 +0300" stop="20230504235500 +0300" channel="А2">
-    <title lang="ru">Искусство ограбления</title>
+  <programme start="20230505000000 +0300" stop="20230505012500 +0300" channel="Русская ночь">
+    <title lang="ru">Пора закрывать</title>
   </programme>
-  <programme start="20230504235500 +0300" stop="20230505002000 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
+  <programme start="20230505012500 +0300" stop="20230505020000 +0300" channel="Русская ночь">
+    <title lang="ru">Порнозвезды Америки</title>
+    <sub-title lang="ru">Отем Фоллс, Лэйси Леннон, Джиана Диор</sub-title>
   </programme>
-  <programme start="20230505002000 +0300" stop="20230505004500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
+  <programme start="20230505020000 +0300" stop="20230505034500 +0300" channel="Русская ночь">
+    <title lang="ru">Пляж любви</title>
   </programme>
-  <programme start="20230505004500 +0300" stop="20230505010500 +0300" channel="А2">
-    <title lang="ru">Комната 104</title>
+  <programme start="20230505034500 +0300" stop="20230505040000 +0300" channel="Русская ночь">
+    <title lang="ru">Искусство страсти-1</title>
+    <desc lang="ru">Чем может закончиться обычная фотосессия? Вас ждут пикантные подробности.</desc>
   </programme>
-  <programme start="20230505010500 +0300" stop="20230505015000 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
+  <programme start="20230504160000 +0300" stop="20230504173000 +0300" channel="O-la-la">
+    <title lang="ru">Скромница</title>
   </programme>
-  <programme start="20230505015000 +0300" stop="20230505023000 +0300" channel="А2">
-    <title lang="ru">Убивая Еву</title>
+  <programme start="20230504173000 +0300" stop="20230504184000 +0300" channel="O-la-la">
+    <title lang="ru">Секс шик</title>
+    <sub-title lang="ru">Клэр Кастель</sub-title>
   </programme>
-  <programme start="20230505023000 +0300" stop="20230505030000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504184000 +0300" stop="20230504194000 +0300" channel="O-la-la">
+    <title lang="ru">Секс шик</title>
+    <sub-title lang="ru">Алетта</sub-title>
   </programme>
-  <programme start="20230505030000 +0300" stop="20230505033000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504194000 +0300" stop="20230504204000 +0300" channel="O-la-la">
+    <title lang="ru">История Лу Раваж</title>
   </programme>
-  <programme start="20230505033000 +0300" stop="20230505040000 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504204000 +0300" stop="20230504214000 +0300" channel="O-la-la">
+    <title lang="ru">Становится влажно!</title>
   </programme>
-  <programme start="20230505040000 +0300" stop="20230505042500 +0300" channel="А2">
-    <title lang="ru">Секс в большом городе</title>
+  <programme start="20230504214000 +0300" stop="20230504223500 +0300" channel="O-la-la">
+    <title lang="ru">ОРГанично</title>
   </programme>
-  <programme start="20230504150000 +0300" stop="20230504170000 +0300" channel="Amedia Hit">
-    <title lang="ru">Лев</title>
+  <programme start="20230504223500 +0300" stop="20230504235000 +0300" channel="O-la-la">
+    <title lang="ru">Мсье, я ваша горничная</title>
   </programme>
-  <programme start="20230504170000 +0300" stop="20230504173000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
+  <programme start="20230504235000 +0300" stop="20230505005000 +0300" channel="O-la-la">
+    <title lang="ru">Похотливые длинные ножки</title>
   </programme>
-  <programme start="20230504173000 +0300" stop="20230504180000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
+  <programme start="20230505005000 +0300" stop="20230505022000 +0300" channel="O-la-la">
+    <title lang="ru">Секс шик</title>
+    <sub-title lang="ru">Анисса Кейт</sub-title>
   </programme>
-  <programme start="20230504180000 +0300" stop="20230504185000 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
+  <programme start="20230505022000 +0300" stop="20230505034500 +0300" channel="O-la-la">
+    <title lang="ru">Белые блузки и нейлоновые чулки</title>
   </programme>
-  <programme start="20230504185000 +0300" stop="20230504195000 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
+  <programme start="20230504155700 +0300" stop="20230504173000 +0300" channel="Dorcel TV">
+    <title lang="ru">Second Chances</title>
   </programme>
-  <programme start="20230504195000 +0300" stop="20230504204000 +0300" channel="Amedia Hit">
-    <title lang="ru">Ответный удар</title>
+  <programme start="20230504173000 +0300" stop="20230504195900 +0300" channel="Dorcel TV">
+    <title lang="ru">Anal bliss</title>
+    <sub-title lang="ru">Episode 1</sub-title>
   </programme>
-  <programme start="20230504204000 +0300" stop="20230504213000 +0300" channel="Amedia Hit">
-    <title lang="ru">Ответный удар</title>
+  <programme start="20230504195900 +0300" stop="20230504202600 +0300" channel="Dorcel TV">
+    <title lang="ru">Brunette &amp; blonde f</title>
   </programme>
-  <programme start="20230504213000 +0300" stop="20230504223000 +0300" channel="Amedia Hit">
-    <title lang="ru">Кайфтаун</title>
+  <programme start="20230504202600 +0300" stop="20230504205400 +0300" channel="Dorcel TV">
+    <title lang="ru">Tina Kay always wan</title>
   </programme>
-  <programme start="20230504223000 +0300" stop="20230504233000 +0300" channel="Amedia Hit">
-    <title lang="ru">Кайфтаун</title>
+  <programme start="20230504205400 +0300" stop="20230504232700 +0300" channel="Dorcel TV">
+    <title lang="ru">Pornochic Tiffany &amp;</title>
   </programme>
-  <programme start="20230504233000 +0300" stop="20230505013000 +0300" channel="Amedia Hit">
-    <title lang="ru">Лев</title>
+  <programme start="20230504232700 +0300" stop="20230505000000 +0300" channel="Dorcel TV">
+    <title lang="ru">Lasirena 4 you</title>
   </programme>
-  <programme start="20230505013000 +0300" stop="20230505020000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
+  <programme start="20230505000000 +0300" stop="20230505001100 +0300" channel="Dorcel TV">
+    <title lang="ru">Choc</title>
+    <sub-title lang="ru">Episode 4</sub-title>
   </programme>
-  <programme start="20230505020000 +0300" stop="20230505023000 +0300" channel="Amedia Hit">
-    <title lang="ru">Барри</title>
+  <programme start="20230505001100 +0300" stop="20230505010100 +0300" channel="Dorcel TV">
+    <title lang="ru">Bella l'indecente</title>
   </programme>
-  <programme start="20230505023000 +0300" stop="20230505032000 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
+  <programme start="20230505010100 +0300" stop="20230505025500 +0300" channel="Dorcel TV">
+    <title lang="ru">Secrets De Colocatai</title>
   </programme>
-  <programme start="20230505032000 +0300" stop="20230505041500 +0300" channel="Amedia Hit">
-    <title lang="ru">Мистер Мерседес</title>
+  <programme start="20230504165300 +0300" stop="20230504175700 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Doctor Do Me A Little</title>
+    <desc lang="ru">Dirty doctors get filthy with their patients! Two female doctors heal their patients with their wet holes, and a blonde cutie milks her doctor for his special face cream!</desc>
   </programme>
-  <programme start="20230504154500 +0300" stop="20230504173000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Страшные истории для рассказа в темноте</title>
+  <programme start="20230504175700 +0300" stop="20230504184600 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Bored Wives Fuck In The Kitchen</title>
+    <desc lang="ru">Sexy wives get their holes pounded in hot filthy kitchen sex! A big-boobed beauty cheats on her husband with her friend's man, naughty stepmoms try out their husband's son, &amp; more!</desc>
   </programme>
-  <programme start="20230504173000 +0300" stop="20230504180000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Городские легенды</title>
+  <programme start="20230504184600 +0300" stop="20230504201700 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Raven, 2 Of a Kind</title>
+    <desc lang="ru">Sizzling Raven Alexis and her naughty 'twin sister' get into words of horny trouble with the hard studs they toy with and handle, like Manuel Ferrara and Mick Blue. Big Booty hottie, Alexis Texas, gets down and dirty with long rod member, Scott Nails.</desc>
   </programme>
-  <programme start="20230504180000 +0300" stop="20230504184000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
+  <programme start="20230504201700 +0300" stop="20230504212500 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Kill Code 87</title>
+    <desc lang="ru">A shady enterprise known only as The Company, run by a mysterious Employer, is in the business of training assassins-for-hire. When Mason Reinhart’s target exposes him to the dark truth behind The Company’s history, he sets out on a mission to discover his true identity. After The Employer assigns a contract for Mason’s death, elite assassin Sable is expected to collect a large pay day, but crossing paths with Mason will expose them both to a past they aren’t supposed to remember.</desc>
   </programme>
-  <programme start="20230504184000 +0300" stop="20230504192500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
+  <programme start="20230504212500 +0300" stop="20230504223100 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Make Them Bounce</title>
+    <desc lang="ru">Which kind of boobs are better: real or fake? Get the best of both worlds and watch these big, juicy knockers bounce while their hot owners get railed!</desc>
   </programme>
-  <programme start="20230504192500 +0300" stop="20230504202000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Город на холме</title>
+  <programme start="20230504223100 +0300" stop="20230504233600 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Doing It Euro Style</title>
+    <desc lang="ru">Sex can be different and very unusual. Sometimes they come up with their own special style to indicate specific positions and fetishes. In this program, you can learn in great detail what the European style of sex is. It remains only to prepare for the beautiful spectacle of wild pleasures.</desc>
   </programme>
-  <programme start="20230504202000 +0300" stop="20230504211500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Город на холме</title>
+  <programme start="20230504233600 +0300" stop="20230505000000 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">It Pays The Bills</title>
   </programme>
-  <programme start="20230504211500 +0300" stop="20230504220500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Ирма Веп</title>
+  <programme start="20230505000000 +0300" stop="20230505002100 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Scream Her Name</title>
   </programme>
-  <programme start="20230504220500 +0300" stop="20230504230000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Ирма Веп</title>
+  <programme start="20230505002100 +0300" stop="20230505004700 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Watching Your Wife Get Analized</title>
   </programme>
-  <programme start="20230504230000 +0300" stop="20230505010500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Девушка в лабиринте</title>
+  <programme start="20230505004700 +0300" stop="20230505011200 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">I'm Trying To Sell A House!</title>
   </programme>
-  <programme start="20230505010500 +0300" stop="20230505013000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Бетти</title>
+  <programme start="20230505011200 +0300" stop="20230505012900 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Roadside Assistance</title>
   </programme>
-  <programme start="20230505013000 +0300" stop="20230505020000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Бетти</title>
+  <programme start="20230505012900 +0300" stop="20230505015000 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Behind The Curtain</title>
+    <desc lang="ru">Sex is always an exciting spectacle. Sensual lust makes fantasy work and imagine wild nights. But sometimes it's just a dream. However, this should not prevent you from enjoying the spectacle of hot sex and passionate lust. Perverted desires of heroes are waiting for you.</desc>
   </programme>
-  <programme start="20230505020000 +0300" stop="20230505024000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
+  <programme start="20230505015000 +0300" stop="20230505021300 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">The Voyeur Next Door</title>
+    <sub-title lang="ru">Part 3</sub-title>
   </programme>
-  <programme start="20230505024000 +0300" stop="20230505032500 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Свет жизни</title>
+  <programme start="20230505021300 +0300" stop="20230505023500 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Pancake Nympho</title>
   </programme>
-  <programme start="20230505032500 +0300" stop="20230505042000 +0300" channel="Amedia Premium HD">
-    <title lang="ru">Город на холме</title>
+  <programme start="20230505023500 +0300" stop="20230505025900 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Sneaky Milf Fucks In Shower</title>
+  </programme>
+  <programme start="20230505025900 +0300" stop="20230505032400 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Hot Tub Hopping</title>
+  </programme>
+  <programme start="20230505032400 +0300" stop="20230505034400 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Kitchen Sex With Rachel</title>
+  </programme>
+  <programme start="20230505034400 +0300" stop="20230505040800 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Booty Call from Luna</title>
+  </programme>
+  <programme start="20230505040800 +0300" stop="20230505042900 +0300" channel="Brazzers TV Europe">
+    <title lang="ru">Working Out Kate</title>
   </programme>
 </tv>
